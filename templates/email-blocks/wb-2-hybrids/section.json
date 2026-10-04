@@ -1,0 +1,16 @@
+{
+  "name": "WB-2 · Current hybrid systems",
+  "type": "Product reminder",
+  "context": "customer",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [
+    "all_products['lace-edge-360-mens-swiss-lace-hair-system-pu-perimeter'].price",
+    "all_products['mono-fusion-lf-mens-mono-hair-system-pu-perimeter-lace-front'].price",
+    "all_products['thin-skin-lf-008mm-mens-lace-front-hair-system'].price"
+  ],
+  "placeholders": false,
+  "notes": "Prices are live: all_products['<handle>'].price (cents) formatted with money_without_currency and '.00' removed. Verified in a Messaging campaign preview 2026-10-03. The design's note 'Dynamic: current hybrids + the maintenance plan' is an annotation, not copy, so it is not printed. Product images are cropped from the Figma capture."
+}

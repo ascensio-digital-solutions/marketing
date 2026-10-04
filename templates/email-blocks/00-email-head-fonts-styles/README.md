@@ -11,7 +11,7 @@
 | Shopify status | live |
 | Placeholders | no |
 | Characters | 1276 |
-| Used by | [CR-1](../../emails/cr-1-your-carts-still-here/), [CR-2](../../emails/cr-2-three-questions-answered/), [CR-3](../../emails/cr-3-not-sure-you-picked-right/), [CR-4](../../emails/cr-4-last-note-free-shipping/), [PP-1](../../emails/pp-1-order-confirmation/) |
+| Used by | [C-0](../../emails/c-0-consultation-recap/), [CR-1](../../emails/cr-1-your-carts-still-here/), [CR-2](../../emails/cr-2-three-questions-answered/), [CR-3](../../emails/cr-3-not-sure-you-picked-right/), [CR-4](../../emails/cr-4-last-note-free-shipping/), [NL-01](../../emails/nl-01-no-best-base/), [PP-1](../../emails/pp-1-order-confirmation/), [RO-3](../../emails/ro-3-replacement-window/), [W-1](../../emails/w-1-welcome/), [WB-2](../../emails/wb-2-whats-changed/) |
 
 > Put once at the very top of every email: first Custom Liquid section, or inside <head> for full documents.
 

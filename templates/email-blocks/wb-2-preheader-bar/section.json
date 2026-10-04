@@ -1,0 +1,12 @@
+{
+  "name": "WB-2 · Preheader bar",
+  "type": "Preheader bar",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": false,
+  "notes": "'View in browser' left out: no Messaging variable exists for it."
+}

@@ -1,0 +1,37 @@
+{
+  "code": "C-0",
+  "name": "Consultation recap",
+  "journey": "consultation",
+  "surface": "messaging-code-your-own",
+  "context": "customer",
+  "shopify_location": "Not created in Shopify, on purpose (Vincent, 2026-10-03: post-consultation emails are left alone).",
+  "subject": "Everything we discussed, in one place.",
+  "preview_text": "Take your time with it: your situation, recommendation, quote, and next steps.",
+  "timing": "After a consultation call (one-to-one; no trigger defined)",
+  "shopify_status": "not-installed",
+  "shopify_matches_repo": false,
+  "blockers": [
+    "Not to be created in Shopify.",
+    "Most fields are per-customer consultation data (stage, lifestyle, experience, priorities, spec, quote, down payment) with no data source defined.",
+    "Bracketed copy remains: [Balance terms: confirm wording], [Colour-match answer: confirm wording], [CURRENCY], and a proof-bank quote.",
+    "'3-4 weeks' handcrafting time conflicts with the confirmed 56-day custom lead time.",
+    "'Approve your spec' has no destination page.",
+    "Design's 'View in browser' link is omitted: Shopify Messaging has no variable for it."
+  ],
+  "sections": [
+    "00-email-head-fonts-styles",
+    "c-0-preheader-bar",
+    "02-logo-header",
+    "c-0-hero",
+    "c-0-intro",
+    "c-0-situation",
+    "c-0-recommendation",
+    "c-0-quote",
+    "c-0-steps",
+    "c-0-two-things",
+    "c-0-testimonial",
+    "c-0-questions",
+    "c-0-approve-cta",
+    "v6-footer-paper"
+  ]
+}

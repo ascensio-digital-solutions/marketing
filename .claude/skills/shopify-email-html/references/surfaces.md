@@ -72,3 +72,23 @@ write it; drive it with clicks and typing only.
   Editing an active email reverts it to Draft ("Customers won't receive this email while in a draft
   state").
 - See `flow-recipes.md` for the abandoned-checkout graph.
+
+### Messaging variables outside abandoned checkout (campaigns and non-checkout Flows, verified by probe 2026-10-03)
+
+Probed in a "Code your own" campaign draft preview (sample customer "Bob").
+
+| Need | Liquid | Result |
+|---|---|---|
+| First name / email / id | `{{ customer.first_name }}`, `{{ customer.email }}`, `{{ customer.id }}` | works |
+| Last order | `{{ customer.last_order.name }}`, `{{ customer.last_order.created_at \| date: "%B %-d, %Y" }}` | works |
+| Send date | `{{ "now" \| date: "%B %-d, %Y" }}` | works (date at render time) |
+| Shop | `{{ shop.name }}`, `{{ shop.url }}`, `{{ shop.email }}`, `{{ shop.permanent_domain }}`, `{{ shop.currency }}` | works |
+| Live product price | `{{ all_products['<handle>'].price \| money }}` (`$279.00`), `\| money_without_currency` (`289.00`; price is in cents) | works |
+| Product title / path | `{{ all_products['<handle>'].title }}`, `.url` (relative, `/products/<handle>`) | works |
+| Customer metafields | `{{ customer.metafields.custom.<key> }}` | renders (empty object for the sample customer); **not verifiable in the preview** |
+| View in browser | `view_in_browser_url`, `web_version_url`, `view_online_url`, `view_in_browser_link`, `email_url`, `campaign.url`, `browser_url`, `message.url` | **none render**; leave the link out |
+| `shop.products[...]`, `customer.tags`, `customer.orders_count` | | empty |
+
+`{{ unsubscribe_url }}` renders a bare URL, so a cream/light footer can use `<a href="{{ unsubscribe_url }}">` with its
+own colour; `{{ unsubscribe_link }}` is still required in Code your own (the shared head forces pale grey on
+`.unsub a`, which is unreadable on light cards). Verify that a comment-wrapped `<!-- {{ unsubscribe_link }} -->` satisfies Shopify's check.

@@ -1,0 +1,34 @@
+{
+  "code": "RO-3",
+  "name": "Reorder: your replacement window is opening",
+  "journey": "reorder",
+  "surface": "messaging-code-your-own",
+  "context": "customer",
+  "shopify_location": "Not installed yet. Planned: Flow › Replacement window › Send marketing email (Messaging, Code your own)",
+  "subject": "Your replacement window is opening.",
+  "preview_text": "Not urgent yet—but worth knowing the lead time.",
+  "timing": "About three months after the customer's last order (from the copy: 'about three months old')",
+  "shopify_status": "not-installed",
+  "shopify_matches_repo": false,
+  "blockers": [
+    "The saved-specification card needs six customer metafields that do not exist yet (custom.spec_system, spec_base, spec_hair, spec_colour, spec_density, spec_size); see the issue. The card hides itself when custom.spec_system is blank.",
+    "Metafield access in Messaging could not be verified in the preview; test with a real customer before activation.",
+    "Lead time prints '56 days' (confirmed custom lead time); C-0's design says '3-4 weeks'. Confirm.",
+    "Testimonial is a real review (Michael T., Lace Fusion VF) but not about rotating two systems, as the design asks.",
+    "'Order your next system' button points to the homepage for now (see the button-links issue).",
+    "Flow trigger and the 'about three months' delay are not defined in the design.",
+    "Design's 'View in browser' link is omitted: Shopify Messaging has no variable for it."
+  ],
+  "sections": [
+    "00-email-head-fonts-styles",
+    "ro-3-preheader-bar",
+    "02-logo-header",
+    "ro-3-hero",
+    "ro-3-intro",
+    "ro-3-lead-time-rotation",
+    "ro-3-saved-spec",
+    "ro-3-testimonial",
+    "ro-3-cta",
+    "06-preferences-footer"
+  ]
+}

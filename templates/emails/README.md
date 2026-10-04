@@ -8,8 +8,13 @@ Sortable table: [`index.tsv`](index.tsv). Sections: [`../email-blocks/`](../emai
 
 | Preview | Template | Surface | Shopify | Sections |
 |---|---|---|---|---|
+| <img src="c-0-consultation-recap/preview.png" width="200" alt=""> | [C-0 · Consultation recap](c-0-consultation-recap/)<br>After a consultation call (one-to-one; no trigger defined) | Messaging · Code your own | not-installed<br>⚠️ Shopify out of date | 14 |
 | <img src="cr-1-your-carts-still-here/preview.png" width="200" alt=""> | [CR-1 · Your cart's still here](cr-1-your-carts-still-here/)<br>Abandon + 4 h | Messaging · Custom Liquid sections | draft | 7 |
 | <img src="cr-2-three-questions-answered/preview.png" width="200" alt=""> | [CR-2 · The three things people ask before ordering](cr-2-three-questions-answered/)<br>Abandon + 24 h (wait 72 000 s after CR-1, no order since abandonment) | Messaging · Code your own | draft | 11 |
 | <img src="cr-3-not-sure-you-picked-right/preview.png" width="200" alt=""> | [CR-3 · Not sure you picked the right one?](cr-3-not-sure-you-picked-right/)<br>Abandon + 48 h (wait 86 400 s after CR-2, no order since abandonment) | Messaging · Code your own | draft | 10 |
 | <img src="cr-4-last-note-free-shipping/preview.png" width="200" alt=""> | [CR-4 · Last note about your cart](cr-4-last-note-free-shipping/)<br>Abandon + 96 h (wait 172 800 s after CR-3, no order since abandonment) | Messaging · Code your own | draft | 8 |
+| <img src="nl-01-no-best-base/preview.png" width="200" alt=""> | [NL-01 · Education: there is no best base](nl-01-no-best-base/)<br>Manual campaign send (newsletter edition 01, Education) | Messaging · Code your own | not-installed<br>⚠️ Shopify out of date | 11 |
 | <img src="pp-1-order-confirmation/preview.png" width="200" alt=""> | [PP-1 · Order confirmation](pp-1-order-confirmation/)<br>Sent when an order is placed | Notification template | live | 12 |
+| <img src="ro-3-replacement-window/preview.png" width="200" alt=""> | [RO-3 · Reorder: your replacement window is opening](ro-3-replacement-window/)<br>About three months after the customer's last order (from the copy: 'about three months old') | Messaging · Code your own | not-installed<br>⚠️ Shopify out of date | 10 |
+| <img src="w-1-welcome/preview.png" width="200" alt=""> | [W-1 · Welcome: what to expect](w-1-welcome/)<br>Immediately after a customer subscribes to email marketing | Messaging · Code your own | not-installed<br>⚠️ Shopify out of date | 9 |
+| <img src="wb-2-whats-changed/preview.png" width="200" alt=""> | [WB-2 · Win-back: what's changed](wb-2-whats-changed/)<br>Win-back sequence, email 2 (timing not given in the design; confirm) | Messaging · Code your own | not-installed<br>⚠️ Shopify out of date | 11 |

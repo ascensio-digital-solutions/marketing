@@ -1,0 +1,12 @@
+{
+  "name": "RO-3 · Lead time and rotation",
+  "type": "Text",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": false,
+  "notes": "'56 days' is the confirmed custom production/dispatch lead time (PP-1 uses 56 dispatch / 63 delivery). The design had '[Production lead time]'. C-0's design says '3-4 weeks' for handcrafting, which conflicts; confirm."
+}

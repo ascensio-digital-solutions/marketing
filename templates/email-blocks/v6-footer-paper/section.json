@@ -1,0 +1,15 @@
+{
+  "name": "v6 · Footer (paper, no social)",
+  "type": "Preferences footer",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [
+    "unsubscribe_url",
+    "unsubscribe_link"
+  ],
+  "placeholders": false,
+  "notes": "Cream footer: logo, address, Unsubscribe · Manage preferences · Privacy (no social row). See v6-footer-paper-social for the unsubscribe note."
+}

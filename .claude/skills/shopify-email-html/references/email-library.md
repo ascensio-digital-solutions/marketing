@@ -43,7 +43,7 @@ Everything marked "generated" comes from
 |---|---|
 | `name` | Human name, e.g. "Cart contents". |
 | `type` | Email head, Liquid header, Preheader bar, Logo header, Hero, Text, Cart contents, FAQ, Photo + caption, Trust strip, Testimonial, Sign-off + CTA, CTA, Discount code, Checklist, Ink note, Product reminder, Order summary, Timeline, Signature, Preferences footer (add new types as needed). |
-| `context` | `any` (no data), `abandoned-checkout` (`abandoned_checkout.*`, Messaging), `order` (notification variables + the PP-1 Liquid header). The build rejects a section whose context does not match the template's surface. |
+| `context` | `any` (no data), `abandoned-checkout` (`abandoned_checkout.*`, Messaging), `customer` (customer, shop and `all_products` data; fixture `fixture-customer.json`), `order` (notification variables + the PP-1 Liquid header). The build rejects a section whose context does not match the template's context. |
 | `surfaces` | Where it may be used: `messaging-section`, `messaging-code-your-own`, `notification`. |
 | `liquid_variables` | Variables it reads. |
 | `placeholders` | `true` when it holds unconfirmed copy; never ship it like that. |
@@ -65,10 +65,11 @@ Special sections:
 | `code`, `name` | e.g. `CR-1`, "Your cart's still here". |
 | `journey` | e.g. `cart-recovery`, `post-purchase`. |
 | `surface` | `notification`, `messaging-code-your-own` or `messaging-sections`; decides the output file. |
+| `context` | Optional. The data the email can read: `order` (notification), `abandoned-checkout` (CR Flow) or `customer` (welcome, win-back, reorder, newsletters: `customer.*`, `shop.*`, `all_products`). Defaults from `surface`. A section whose `context` is not `any` or the template's context is rejected. |
 | `shopify_location` | Where it lives in Shopify admin. |
 | `subject`, `preview_text`, `timing` | As configured in Shopify. Notifications get `preview_text` as a hidden preheader. |
 | `html_title` | Optional `<title>`; defaults to the subject (or name when the subject has Liquid). |
-| `shopify_status` | `live` or `draft`: what Shopify shows **now**, never what is intended. |
+| `shopify_status` | `live`, `draft` or `not-installed`: what Shopify shows **now**, never what is intended. |
 | `shopify_matches_repo` | `false` while Shopify still runs older code than the generated file. |
 | `blockers` | Open issues to report. |
 | `sections` | **The recipe**: section ids in assembly order. |

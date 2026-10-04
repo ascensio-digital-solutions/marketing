@@ -1,0 +1,12 @@
+{
+  "name": "NL-01 · CTA band",
+  "type": "CTA",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": false,
+  "notes": "Button goes to the homepage for now; the real destination is tracked in the 'button links' issue."
+}

@@ -153,7 +153,12 @@ def is_blank(v):
     return v is None or v == "" or v == [] or v is False
 
 
+PREVIEW_NOW = "2026-10-03T12:00:00+00:00"  # fixed so previews of {{ "now" | date }} are reproducible
+
+
 def to_dt(v):
+    if v == "now":
+        return dt.datetime.fromisoformat(PREVIEW_NOW)
     if isinstance(v, (int, float)):
         return dt.datetime.fromtimestamp(v, dt.timezone.utc)
     if isinstance(v, str) and re.fullmatch(r"\d+", v):
@@ -178,6 +183,10 @@ def apply_filter(val, name, args):
         return len(val) if val is not None else 0
     if name == "money":
         return f"${num(val) / 100:,.2f}"
+    if name == "money_without_currency":
+        return f"{num(val) / 100:,.2f}"
+    if name == "remove":
+        return str(val).replace(str(args[0]), "")
     if name == "date":
         d = to_dt(val)
         if args[0] == "%s":

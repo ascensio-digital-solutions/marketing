@@ -1,0 +1,12 @@
+{
+  "name": "NL-01 · Same angle, two bases",
+  "type": "Photo + caption",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": false,
+  "notes": "Photos are cropped from the Figma capture (original files not available)."
+}

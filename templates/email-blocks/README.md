@@ -13,7 +13,7 @@ All previews are 1200px wide (600px email at 2×). Every card stacks flush with 
 
 | Preview | Section | Context | Used by | Status |
 |---|---|---|---|---|
-| — (no visual output) | [Email head (fonts + styles)](00-email-head-fonts-styles/)<br>`00-email-head-fonts-styles` | any | [CR-1](../emails/cr-1-your-carts-still-here/), [CR-2](../emails/cr-2-three-questions-answered/), [CR-3](../emails/cr-3-not-sure-you-picked-right/), [CR-4](../emails/cr-4-last-note-free-shipping/), [PP-1](../emails/pp-1-order-confirmation/) | live |
+| — (no visual output) | [Email head (fonts + styles)](00-email-head-fonts-styles/)<br>`00-email-head-fonts-styles` | any | [C-0](../emails/c-0-consultation-recap/), [CR-1](../emails/cr-1-your-carts-still-here/), [CR-2](../emails/cr-2-three-questions-answered/), [CR-3](../emails/cr-3-not-sure-you-picked-right/), [CR-4](../emails/cr-4-last-note-free-shipping/), [NL-01](../emails/nl-01-no-best-base/), [PP-1](../emails/pp-1-order-confirmation/), [RO-3](../emails/ro-3-replacement-window/), [W-1](../emails/w-1-welcome/), [WB-2](../emails/wb-2-whats-changed/) | live |
 
 ## Preheader bar
 
@@ -24,12 +24,19 @@ All previews are 1200px wide (600px email at 2×). Every card stacks flush with 
 | <img src="14-cr-3-preheader-bar/preview.png" width="260" alt=""> | [CR-3 · Preheader bar](14-cr-3-preheader-bar/)<br>`14-cr-3-preheader-bar` | any | [CR-3](../emails/cr-3-not-sure-you-picked-right/) | draft |
 | <img src="20-cr-4-preheader-bar/preview.png" width="260" alt=""> | [CR-4 · Preheader bar](20-cr-4-preheader-bar/)<br>`20-cr-4-preheader-bar` | abandoned-checkout | [CR-4](../emails/cr-4-last-note-free-shipping/) | draft |
 | <img src="25-pp-1-preheader-bar/preview.png" width="260" alt=""> | [PP-1 · Preheader bar](25-pp-1-preheader-bar/)<br>`25-pp-1-preheader-bar` | order | [PP-1](../emails/pp-1-order-confirmation/) | live |
+| — (no visual output) | [C-0 · Preheader bar](c-0-preheader-bar/)<br>`c-0-preheader-bar` | any | [C-0](../emails/c-0-consultation-recap/) | draft |
+| — (no visual output) | [NL-01 · Preheader bar](nl-1-preheader-bar/)<br>`nl-1-preheader-bar` | any | [NL-01](../emails/nl-01-no-best-base/) | draft |
+| — (no visual output) | [RO-3 · Preheader bar](ro-3-preheader-bar/)<br>`ro-3-preheader-bar` | any | [RO-3](../emails/ro-3-replacement-window/) | draft |
+| — (no visual output) | [W-1 · Preheader bar](w-1-preheader-bar/)<br>`w-1-preheader-bar` | any | [W-1](../emails/w-1-welcome/) | draft |
+| — (no visual output) | [WB-2 · Preheader bar](wb-2-preheader-bar/)<br>`wb-2-preheader-bar` | any | [WB-2](../emails/wb-2-whats-changed/) | draft |
 
 ## Logo header
 
 | Preview | Section | Context | Used by | Status |
 |---|---|---|---|---|
-| <img src="02-logo-header/preview.png" width="260" alt=""> | [Logo header](02-logo-header/)<br>`02-logo-header` | any | [CR-1](../emails/cr-1-your-carts-still-here/), [CR-2](../emails/cr-2-three-questions-answered/), [CR-3](../emails/cr-3-not-sure-you-picked-right/), [CR-4](../emails/cr-4-last-note-free-shipping/), [PP-1](../emails/pp-1-order-confirmation/) | live |
+| <img src="02-logo-header/preview.png" width="260" alt=""> | [Logo header](02-logo-header/)<br>`02-logo-header` | any | [C-0](../emails/c-0-consultation-recap/), [CR-1](../emails/cr-1-your-carts-still-here/), [CR-2](../emails/cr-2-three-questions-answered/), [CR-3](../emails/cr-3-not-sure-you-picked-right/), [CR-4](../emails/cr-4-last-note-free-shipping/), [PP-1](../emails/pp-1-order-confirmation/), [RO-3](../emails/ro-3-replacement-window/), [WB-2](../emails/wb-2-whats-changed/) | live |
+| — (no visual output) | [NL-01 · Masthead](nl-1-masthead/)<br>`nl-1-masthead` | any | [NL-01](../emails/nl-01-no-best-base/) | draft |
+| — (no visual output) | [W-1 · Masthead](w-1-masthead/)<br>`w-1-masthead` | any | [W-1](../emails/w-1-welcome/) | draft |
 
 ## Text
 
@@ -40,6 +47,14 @@ All previews are 1200px wide (600px email at 2×). Every card stacks flush with 
 | <img src="15-cr-3-intro/preview.png" width="260" alt=""> | [CR-3 · Intro](15-cr-3-intro/)<br>`15-cr-3-intro` | any | [CR-3](../emails/cr-3-not-sure-you-picked-right/) | draft |
 | <img src="21-cr-4-intro/preview.png" width="260" alt=""> | [CR-4 · Intro](21-cr-4-intro/)<br>`21-cr-4-intro` | any | [CR-4](../emails/cr-4-last-note-free-shipping/) | draft |
 | <img src="27-pp-1-intro/preview.png" width="260" alt=""> | [PP-1 · Intro](27-pp-1-intro/)<br>`27-pp-1-intro` | order | [PP-1](../emails/pp-1-order-confirmation/) | live |
+| — (no visual output) | [C-0 · Intro](c-0-intro/)<br>`c-0-intro` | any | [C-0](../emails/c-0-consultation-recap/) | draft |
+| — (no visual output) | [C-0 · Two things worth knowing](c-0-two-things/)<br>`c-0-two-things` | any | [C-0](../emails/c-0-consultation-recap/) | draft |
+| — (no visual output) | [NL-01 · Intro](nl-1-intro/)<br>`nl-1-intro` | any | [NL-01](../emails/nl-01-no-best-base/) | draft |
+| — (no visual output) | [RO-3 · Intro](ro-3-intro/)<br>`ro-3-intro` | any | [RO-3](../emails/ro-3-replacement-window/) | draft |
+| — (no visual output) | [RO-3 · Lead time and rotation](ro-3-lead-time-rotation/)<br>`ro-3-lead-time-rotation` | any | [RO-3](../emails/ro-3-replacement-window/) | draft |
+| — (no visual output) | [W-1 · Intro](w-1-intro/)<br>`w-1-intro` | any | [W-1](../emails/w-1-welcome/) | draft |
+| — (no visual output) | [WB-2 · Intro](wb-2-intro/)<br>`wb-2-intro` | any | [WB-2](../emails/wb-2-whats-changed/) | draft |
+| — (no visual output) | [WB-2 · Three changes](wb-2-three-changes/)<br>`wb-2-three-changes` | any | [WB-2](../emails/wb-2-whats-changed/) | draft |
 
 ## Cart contents
 
@@ -60,14 +75,20 @@ All previews are 1200px wide (600px email at 2×). Every card stacks flush with 
 
 | Preview | Section | Context | Used by | Status |
 |---|---|---|---|---|
-| <img src="06-preferences-footer/preview.png" width="260" alt=""> | [Preferences footer](06-preferences-footer/)<br>`06-preferences-footer` | any | [CR-1](../emails/cr-1-your-carts-still-here/), [CR-2](../emails/cr-2-three-questions-answered/), [CR-3](../emails/cr-3-not-sure-you-picked-right/), [CR-4](../emails/cr-4-last-note-free-shipping/) | draft |
+| <img src="06-preferences-footer/preview.png" width="260" alt=""> | [Preferences footer](06-preferences-footer/)<br>`06-preferences-footer` | any | [CR-1](../emails/cr-1-your-carts-still-here/), [CR-2](../emails/cr-2-three-questions-answered/), [CR-3](../emails/cr-3-not-sure-you-picked-right/), [CR-4](../emails/cr-4-last-note-free-shipping/), [RO-3](../emails/ro-3-replacement-window/) | draft |
 | <img src="33-pp-1-preferences-footer/preview.png" width="260" alt=""> | [PP-1 · Preferences footer](33-pp-1-preferences-footer/)<br>`33-pp-1-preferences-footer` | any | [PP-1](../emails/pp-1-order-confirmation/) | live |
+| — (no visual output) | [v6 · Footer (ink, social links)](v6-footer-ink-social/)<br>`v6-footer-ink-social` | any | [WB-2](../emails/wb-2-whats-changed/) | draft |
+| <img src="v6-footer-paper/preview.png" width="260" alt=""> | [v6 · Footer (paper, no social)](v6-footer-paper/)<br>`v6-footer-paper` | any | [C-0](../emails/c-0-consultation-recap/) | draft |
+| <img src="v6-footer-paper-social/preview.png" width="260" alt=""> | [v6 · Footer (paper, social links)](v6-footer-paper-social/)<br>`v6-footer-paper-social` | any | [NL-01](../emails/nl-01-no-best-base/), [W-1](../emails/w-1-welcome/) | draft |
 
 ## FAQ
 
 | Preview | Section | Context | Used by | Status |
 |---|---|---|---|---|
 | <img src="09-cr-2-three-questions-faq/preview.png" width="260" alt=""> | [CR-2 · Three questions (FAQ)](09-cr-2-three-questions-faq/)<br>`09-cr-2-three-questions-faq` | any | [CR-2](../emails/cr-2-three-questions-answered/) | draft |
+| — (no visual output) | [C-0 · Questions](c-0-questions/)<br>`c-0-questions` ⚠️ placeholder | any | [C-0](../emails/c-0-consultation-recap/) | draft |
+| — (no visual output) | [NL-01 · Questions](nl-1-faq/)<br>`nl-1-faq` | any | [NL-01](../emails/nl-01-no-best-base/) | draft |
+| — (no visual output) | [W-1 · What new subscribers ask first](w-1-faq/)<br>`w-1-faq` ⚠️ placeholder | any | [W-1](../emails/w-1-welcome/) | draft |
 
 ## Photo + caption
 
@@ -75,6 +96,8 @@ All previews are 1200px wide (600px email at 2×). Every card stacks flush with 
 |---|---|---|---|---|
 | <img src="10-cr-2-photo-caption/preview.png" width="260" alt=""> | [CR-2 · Photo + caption](10-cr-2-photo-caption/)<br>`10-cr-2-photo-caption` | any | [CR-2](../emails/cr-2-three-questions-answered/) | draft |
 | <img src="29-pp-1-photo-caption/preview.png" width="260" alt=""> | [PP-1 · Photo + caption](29-pp-1-photo-caption/)<br>`29-pp-1-photo-caption` | any | [PP-1](../emails/pp-1-order-confirmation/) | live |
+| — (no visual output) | [NL-01 · Same angle, two bases](nl-1-two-bases/)<br>`nl-1-two-bases` | any | [NL-01](../emails/nl-01-no-best-base/) | draft |
+| — (no visual output) | [WB-2 · The build](wb-2-build/)<br>`wb-2-build` | any | [WB-2](../emails/wb-2-whats-changed/) | draft |
 
 ## Trust strip
 
@@ -87,12 +110,17 @@ All previews are 1200px wide (600px email at 2×). Every card stacks flush with 
 | Preview | Section | Context | Used by | Status |
 |---|---|---|---|---|
 | <img src="12-cr-2-testimonial/preview.png" width="260" alt=""> | [CR-2 · Testimonial](12-cr-2-testimonial/)<br>`12-cr-2-testimonial` | any | [CR-2](../emails/cr-2-three-questions-answered/) | draft |
+| — (no visual output) | [C-0 · Testimonial (proof bank)](c-0-testimonial/)<br>`c-0-testimonial` ⚠️ placeholder | any | [C-0](../emails/c-0-consultation-recap/) | draft |
+| — (no visual output) | [NL-01 · Testimonial (Thomas L.)](nl-1-testimonial/)<br>`nl-1-testimonial` | any | [NL-01](../emails/nl-01-no-best-base/) | draft |
+| — (no visual output) | [RO-3 · Testimonial (Michael T.)](ro-3-testimonial/)<br>`ro-3-testimonial` | any | [RO-3](../emails/ro-3-replacement-window/) | draft |
+| — (no visual output) | [WB-2 · Testimonial (Robert M.)](wb-2-testimonial/)<br>`wb-2-testimonial` | any | [WB-2](../emails/wb-2-whats-changed/) | draft |
 
 ## Checklist
 
 | Preview | Section | Context | Used by | Status |
 |---|---|---|---|---|
 | <img src="16-cr-3-reply-checklist/preview.png" width="260" alt=""> | [CR-3 · Reply checklist](16-cr-3-reply-checklist/)<br>`16-cr-3-reply-checklist` | any | [CR-3](../emails/cr-3-not-sure-you-picked-right/) | draft |
+| — (no visual output) | [W-1 · What you'll get / never get](w-1-get-never-get/)<br>`w-1-get-never-get` | any | [W-1](../emails/w-1-welcome/) | draft |
 
 ## Ink note
 
@@ -105,6 +133,8 @@ All previews are 1200px wide (600px email at 2×). Every card stacks flush with 
 | Preview | Section | Context | Used by | Status |
 |---|---|---|---|---|
 | <img src="19-cr-3-product-reminder/preview.png" width="260" alt=""> | [CR-3 · Product reminder](19-cr-3-product-reminder/)<br>`19-cr-3-product-reminder` | abandoned-checkout | [CR-3](../emails/cr-3-not-sure-you-picked-right/) | draft |
+| — (no visual output) | [C-0 · What I'd recommend](c-0-recommendation/)<br>`c-0-recommendation` ⚠️ placeholder | any | [C-0](../emails/c-0-consultation-recap/) | draft |
+| — (no visual output) | [WB-2 · Current hybrid systems](wb-2-hybrids/)<br>`wb-2-hybrids` | customer | [WB-2](../emails/wb-2-whats-changed/) | draft |
 
 ## Discount code
 
@@ -123,18 +153,27 @@ All previews are 1200px wide (600px email at 2×). Every card stacks flush with 
 | Preview | Section | Context | Used by | Status |
 |---|---|---|---|---|
 | <img src="26-pp-1-hero/preview.png" width="260" alt=""> | [PP-1 · Hero](26-pp-1-hero/)<br>`26-pp-1-hero` | order | [PP-1](../emails/pp-1-order-confirmation/) | live |
+| — (no visual output) | [C-0 · Hero](c-0-hero/)<br>`c-0-hero` | any | [C-0](../emails/c-0-consultation-recap/) | draft |
+| — (no visual output) | [NL-01 · Hero](nl-1-hero/)<br>`nl-1-hero` | any | [NL-01](../emails/nl-01-no-best-base/) | draft |
+| — (no visual output) | [RO-3 · Hero](ro-3-hero/)<br>`ro-3-hero` | any | [RO-3](../emails/ro-3-replacement-window/) | draft |
+| — (no visual output) | [W-1 · Hero](w-1-hero/)<br>`w-1-hero` | any | [W-1](../emails/w-1-welcome/) | draft |
+| — (no visual output) | [WB-2 · Hero](wb-2-hero/)<br>`wb-2-hero` | any | [WB-2](../emails/wb-2-whats-changed/) | draft |
 
 ## Order summary
 
 | Preview | Section | Context | Used by | Status |
 |---|---|---|---|---|
 | <img src="28-pp-1-order-summary/preview.png" width="260" alt=""> | [PP-1 · Order summary](28-pp-1-order-summary/)<br>`28-pp-1-order-summary` | order | [PP-1](../emails/pp-1-order-confirmation/) | live |
+| — (no visual output) | [C-0 · Your quote](c-0-quote/)<br>`c-0-quote` ⚠️ placeholder | any | [C-0](../emails/c-0-consultation-recap/) | draft |
+| — (no visual output) | [C-0 · Your situation](c-0-situation/)<br>`c-0-situation` ⚠️ placeholder | any | [C-0](../emails/c-0-consultation-recap/) | draft |
+| — (no visual output) | [RO-3 · Saved specification](ro-3-saved-spec/)<br>`ro-3-saved-spec` | customer | [RO-3](../emails/ro-3-replacement-window/) | draft |
 
 ## Timeline
 
 | Preview | Section | Context | Used by | Status |
 |---|---|---|---|---|
 | <img src="30-pp-1-timeline/preview.png" width="260" alt=""> | [PP-1 · Timeline](30-pp-1-timeline/)<br>`30-pp-1-timeline` | order | [PP-1](../emails/pp-1-order-confirmation/) | live |
+| — (no visual output) | [C-0 · From here to your door](c-0-steps/)<br>`c-0-steps` | any | [C-0](../emails/c-0-consultation-recap/) | draft |
 
 ## Signature
 
@@ -147,3 +186,14 @@ All previews are 1200px wide (600px email at 2×). Every card stacks flush with 
 | Preview | Section | Context | Used by | Status |
 |---|---|---|---|---|
 | <img src="32-pp-1-cta/preview.png" width="260" alt=""> | [PP-1 · CTA](32-pp-1-cta/)<br>`32-pp-1-cta` | order | [PP-1](../emails/pp-1-order-confirmation/) | live |
+| — (no visual output) | [C-0 · Approve your spec](c-0-approve-cta/)<br>`c-0-approve-cta` | any | [C-0](../emails/c-0-consultation-recap/) | draft |
+| — (no visual output) | [NL-01 · CTA band](nl-1-cta-band/)<br>`nl-1-cta-band` | any | [NL-01](../emails/nl-01-no-best-base/) | draft |
+| — (no visual output) | [RO-3 · CTA](ro-3-cta/)<br>`ro-3-cta` | any | [RO-3](../emails/ro-3-replacement-window/) | draft |
+| — (no visual output) | [W-1 · CTA band](w-1-cta-band/)<br>`w-1-cta-band` | any | [W-1](../emails/w-1-welcome/) | draft |
+| — (no visual output) | [WB-2 · CTA](wb-2-cta/)<br>`wb-2-cta` | any | [WB-2](../emails/wb-2-whats-changed/) | draft |
+
+## Comparison
+
+| Preview | Section | Context | Used by | Status |
+|---|---|---|---|---|
+| — (no visual output) | [NL-01 · The four bases](nl-1-four-bases/)<br>`nl-1-four-bases` | any | [NL-01](../emails/nl-01-no-best-base/) | draft |

@@ -1,0 +1,33 @@
+{
+  "code": "NL-01",
+  "name": "Education: there is no best base",
+  "journey": "newsletter",
+  "surface": "messaging-code-your-own",
+  "context": "customer",
+  "shopify_location": "Messaging › campaign (Code your own). Draft: 'Untitled activity' (editor 77854824)",
+  "subject": "There is no best base. There’s one trade-off.",
+  "preview_text": "The more realistic a base looks, the thinner and more fragile it is.",
+  "timing": "Manual campaign send (newsletter edition 01, Education)",
+  "shopify_status": "not-installed",
+  "shopify_matches_repo": false,
+  "blockers": [
+    "'Read the full guide' button points to the homepage for now (see the button-links issue).",
+    "Photos and base thumbnails are crops of the Figma capture; the original files are not available.",
+    "Testimonial is a real review (Thomas L., Micro Skin MD) with a product hairline photo; no customer photo exists.",
+    "Design's 'View in browser' link is omitted: Shopify Messaging has no variable for it.",
+    "Lifespan ranges (3-6, 1-8, 5-8 months) are the design's copy; confirm they are factual before sending."
+  ],
+  "sections": [
+    "00-email-head-fonts-styles",
+    "nl-1-preheader-bar",
+    "nl-1-masthead",
+    "nl-1-hero",
+    "nl-1-intro",
+    "nl-1-two-bases",
+    "nl-1-four-bases",
+    "nl-1-faq",
+    "nl-1-testimonial",
+    "nl-1-cta-band",
+    "v6-footer-paper-social"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "CTA · Minimal arrow link · Ink",
+  "type": "CTA",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "06 · CTAs & promotions",
+    "module": "CTA · Minimal arrow link",
+    "theme": "ink",
+    "figma_source": "CTA · MINIMAL ARROW LINK",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-16115",
+    "sample_copy": [
+      "Explore the Atelier standard →"
+    ],
+    "adaptations": [
+      "A single text link with an arrow, no button; underline link in the v6 link style",
+      "Sentence case; link centred"
+    ]
+  }
+}

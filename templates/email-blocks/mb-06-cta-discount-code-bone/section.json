@@ -1,0 +1,29 @@
+{
+  "name": "CTA · Discount code · Bone",
+  "type": "Promo",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "06 · CTAs & promotions",
+    "module": "CTA · Discount code",
+    "theme": "bone",
+    "figma_source": "CTA · DISCOUNT CODE PROMOTION",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-16152",
+    "sample_copy": [
+      "Welcome To Hair Solutions Co.",
+      "Start your journey with a virtual mapping…",
+      "CODE: FIRSTATELIER",
+      "Get 15% Off Consultation →"
+    ],
+    "adaptations": [
+      "Code in the v6 dashed code chip (mono 15, 8px radius), centred; title in the v6 title role",
+      "Button is the v6 coral pill; the code stays a slot (never a real code)"
+    ]
+  }
+}

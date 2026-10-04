@@ -1,0 +1,28 @@
+{
+  "name": "CTA · Headline with button · Bone",
+  "type": "CTA",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "06 · CTAs & promotions",
+    "module": "CTA · Headline with button",
+    "theme": "bone",
+    "figma_source": "Call-To-Action",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=479-16987",
+    "sample_copy": [
+      "Planning a Change?",
+      "Keep what works and adjust only what needs to change.",
+      "Build Your Next System →"
+    ],
+    "adaptations": [
+      "Headline in the v6 headline role (48/50, 800), left-aligned, with the body under it; the Figma body was centred under a left headline, aligned left here",
+      "Button is the v6 coral pill"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "CTA · Centred heading, body and button · White",
+  "type": "CTA",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "06 · CTAs & promotions",
+    "module": "CTA · Centred heading, body and button",
+    "theme": "white",
+    "figma_source": "CTA · CENTERED HEADING + BODY + CORAL",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-15818",
+    "sample_copy": [
+      "Secure Your Priority Slot Today",
+      "Each master artisan can only ventilate 4 systems per month…",
+      "Schedule Appointment →"
+    ],
+    "adaptations": [
+      "Figma's 'coral' in the name meant the coral button: kept as the one v6 coral pill; no coral surface",
+      "Title in the v6 title role, centred; body in the v6 body role"
+    ]
+  }
+}

@@ -1,5 +1,18 @@
 # Project status
 
+## 2026-10-04 — Claude Code (v6 reference emails: W-1, WB-2, RO-3, C-0, NL-01)
+
+Scope (Vincent): the first email of each series on the Figma "v6 · Reference" page. PP-1 and CR-1 to CR-4 already existed.
+
+- Library: 45 new sections and 5 new templates (`w-1-welcome`, `wb-2-whats-changed`, `ro-3-replacement-window`, `c-0-consultation-recap`, `nl-01-no-best-base`), all Messaging · Code your own. Copy is transcribed from the Figma captures (the page holds flat PNG captures, not editable text); subjects and preview text come from the Figma "Inbox" blocks.
+- Build: templates can set `"context": "customer"`; new fixture `fixture-customer.json`; `mini_liquid.py` supports `"now" | date`, `money_without_currency` and `remove`.
+- Verified Messaging variables (probe in a campaign preview): see `references/surfaces.md`. No "view in browser" variable exists, so that link is left out of every email.
+- Shopify: **NL-01 is a draft campaign** (Messaging, no segment, not scheduled). W-1 is not installed (the FAQ still has `[Price range: confirm wording]`). WB-2 and RO-3 are not installed: they need their own Flow workflows and the triggers are not defined in the design. A Flow workflow "New Workflow" (trigger Order fulfilled, wait 7 776 000 s) was started for RO-3, is inactive and has no email step yet. C-0 is not created in Shopify on purpose.
+- Images: 15 images uploaded to Shopify Files (`hsc-email-*`), cropped from the Figma captures.
+- Testimonials: real reviews only (Notion Reviews export, the 5 rows created 2025-11-15): Thomas L. (NL-01), Robert M. (WB-2), Michael T. (RO-3). The angles only partly match the designs.
+- All buttons go to the homepage for now. Open items are in GitHub issues #3 (button links), #4 (RO-3 customer metafields) and #5 (copy, facts and testimonials to confirm).
+- Notion: records added to "Shopify Email Sections" and "Shopify Email Templates".
+
 ## 2026-10-03 (later) — Claude Code
 
 - Re-synced CR-2, CR-3 and CR-4 in Shopify Messaging from `template.html`: no gaps, 12px corners,

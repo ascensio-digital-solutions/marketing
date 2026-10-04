@@ -58,6 +58,9 @@ Design rules every email must follow (enforced by the build):
 | CR-1 Your cart's still here | Messaging · Custom Liquid sections | Draft, matches repo |
 | CR-2 / CR-3 / CR-4 | Messaging · Code your own | Draft, match repo (re-synced 2026-10-03) |
 | "Recover abandoned checkout" Flow | Flow workflow (CR-1 to CR-4) | **Inactive**; turning it on needs Vincent's approval |
+| NL-01 Education | Messaging campaign · Code your own | Draft (no segment, not scheduled) |
+| W-1, WB-2, RO-3 | Messaging · Code your own | In the library, not installed in Shopify (see their `blockers`) |
+| C-0 Consultation recap | Messaging · Code your own | In the library only; not to be created in Shopify |
 
 Each `templates/emails/*/template.json` holds the authoritative per-email state.
 

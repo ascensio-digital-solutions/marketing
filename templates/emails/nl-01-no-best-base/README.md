@@ -7,12 +7,12 @@
 | Code | NL-01 |
 | Journey | newsletter |
 | Surface | Messaging · Code your own |
-| Where in Shopify | Messaging › campaign (Code your own). Draft: 'Untitled activity' (editor 77854824) |
+| Where in Shopify | Shopify Messaging › campaign (Code your own), draft titled with the subject (editor 77854824). No segment selected, not scheduled. |
 | Subject | `There is no best base. There’s one trade-off.` |
 | Preview text | The more realistic a base looks, the thinner and more fragile it is. |
 | Timing | Manual campaign send (newsletter edition 01, Education) |
-| Shopify status | not-installed |
-| Shopify matches this repo | **no — re-sync Shopify from the file below** |
+| Shopify status | draft |
+| Shopify matches this repo | yes |
 
 ## Sections (assembly order)
 
@@ -39,6 +39,8 @@
 - Testimonial is a real review (Thomas L., Micro Skin MD) with a product hairline photo; no customer photo exists.
 - Design's 'View in browser' link is omitted: Shopify Messaging has no variable for it.
 - Lifespan ranges (3-6, 1-8, 5-8 months) are the design's copy; confirm they are factual before sending.
+- Campaign draft has no recipient segment and is not scheduled; choose both before any send (needs Vincent's approval).
+- Verify Shopify accepts the comment-wrapped <!-- {{ unsubscribe_link }} --> as the required unsubscribe tag before sending.
 
 ## Preview
 

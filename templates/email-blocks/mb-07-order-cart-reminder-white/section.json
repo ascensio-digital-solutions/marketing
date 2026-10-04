@@ -1,0 +1,31 @@
+{
+  "name": "Order · Cart reminder · White",
+  "type": "Transactional",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "07 · Transactional lifecycle",
+    "module": "Order · Cart reminder",
+    "theme": "white",
+    "figma_source": "Cart reminder",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-19856",
+    "sample_copy": [
+      "IN YOUR CART",
+      "Still in your cart",
+      "System 01 - Lace, Base 06 · Density: Medium · Qty 1 · $329.00",
+      "Care Kit - Starter · Qty 1 · $59.00",
+      "Your selections are saved…",
+      "Return to your cart →"
+    ],
+    "adaptations": [
+      "Eyebrow, title and two item rows (name and detail left, price right), a note and the button",
+      "Item rows are the v6 hairline rows with the price in the serif-italic role; they repeat per cart line in the template"
+    ]
+  }
+}

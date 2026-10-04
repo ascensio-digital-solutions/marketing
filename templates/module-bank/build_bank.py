@@ -109,13 +109,14 @@ def title_short_rule(th):
 @module("Product · Two by two product grid", "Product · Two by two grid", "Product",
         ["Lace Edge 360+ $289 · ★ 4.8", "SkinLife Ultra $319 · ★ 4.9", "MonoCrown $259 · ★ 4.7", "Hybrid Lace-Skin $339 · ★ 4.8"],
         ["Tiles stay two across on mobile (they shrink; they never stack to one column)",
+         "Grid is centred in the card and each tile's name and price line are centred under its image (the Figma grid sat left, leaving the right third empty)",
          "Product name in the v6 name role, price/rating line in the v6 meta role",
          "Image tiles are labelled slots: use the approved product renders (square, on the card inset)",
          "Removed the 'x20 · infinite scroll + load more' annotation (a design note, not email content)"])
 def product_grid_2x2(th):
     def tile(i):
-        return (photo_slot(f"[Photo · product {i}]", th, 200) + gap(10) + name(f"[Product {i}]", th, mb=2) +
-                meta("[Price] · [Rating]", th))
+        return (photo_slot(f"[Photo · product {i}]", th, 200) + gap(10) + name(f"[Product {i}]", th, "center", mb=2) +
+                meta("[Price] · [Rating]", th, "center"))
     rows = pair_row([tile(1), tile(2)], th, 24) + gap(28) + pair_row([tile(3), tile(4)], th, 24)
     return card(rows, th, pad="40px 30px", cls="pad-sm")
 
@@ -126,14 +127,15 @@ def product_grid_2x2(th):
         ["Figma named it 'dark' but drew bone text on a bone card: rebuilt as a real three-theme module",
          "Numerals: Inter Tight 800 with a serif-italic suffix; the suffix is coral only on Ink, ink on light",
          "Eyebrow in the v6 eyebrow role (coral dash, label ink on light, coral on Ink)",
+         "Eyebrow, numerals and labels are centred, so the 2x2 grid is balanced in the card",
          "Two across on mobile (no stacking)"])
 def stats_band(th):
     def stat(i):
         value = (f'<p style="margin:0 0 6px 0;font-family:{DISPLAY};font-size:56px;line-height:60px;font-weight:800;'
-                 f'letter-spacing:-2px;color:{th["text"]};">[00]{em("+", th)}</p>')
-        return value + meta(f"[Label {i}]", th)
+                 f'letter-spacing:-2px;text-align:center;color:{th["text"]};">[00]{em("+", th)}</p>')
+        return value + meta(f"[Label {i}]", th, "center")
     grid = pair_row([stat(1), stat(2)], th, 24) + gap(28) + pair_row([stat(3), stat(4)], th, 24)
-    return card(eyebrow("[Eyebrow]", th, mb=24) + grid, th, pad="48px 40px")
+    return card(eyebrow("[Eyebrow]", th, center=True, mb=28) + grid, th, pad="48px 40px")
 
 
 # ---------------- 06 · CTAs & promotions

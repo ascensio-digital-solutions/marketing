@@ -55,10 +55,11 @@ Design rules every email must follow (enforced by the build):
 | Tokens and components | `vincent-laroche/brand-design-system` → `email/` (local: `~/01_hair_solutions_co/design/brand/brand-design-system`) |
 | Skill and scripts | `.claude/skills/shopify-email-html/` (installed globally through a symlink at `~/.claude/skills/shopify-email-html`) |
 | Handoff prompt for new agents | [`HANDOFF.md`](HANDOFF.md) |
-| Notion (read-only references) | "Shopify Email Marketing Masterplan"; "Shopify Email Sections" / "Shopify Email Templates" databases (an older mirror) |
+| Notion | "Shopify Email Marketing Masterplan" (read-only); "Shopify Email Sections" and "Shopify Email Templates" databases (records of this library) and "Messaging Journeys" (https://app.notion.com/p/d3802cf29293450cad97d24a04e64b49, one row per Shopify workflow). The repo wins when they disagree; keep them current as you build |
+| What is missing | GitHub issue #7 (every Figma email not yet in Shopify); #3 button destinations, #4 RO-3 metafields, #5 copy and facts to confirm |
 | Old Resend/Customer.io worker | `~/01_hair_solutions_co/marketing/resend-customerio-archive` (archive, not a source; holds PII in `data/`) |
 
-## Current state (2026-10-03)
+## Current state (2026-10-04)
 
 | Email | Surface | Shopify state |
 |---|---|---|
@@ -86,6 +87,11 @@ Each `templates/emails/*/template.json` holds the authoritative per-email state.
 - No placeholders ever reach Shopify: names, quotes and photos are real values or Liquid.
 
 ## Rules
+
+- Marketing emails are built from Custom Liquid sections one at a time (see the build rule above).
+  Ask Shopify Sidekick to build Flow workflows (Preview, then **Add to store**); never turn them on.
+- Never delete a Flow step, workflow or email without approval; list leftover drafts for Vincent.
+- Post-consultation emails (C-0 and the C series) are not created in Shopify.
 
 - Do not send, schedule, publish, or enable customer-facing email without explicit approval.
   Saving a Shopify notification template makes it live: that needs approval too.

@@ -38,7 +38,7 @@ write it; drive it with clicks and typing only.
 - `<style>` and `<link>` inside a section are kept in the preview; put them in the first section.
 - Do not add `{{ open_tracking_block }}` in sections (Shopify tracks opens itself).
 
-### 2b. "Code your own"
+### 2b. "Code your own" (only when Vincent asks; marketing emails are built as sections)
 
 - Template picker → left rail → **Code your own**. One code box for the whole document.
 - Required tags (the starter comment says so): `{{ unsubscribe_link }}` and

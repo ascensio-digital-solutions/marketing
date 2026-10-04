@@ -8,8 +8,14 @@ library, campaigns, automations and reporting.
 - **New agent or contributor:** read [`HANDOFF.md`](HANDOFF.md). It has the full prompt for building
   Shopify emails and Flows from the Figma design, then [`AGENTS.md`](AGENTS.md) for the rules and
   current state.
-- **Shopify today:** PP-1 Order confirmation is live. CR-1 to CR-4 (abandoned checkout) are drafts
-  in an inactive Flow and match this repository.
+- **Shopify today:** PP-1 Order confirmation is live. Everything else is a draft in an inactive Flow
+  workflow or campaign: CR-1 to CR-4 (cart recovery), W-1 (two welcome workflows), WB-1 (win-back) and
+  NL-01 (newsletter); the RO workflow has no email yet. Nothing is turned on. The table in
+  [`AGENTS.md`](AGENTS.md) has the detail.
+- **What is still missing:** GitHub issue #7 lists every email in the Figma file that is not in
+  Shopify yet (including service and shipping notifications). Open questions are in #3, #4 and #5.
+- **Notion:** the "Messaging Journeys" database tracks every Shopify workflow (trigger, steps, delays,
+  metrics); the "Shopify Email Sections" and "Shopify Email Templates" databases mirror this library.
 
 ## Email library
 
@@ -19,7 +25,7 @@ library, campaigns, automations and reporting.
 | [**Email templates**](templates/emails/) | Every assembled email: the ordered list of sections it is built from, the code to paste into Shopify, and a preview. |
 
 Both have a gallery (`README.md`) and a sortable table (`index.tsv`). To build a new email, list the
-sections you want in a `template.json` and run:
+sections you want in a `template.json` (surface `messaging-sections`) and run:
 
 ```bash
 python3 .claude/skills/shopify-email-html/scripts/build_library.py
@@ -53,6 +59,11 @@ transparent background behind the modules.
 - `campaigns/` — calendar exports and campaign briefs.
 - `analytics/` — KPI definitions and reporting notes.
 - `docs/` — platform implementation and release checks.
+
+## Build rule
+
+Every marketing email is built from Custom Liquid sections, created and assembled one at a time in
+the Shopify Messaging editor (Vincent, 2026-10-04); Code your own is used only when he asks.
 
 ## Working rule
 

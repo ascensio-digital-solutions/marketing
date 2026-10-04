@@ -115,18 +115,27 @@ Read `references/editor-automation.md` before touching any editor; it lists whic
    5. Click Preview, read the rendered text from the preview iframe, fix Liquid errors.
    6. Get approval (Step 1.5), then Save; confirm the "Notification template saved" toast.
 2. **Messaging email from a Flow step** (Flow → workflow → Edit)
-   1. New step: add Action → search "Send marketing email" → Select template → **Code your own**
-      (full HTML) or a template you will rebuild with Custom Liquid sections.
+   1. New step: add Action → search "Send marketing email" → **Select template → Blank** (the
+      sections editor), then rebuild it with Custom Liquid sections. Code your own only if Vincent
+      asks. A step that already holds the other type needs a new Send step.
    2. Existing step: open it → Edit email → confirm "revert to draft".
-   3. Type the HTML into the code box with the `type` action (the editor is a cross-origin iframe;
-      JS injection and paste do not reach it). Clear first with cmd+a, Delete.
-   4. Sections: select the Custom Liquid section, type fragment 01; then **Add section → Custom →
-      Custom Liquid** for each next fragment (new sections append above the Shopify footer).
-      Hide the stock Header (eye icon) and delete stock sections (select → hover → trash).
-   5. Fill Subject and Preview text; the email name follows the subject.
+   3. Type into code boxes with the `type` action (the editor is a cross-origin iframe; JS injection
+      and paste do not reach it). Strip leading indentation first and check each reported character
+      count against the file. (Code your own only: clear first with cmd+a, Delete.)
+   4. Sections: **Add section** (bottom-left) → search or scroll to **Custom Liquid** → click the code
+      box → type fragment 01 (it carries the fonts and `<style>`); repeat Add section → Custom
+      Liquid for each next fragment (new sections append above the Shopify footer). To fix one
+      section, select it by clicking its padding (not its text), cmd+a, Delete and retype.
+      Hide the stock Header (select it, eye icon at its right edge). Click empty canvas → Email
+      colors → Content background swatch → type `transparent` in the hex field, Enter.
+   5. Fill Subject and Preview text (scroll the preview to the top first); the email name follows
+      the subject.
    6. Exit → **Leave** (keeps it a draft). Never press Turn on without approval.
-3. **Flow wiring** — read `references/flow-recipes.md` for the step graph, the conditions and the
-   wait-unit workaround.
+3. **Flow wiring** — read `references/flow-recipes.md` for the step graphs, the conditions and the
+   wait-unit workaround. Prefer asking Shopify **Sidekick** to build the workflow (Flow page →
+   Sidekick or the "Tell me what you want to create" box): click **Preview** on each workflow it
+   offers, then **Add to store** (top right). Stay on the page until both are added. Never click
+   "Turn on workflow".
 
 ### Step 5: Verify
 
@@ -137,7 +146,8 @@ Read `references/editor-automation.md` before touching any editor; it lists whic
 3. Flow: every Send step shows only the expected "email is in draft state" note; workflow status
    stays **Inactive** unless the user approved activation.
 4. Re-hash any injected file and compare with the local file.
-5. Update `PROJECT.md` with what is live, what is draft, and the open blockers.
+5. Update `PROJECT.md` and the `AGENTS.md` state table with what is live, what is draft, and the
+   open blockers.
 
 ### Step 6: Record in the email library
 
@@ -149,6 +159,9 @@ Follow `references/email-library.md` → "Workflows":
    `build_library.py --screenshots <id> …` (Chrome + Pillow; every preview is 1200px wide).
 3. Run `build_library.py --check`, then commit sources, generated files and previews on a branch
    and open a pull request.
+4. Update Notion (Vincent wants it current): the Sections and Templates records, and the "Messaging
+   Journeys" row for each workflow (name, ID, trigger, steps, delays, metrics, blockers). Tick the
+   email off in GitHub issue #7.
 
 ### Step 7: Report
 
@@ -179,5 +192,7 @@ user if the page wrote to their clipboard during automation.
   rebuild. Rebuild; if the hand edit was intended, move it into `section.html` first.
 - `screenshot_block.py` says "Liquid render failed (x)": the fixture lacks `x` or the block needs
   another context (Order block with the cart fixture, or a PP-1 block without `--prefix`).
+- The editor redraws about a second after each click, so a screenshot taken straight away can show
+  the previous selection: wait 2-3 seconds, then look again.
 - Unsure whether a variable exists: type a one-line probe (`<p>X={{ var }}</p>`) into a Custom
   Liquid section or Code your own draft and read the preview, then remove it.

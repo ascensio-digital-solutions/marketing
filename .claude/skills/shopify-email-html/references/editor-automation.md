@@ -78,3 +78,25 @@ user to check their clipboard before pasting.
   (the wiring stays, the position is saved, and undo does not revert it). Pan from empty canvas
   far from any node, or use the zoom/fit buttons at bottom-left. If a step was moved, drag it back;
   each drag moves it only about half the pointer distance at reduced zoom.
+
+## Lessons from the 2026-10-04 build (W-1 as sections)
+
+- **Sections email from a Flow step**: Select template → **Blank** → Select. The editor opens with a
+  stock Header, a footer and the **Add section** menu already open. Menu items sit in groups
+  (Elements, Product, Reengagement, Layout, **Custom** last): search "Custom Liquid" or click the last
+  item. Frame coordinates (800×651): Add section pill ≈ (197, 631), Custom Liquid item ≈ (176, 607)
+  when the menu is open, code box ≈ (90, 230).
+- **One section per fragment**: type fragment 01, Add section → Custom Liquid, type 02, and so on. The
+  reported character count equals the file size minus indentation and the trailing newline.
+- **Editing one section later**: click the section's padding in the preview (not its text) so the left
+  panel shows "Custom Liquid", click the code box, cmd+a, Delete, retype.
+- **Hide the Header**: click the Header in the preview (it can take two screenshots to show the
+  selection), then the eye icon at the right edge of the header. The preview then shows "Header hidden".
+- **Content background**: click empty canvas → "Email colors" → click the Content background swatch →
+  triple-click the hex field → type `transparent` → Enter. It is stored as `RGBA(0,0,0,0)`.
+- **Redraw lag**: the editor updates about a second after a click. A screenshot taken at once can show
+  the previous selection or panel; wait 2-3 seconds before deciding that a click missed.
+- **Exit**: the "Leave email in draft state?" dialog appears a few seconds after clicking Exit;
+  **Leave** sits at ≈ (530, 353).
+- **Shopify Sidekick** (Flow page): see `flow-recipes.md`. In the Sidekick panel, click the input via a
+  `find` ref before typing, or the text goes nowhere.

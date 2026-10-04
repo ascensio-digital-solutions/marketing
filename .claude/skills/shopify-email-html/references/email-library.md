@@ -26,9 +26,9 @@ templates/
     README.md, index.tsv         (generated)
     <code-slug>/
       template.json              properties + "sections": the ordered recipe (edit by hand)
-      template.html              Messaging · Code your own (generated)
+      template.html              Messaging · Code your own (generated; only for surface messaging-code-your-own)
       template.liquid.html       Notification template (generated)
-      custom-liquid/NN.html      Messaging · Custom Liquid sections, one file per section (generated)
+      custom-liquid/NN.html      Messaging · Custom Liquid sections, one file per section (generated; the way every marketing email is built)
       preview.png, README.md     (generated)
   hsc-v6-emails/                 the original v6 build: generator, images, backups (history)
 ```
@@ -84,8 +84,9 @@ Special sections:
    Step 4).
 
 **Add or change a section**
-1. Create `templates/email-blocks/<NN-slug>/section.html` (next free number) following
-   `html-contract.md`, and its `section.json`.
+1. Create `templates/email-blocks/<code>-<slug>/section.html` (for example `w-1-hero`; never take
+   "the next number", parallel agents would collide) following `html-contract.md`, and its
+   `section.json`. List both `messaging-section` and `messaging-code-your-own` under `surfaces`.
 2. Run `build_library.py --screenshots <section-id> <each template that uses it>`. The build lints
    every section with `lint_email.py` and refuses gaps, backgrounds or square cards.
 3. Changing a section used by a live template changes that template's generated file; it goes live
@@ -103,8 +104,10 @@ install pillow`, then run the build with `.venv/bin/python`). Fixtures are ficti
 Work on a branch and open a pull request. Run `build_library.py --check` before committing; the
 generated files and `preview.png` must be committed with their sources.
 
-## Notion mirror (secondary)
+## Notion records (secondary)
 
-Notion holds an older mirror of this library (01 Hair Solutions Co. › Company Home › Projects ›
-Email Marketing › "Shopify Email Sections" and "Shopify Email Templates"). The repository wins
-when they disagree. Update Notion only when the user asks.
+Notion holds a record for every section and template (01 Hair Solutions Co. › Company Home ›
+Projects › Email Marketing › "Shopify Email Sections" and "Shopify Email Templates") and a
+"Messaging Journeys" database with one row per Shopify workflow (name, ID, trigger, steps, delays
+between emails, metrics, blockers). The repository wins when they disagree, but keep Notion
+current after installing anything: Vincent asked for it.

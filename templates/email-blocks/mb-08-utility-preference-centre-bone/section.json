@@ -1,0 +1,29 @@
+{
+  "name": "Utility · Preference centre · Bone",
+  "type": "Utility",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "08 · Utility",
+    "module": "Utility · Preference centre",
+    "theme": "bone",
+    "figma_source": "Preference centre",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-19550",
+    "sample_copy": [
+      "YOUR PREFERENCES",
+      "Not the right frequency?…",
+      "Send me less often →",
+      "Update my preferences →",
+      "Unsubscribe entirely →"
+    ],
+    "adaptations": [
+      "Eyebrow, a short note and three link rows on hairlines; every link is a slot wired to the subscription pages"
+    ]
+  }
+}

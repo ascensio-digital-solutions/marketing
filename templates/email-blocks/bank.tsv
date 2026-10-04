@@ -260,6 +260,24 @@ mb-07-order-shipping-confirmation-white	07 · Transactional lifecycle	Order · S
 mb-07-order-shipping-tracker-bone	07 · Transactional lifecycle	Order · Shipping tracker	bone	Transactional	6080
 mb-07-order-shipping-tracker-ink	07 · Transactional lifecycle	Order · Shipping tracker	ink	Transactional	6080
 mb-07-order-shipping-tracker-white	07 · Transactional lifecycle	Order · Shipping tracker	white	Transactional	6080
+mb-08-divider-short-rule-bone	08 · Utility	Divider · Short rule	bone	Divider	883
+mb-08-divider-short-rule-ink	08 · Utility	Divider · Short rule	ink	Divider	883
+mb-08-divider-short-rule-white	08 · Utility	Divider · Short rule	white	Divider	883
+mb-08-divider-thin-rule-bone	08 · Utility	Divider · Thin rule	bone	Divider	728
+mb-08-divider-thin-rule-ink	08 · Utility	Divider · Thin rule	ink	Divider	728
+mb-08-divider-thin-rule-white	08 · Utility	Divider · Thin rule	white	Divider	728
+mb-08-utility-base-type-guidance-bone	08 · Utility	Utility · Base type guidance	bone	Utility	1971
+mb-08-utility-base-type-guidance-ink	08 · Utility	Utility · Base type guidance	ink	Utility	1971
+mb-08-utility-base-type-guidance-white	08 · Utility	Utility · Base type guidance	white	Utility	1971
+mb-08-utility-frequency-save-bone	08 · Utility	Utility · Frequency save	bone	Utility	2148
+mb-08-utility-frequency-save-ink	08 · Utility	Utility · Frequency save	ink	Utility	2148
+mb-08-utility-frequency-save-white	08 · Utility	Utility · Frequency save	white	Utility	2148
+mb-08-utility-preference-centre-bone	08 · Utility	Utility · Preference centre	bone	Utility	2229
+mb-08-utility-preference-centre-ink	08 · Utility	Utility · Preference centre	ink	Utility	2229
+mb-08-utility-preference-centre-white	08 · Utility	Utility · Preference centre	white	Utility	2229
 mb-08-utility-sign-off-bone	08 · Utility	Utility · Sign-off	bone	Sign-off	1178
 mb-08-utility-sign-off-ink	08 · Utility	Utility · Sign-off	ink	Sign-off	1178
 mb-08-utility-sign-off-white	08 · Utility	Utility · Sign-off	white	Sign-off	1178
+mb-08-utility-support-contact-bar-bone	08 · Utility	Utility · Support contact bar	bone	Footer	917
+mb-08-utility-support-contact-bar-ink	08 · Utility	Utility · Support contact bar	ink	Footer	917
+mb-08-utility-support-contact-bar-white	08 · Utility	Utility · Support contact bar	white	Footer	917

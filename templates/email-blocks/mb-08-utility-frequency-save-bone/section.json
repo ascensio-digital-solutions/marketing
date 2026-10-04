@@ -1,0 +1,29 @@
+{
+  "name": "Utility · Frequency save · Bone",
+  "type": "Utility",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "08 · Utility",
+    "module": "Utility · Frequency save",
+    "theme": "bone",
+    "figma_source": "EMAIL PREFERENCE SAVE",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-18878",
+    "sample_copy": [
+      "Before you go –",
+      "Would fewer emails work better for you?",
+      "Once a month →",
+      "Unsubscribe instead"
+    ],
+    "adaptations": [
+      "Offers a lower frequency before the unsubscribe, the retention pattern of the v6 emails; the offer button is the one coral pill",
+      "The unsubscribe stays a plain underlined link (never hidden or de-emphasised below legal requirements)"
+    ]
+  }
+}

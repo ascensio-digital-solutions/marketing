@@ -1,0 +1,28 @@
+{
+  "name": "Utility · Base type guidance · Ink",
+  "type": "Utility",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "08 · Utility",
+    "module": "Utility · Base type guidance",
+    "theme": "ink",
+    "figma_source": "Base type guidance",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-19632",
+    "sample_copy": [
+      "Still weighing up base types?",
+      "Lace — most natural… Poly — most durable… Hybrid — balanced…",
+      "Compare base types →"
+    ],
+    "adaptations": [
+      "Title in the v6 title role (sentence case), three guidance lines in the v6 body role, v6 coral pill",
+      "Guidance lines are slots: keep one line per option"
+    ]
+  }
+}

@@ -10,7 +10,7 @@
 | Where in Shopify | Not installed yet. Planned: Flow › Replacement window › Send marketing email (Messaging, Code your own) |
 | Subject | `Your replacement window is opening.` |
 | Preview text | Not urgent yet—but worth knowing the lead time. |
-| Timing | About three months after the customer's last order (from the copy: 'about three months old') |
+| Timing | RO series starts 60 days after the customer's last purchase (RO-1). RO-3's own delay is not defined; its copy says the system is 'about three months old'. |
 | Shopify status | not-installed |
 | Shopify matches this repo | **no — re-sync Shopify from the file below** |
 
@@ -35,11 +35,10 @@
 
 - The saved-specification card needs six customer metafields that do not exist yet (custom.spec_system, spec_base, spec_hair, spec_colour, spec_density, spec_size); see the issue. The card hides itself when custom.spec_system is blank.
 - Metafield access in Messaging could not be verified in the preview; test with a real customer before activation.
-- Lead time prints '56 days' (confirmed custom lead time); C-0's design says '3-4 weeks'. Confirm.
 - Testimonial is a real review (Michael T., Lace Fusion VF) but not about rotating two systems, as the design asks.
 - 'Order your next system' button points to the homepage for now (see the button-links issue).
-- Flow trigger and the 'about three months' delay are not defined in the design.
 - Design's 'View in browser' link is omitted: Shopify Messaging has no variable for it.
+- Series trigger confirmed (60 days after last purchase). The delay for RO-3 itself is not defined; RO-1 and RO-2 are not designed or built.
 
 ## Preview
 

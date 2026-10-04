@@ -8,5 +8,5 @@
   ],
   "liquid_variables": [],
   "placeholders": false,
-  "notes": "'56 days' is the confirmed custom production/dispatch lead time (PP-1 uses 56 dispatch / 63 delivery). The design had '[Production lead time]'. C-0's design says '3-4 weeks' for handcrafting, which conflicts; confirm."
+  "notes": "Lead time confirmed by Vincent on 2026-10-04: custom hair systems take 8-10 weeks, stock systems 5-7 days. A replacement is a custom system, so the email says 8-10 weeks (the Figma placeholder was '[Production lead time]')."
 }

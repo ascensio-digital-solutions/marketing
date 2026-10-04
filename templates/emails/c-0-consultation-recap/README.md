@@ -40,7 +40,7 @@
 - Not to be created in Shopify.
 - Most fields are per-customer consultation data (stage, lifestyle, experience, priorities, spec, quote, down payment) with no data source defined.
 - Bracketed copy remains: [Balance terms: confirm wording], [Colour-match answer: confirm wording], [CURRENCY], and a proof-bank quote.
-- '3-4 weeks' handcrafting time conflicts with the confirmed 56-day custom lead time.
+- Handcrafting time now reads '8-10 weeks' (confirmed custom lead time) instead of the design's '3-4 weeks'.
 - 'Approve your spec' has no destination page.
 - Design's 'View in browser' link is omitted: Shopify Messaging has no variable for it.
 

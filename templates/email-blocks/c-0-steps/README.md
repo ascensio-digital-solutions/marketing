@@ -10,10 +10,14 @@
 | Liquid variables | — |
 | Shopify status | draft |
 | Placeholders | no |
-| Characters | 4279 |
+| Characters | 4280 |
 | Used by | [C-0](../../emails/c-0-consultation-recap/) |
 
-> '3-4 weeks' is the design's copy and conflicts with the confirmed 56-day custom lead time; confirm before use.
+> Handcrafting time changed from the design's '3-4 weeks' to '8-10 weeks' (custom lead time confirmed by Vincent on 2026-10-04).
+
+## Preview
+
+<img src="preview.png" width="600" alt="">
 
 ## HTML
 
@@ -30,7 +34,7 @@ Source: [`section.html`](section.html). Copy from here or from the raw file.
 </table><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
 <tr><td width="54" valign="top" style="width:54px;padding:14px 0;border-top:1px solid #e5dfcd;font-family:'JetBrains Mono','Courier New',monospace;font-size:11px;line-height:22px;font-weight:500;color:#5a5448;">01</td><td valign="top" style="padding:14px 0;border-top:1px solid #e5dfcd;"><p style="margin:0;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:17px;line-height:22px;font-weight:700;letter-spacing:-0.3px;color:#15140f;text-align:left;">You approve the spec</p><p style="margin:2px 0 0 0;font-family:'Inter',Arial,Helvetica,sans-serif;font-size:15px;line-height:22px;color:#5a5448;text-align:left;">Or tell me what to change.</p></td></tr>
 <tr><td width="54" valign="top" style="width:54px;padding:14px 0;border-top:1px solid #e5dfcd;font-family:'JetBrains Mono','Courier New',monospace;font-size:11px;line-height:22px;font-weight:500;color:#5a5448;">02</td><td valign="top" style="padding:14px 0;border-top:1px solid #e5dfcd;"><p style="margin:0;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:17px;line-height:22px;font-weight:700;letter-spacing:-0.3px;color:#15140f;text-align:left;">Down payment confirms your build slot</p></td></tr>
-<tr><td width="54" valign="top" style="width:54px;padding:14px 0;border-top:1px solid #e5dfcd;font-family:'JetBrains Mono','Courier New',monospace;font-size:11px;line-height:22px;font-weight:500;color:#5a5448;">03</td><td valign="top" style="padding:14px 0;border-top:1px solid #e5dfcd;"><p style="margin:0;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:17px;line-height:22px;font-weight:700;letter-spacing:-0.3px;color:#15140f;text-align:left;">Handcrafted to your spec</p><p style="margin:2px 0 0 0;font-family:'Inter',Arial,Helvetica,sans-serif;font-size:15px;line-height:22px;color:#5a5448;text-align:left;">3&ndash;4 weeks.</p></td></tr>
+<tr><td width="54" valign="top" style="width:54px;padding:14px 0;border-top:1px solid #e5dfcd;font-family:'JetBrains Mono','Courier New',monospace;font-size:11px;line-height:22px;font-weight:500;color:#5a5448;">03</td><td valign="top" style="padding:14px 0;border-top:1px solid #e5dfcd;"><p style="margin:0;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:17px;line-height:22px;font-weight:700;letter-spacing:-0.3px;color:#15140f;text-align:left;">Handcrafted to your spec</p><p style="margin:2px 0 0 0;font-family:'Inter',Arial,Helvetica,sans-serif;font-size:15px;line-height:22px;color:#5a5448;text-align:left;">8&ndash;10 weeks.</p></td></tr>
 <tr><td width="54" valign="top" style="width:54px;padding:14px 0;border-top:1px solid #e5dfcd;font-family:'JetBrains Mono','Courier New',monospace;font-size:11px;line-height:22px;font-weight:500;color:#5a5448;">04</td><td valign="top" style="padding:14px 0;border-top:1px solid #e5dfcd;"><p style="margin:0;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:17px;line-height:22px;font-weight:700;letter-spacing:-0.3px;color:#15140f;text-align:left;">Inspected against your spec, then dispatched</p></td></tr>
 <tr><td width="54" valign="top" style="width:54px;padding:14px 0;border-top:1px solid #e5dfcd;font-family:'JetBrains Mono','Courier New',monospace;font-size:11px;line-height:22px;font-weight:500;color:#5a5448;">05</td><td valign="top" style="padding:14px 0;border-top:1px solid #e5dfcd;"><p style="margin:0;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:17px;line-height:22px;font-weight:700;letter-spacing:-0.3px;color:#15140f;text-align:left;">Delivered</p><p style="margin:2px 0 0 0;font-family:'Inter',Arial,Helvetica,sans-serif;font-size:15px;line-height:22px;color:#5a5448;text-align:left;">With a 14-day inspection window.</p></td></tr>
 </table></td></tr>

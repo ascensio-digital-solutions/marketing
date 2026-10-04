@@ -37,11 +37,11 @@ c-0-approve-cta	C-0 · Approve your spec	CTA	any	messaging-code-your-own,messagi
 c-0-hero	C-0 · Hero	Hero	any	messaging-code-your-own,messaging-section	draft	no	C-0	1567
 c-0-intro	C-0 · Intro	Text	any	messaging-code-your-own,messaging-section	draft	no	C-0	1444
 c-0-preheader-bar	C-0 · Preheader bar	Preheader bar	any	messaging-code-your-own,messaging-section	draft	no	C-0	975
-c-0-questions	C-0 · Questions	FAQ	any	messaging-code-your-own,messaging-section	draft	yes	C-0	3281
+c-0-questions	C-0 · Questions	FAQ	any	messaging-code-your-own,messaging-section	draft	yes	C-0	3282
 c-0-quote	C-0 · Your quote	Order summary	any	messaging-code-your-own,messaging-section	draft	yes	C-0	2831
 c-0-recommendation	C-0 · What I'd recommend	Product reminder	any	messaging-code-your-own,messaging-section	draft	yes	C-0	3185
 c-0-situation	C-0 · Your situation	Order summary	any	messaging-code-your-own,messaging-section	draft	yes	C-0	3336
-c-0-steps	C-0 · From here to your door	Timeline	any	messaging-code-your-own,messaging-section	draft	no	C-0	4279
+c-0-steps	C-0 · From here to your door	Timeline	any	messaging-code-your-own,messaging-section	draft	no	C-0	4280
 c-0-testimonial	C-0 · Testimonial (proof bank)	Testimonial	any	messaging-code-your-own,messaging-section	draft	yes	C-0	2526
 c-0-two-things	C-0 · Two things worth knowing	Text	any	messaging-code-your-own,messaging-section	draft	no	C-0	2777
 nl-1-cta-band	NL-01 · CTA band	CTA	any	messaging-code-your-own,messaging-section	draft	no	NL-01	1884
@@ -56,7 +56,7 @@ nl-1-two-bases	NL-01 · Same angle, two bases	Photo + caption	any	messaging-code
 ro-3-cta	RO-3 · CTA	CTA	any	messaging-code-your-own,messaging-section	draft	no	RO-3	1584
 ro-3-hero	RO-3 · Hero	Hero	any	messaging-code-your-own,messaging-section	draft	no	RO-3	1564
 ro-3-intro	RO-3 · Intro	Text	any	messaging-code-your-own,messaging-section	draft	no	RO-3	1322
-ro-3-lead-time-rotation	RO-3 · Lead time and rotation	Text	any	messaging-code-your-own,messaging-section	draft	no	RO-3	2779
+ro-3-lead-time-rotation	RO-3 · Lead time and rotation	Text	any	messaging-code-your-own,messaging-section	draft	no	RO-3	2788
 ro-3-preheader-bar	RO-3 · Preheader bar	Preheader bar	any	messaging-code-your-own,messaging-section	draft	no	RO-3	961
 ro-3-saved-spec	RO-3 · Saved specification	Order summary	customer	messaging-code-your-own,messaging-section	draft	no	RO-3	5265
 ro-3-testimonial	RO-3 · Testimonial (Michael T.)	Testimonial	any	messaging-code-your-own,messaging-section	draft	no	RO-3	2572

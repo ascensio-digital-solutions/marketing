@@ -10,7 +10,7 @@
 | Where in Shopify | Not installed yet. Planned: Flow › Win-back › Send marketing email (Messaging, Code your own) |
 | Subject | `Three things that are genuinely different now.` |
 | Preview text | Briefly: better hybrids, real tracking, and maintenance plans. |
-| Timing | Win-back sequence, email 2 (timing not given in the design; confirm) |
+| Timing | WB series starts after 90 days without any order (WB-1). WB-2's delay after WB-1 is not defined. |
 | Shopify status | not-installed |
 | Shopify matches this repo | **no — re-sync Shopify from the file below** |
 
@@ -40,6 +40,7 @@
 - Build diagram and product images are crops of the Figma capture; originals are not available.
 - 'Maintenance plans' claims supplies arrive automatically on schedule: confirm that offer exists before sending.
 - Design's 'View in browser' link is omitted: Shopify Messaging has no variable for it.
+- Series trigger confirmed (90 days without any order). WB-1 (first in the series) is not built yet: only an older frame exists.
 
 ## Preview
 

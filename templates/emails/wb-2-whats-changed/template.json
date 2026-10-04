@@ -17,7 +17,7 @@
     "Build diagram and product images are crops of the Figma capture; originals are not available.",
     "'Maintenance plans' claims supplies arrive automatically on schedule: confirm that offer exists before sending.",
     "Design's 'View in browser' link is omitted: Shopify Messaging has no variable for it.",
-    "Series trigger confirmed (90 days without any order). WB-1 (first in the series) is not built yet: only an older frame exists."
+    "Series trigger confirmed (90 days without any order). WB-1 (checking in) is built as its own template."
   ],
   "sections": [
     "00-email-head-fonts-styles",

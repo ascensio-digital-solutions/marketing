@@ -1,0 +1,15 @@
+{
+  "name": "WB-1 · Founder letter",
+  "type": "Text",
+  "context": "customer",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [
+    "customer.first_name",
+    "customer.last_order.created_at"
+  ],
+  "placeholders": false,
+  "notes": "Plain-text founder letter, reply-only by design (no button, no offer). Copy from the older Figma frame 'WB-1 · Checking In'; the sign-off 'Vincent / Founder, Hair Solutions Co.' is from the Notion emails master because the frame omits it. {{ months_since_last_order }} is computed from customer.last_order.created_at (30-day months)."
+}

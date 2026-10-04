@@ -173,6 +173,9 @@ def apply_filter(val, name, args):
         return num(val) + num(args[0])
     if name == "minus":
         return num(val) - num(args[0])
+    if name == "divided_by":
+        a, b = num(val), num(args[0])
+        return a // b if isinstance(a, int) and isinstance(b, int) else a / b
     if name == "times":
         return num(val) * num(args[0])
     if name == "append":

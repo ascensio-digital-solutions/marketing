@@ -11,7 +11,7 @@
 | Shopify status | draft |
 | Placeholders | no |
 | Characters | 3225 |
-| Used by | [CR-1](../../emails/cr-1-your-carts-still-here/), [CR-2](../../emails/cr-2-three-questions-answered/), [CR-3](../../emails/cr-3-not-sure-you-picked-right/), [CR-4](../../emails/cr-4-last-note-free-shipping/), [RO-3](../../emails/ro-3-replacement-window/) |
+| Used by | [CR-1](../../emails/cr-1-your-carts-still-here/), [CR-2](../../emails/cr-2-three-questions-answered/), [CR-3](../../emails/cr-3-not-sure-you-picked-right/), [CR-4](../../emails/cr-4-last-note-free-shipping/), [RO-3](../../emails/ro-3-replacement-window/), [WB-1](../../emails/wb-1-checking-in/) |
 
 ## Preview
 

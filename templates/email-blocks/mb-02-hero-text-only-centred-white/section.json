@@ -1,0 +1,27 @@
+{
+  "name": "Hero · Text only, centred · White",
+  "type": "Hero",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "02 · Heroes",
+    "module": "Hero · Text only, centred",
+    "theme": "white",
+    "figma_source": "Hero · Text only category landing",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-12249",
+    "sample_copy": [
+      "All hair systems",
+      "Start with the base. Choose for your routine.",
+      "Browse every system by construction, wear pattern, and maintenance."
+    ],
+    "adaptations": [
+      "Figma drew this like the contact hero; here it is centred (alignment is a free variable) so the two ids are distinct"
+    ]
+  }
+}

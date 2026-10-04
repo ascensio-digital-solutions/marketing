@@ -1,0 +1,26 @@
+{
+  "name": "Hero · Editorial caption with rule · Ink",
+  "type": "Hero",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "02 · Heroes",
+    "module": "Hero · Editorial caption with rule",
+    "theme": "ink",
+    "figma_source": "Hero · Editorial minimal caption",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-11928",
+    "sample_copy": [
+      "The precision method",
+      "Crafted in small batches by master hair ventilating artisans"
+    ],
+    "adaptations": [
+      "Centred eyebrow, title and a hairline; no button (an editorial opener)"
+    ]
+  }
+}

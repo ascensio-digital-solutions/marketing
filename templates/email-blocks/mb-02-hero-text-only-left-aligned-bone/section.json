@@ -1,0 +1,27 @@
+{
+  "name": "Hero · Text only, left-aligned · Bone",
+  "type": "Hero",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "02 · Heroes",
+    "module": "Hero · Text only, left-aligned",
+    "theme": "bone",
+    "figma_source": "Hero · Text only contact",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-12143",
+    "sample_copy": [
+      "Contact",
+      "Talk to someone who builds these.",
+      "Tell us what you are working with and what you want it to do."
+    ],
+    "adaptations": [
+      "Left-aligned eyebrow, headline with serif emphasis and body; no button or image"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Hero · Inset image with two buttons · White",
+  "type": "Hero",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "02 · Heroes",
+    "module": "Hero · Inset image with two buttons",
+    "theme": "white",
+    "figma_source": "Hero · Stacked asymmetric image",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-11666",
+    "sample_copy": [
+      "The botanical maintenance routine",
+      "Protect and prolong the vitality of your base and natural hair.",
+      "Shop elixirs",
+      "Read care guides"
+    ],
+    "adaptations": [
+      "Image is an inset inside the card (8px corners), copy and buttons below it",
+      "Two buttons: the v6 primary pill and an outline pill (never two coral buttons)"
+    ]
+  }
+}

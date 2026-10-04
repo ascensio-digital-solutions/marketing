@@ -1,0 +1,28 @@
+{
+  "name": "Hero · Campaign card · Ink",
+  "type": "Hero",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "02 · Heroes",
+    "module": "Hero · Campaign card",
+    "theme": "ink",
+    "figma_source": "Hero · Seasonal campaign card",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-11865",
+    "sample_copy": [
+      "The suite review",
+      "Spring restoration: seamless density refresh",
+      "Is your system due for seasonal servicing?",
+      "Claim refresh booking"
+    ],
+    "adaptations": [
+      "Inset image on top, left-aligned copy below; title in the v6 title role"
+    ]
+  }
+}

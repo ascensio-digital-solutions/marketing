@@ -1,7 +1,40 @@
 id	category	module	theme	type	characters
+mb-01-brand-logo-panel-bone	01 · Global chrome	Brand · Logo panel	bone	Logo	827
+mb-01-brand-logo-panel-ink	01 · Global chrome	Brand · Logo panel	ink	Logo	828
+mb-01-brand-logo-panel-white	01 · Global chrome	Brand · Logo panel	white	Logo	827
+mb-01-footer-brand-line-bone	01 · Global chrome	Footer · Brand line	bone	Footer	805
+mb-01-footer-brand-line-ink	01 · Global chrome	Footer · Brand line	ink	Footer	805
+mb-01-footer-brand-line-white	01 · Global chrome	Footer · Brand line	white	Footer	805
+mb-01-footer-logo-links-and-legal-bone	01 · Global chrome	Footer · Logo, links and legal	bone	Footer	2877
+mb-01-footer-logo-links-and-legal-ink	01 · Global chrome	Footer · Logo, links and legal	ink	Footer	2878
+mb-01-footer-logo-links-and-legal-white	01 · Global chrome	Footer · Logo, links and legal	white	Footer	2877
+mb-01-navigation-centred-logo-and-links-bone	01 · Global chrome	Navigation · Centred logo and links	bone	Navigation	2199
+mb-01-navigation-centred-logo-and-links-ink	01 · Global chrome	Navigation · Centred logo and links	ink	Navigation	2200
+mb-01-navigation-centred-logo-and-links-white	01 · Global chrome	Navigation · Centred logo and links	white	Navigation	2199
+mb-01-navigation-centred-logo-bone	01 · Global chrome	Navigation · Centred logo	bone	Navigation	827
+mb-01-navigation-centred-logo-ink	01 · Global chrome	Navigation · Centred logo	ink	Navigation	828
+mb-01-navigation-centred-logo-links-and-rule-bone	01 · Global chrome	Navigation · Centred logo, links and rule	bone	Navigation	2385
+mb-01-navigation-centred-logo-links-and-rule-ink	01 · Global chrome	Navigation · Centred logo, links and rule	ink	Navigation	2386
+mb-01-navigation-centred-logo-links-and-rule-white	01 · Global chrome	Navigation · Centred logo, links and rule	white	Navigation	2385
+mb-01-navigation-centred-logo-links-and-social-bone	01 · Global chrome	Navigation · Centred logo, links and social	bone	Navigation	2552
+mb-01-navigation-centred-logo-links-and-social-ink	01 · Global chrome	Navigation · Centred logo, links and social	ink	Navigation	2553
+mb-01-navigation-centred-logo-links-and-social-white	01 · Global chrome	Navigation · Centred logo, links and social	white	Navigation	2552
+mb-01-navigation-centred-logo-white	01 · Global chrome	Navigation · Centred logo	white	Navigation	827
+mb-01-navigation-compact-centred-logo-and-links-bone	01 · Global chrome	Navigation · Compact centred logo and links	bone	Navigation	2200
+mb-01-navigation-compact-centred-logo-and-links-ink	01 · Global chrome	Navigation · Compact centred logo and links	ink	Navigation	2201
+mb-01-navigation-compact-centred-logo-and-links-white	01 · Global chrome	Navigation · Compact centred logo and links	white	Navigation	2200
+mb-01-navigation-logo-above-a-justified-link-bar-bone	01 · Global chrome	Navigation · Logo above a justified link bar	bone	Navigation	2363
+mb-01-navigation-logo-above-a-justified-link-bar-ink	01 · Global chrome	Navigation · Logo above a justified link bar	ink	Navigation	2364
+mb-01-navigation-logo-above-a-justified-link-bar-white	01 · Global chrome	Navigation · Logo above a justified link bar	white	Navigation	2363
+mb-01-navigation-logo-left-links-right-bone	01 · Global chrome	Navigation · Logo left, links right	bone	Navigation	2348
+mb-01-navigation-logo-left-links-right-ink	01 · Global chrome	Navigation · Logo left, links right	ink	Navigation	2349
+mb-01-navigation-logo-left-links-right-white	01 · Global chrome	Navigation · Logo left, links right	white	Navigation	2348
 mb-01-navigation-utility-bar-with-links-bone	01 · Global chrome	Navigation · Utility bar with links	bone	Navigation	2995
 mb-01-navigation-utility-bar-with-links-ink	01 · Global chrome	Navigation · Utility bar with links	ink	Navigation	2996
 mb-01-navigation-utility-bar-with-links-white	01 · Global chrome	Navigation · Utility bar with links	white	Navigation	2995
+mb-01-preheader-message-and-browser-link-bone	01 · Global chrome	Preheader · Message and browser link	bone	Preheader bar	1349
+mb-01-preheader-message-and-browser-link-ink	01 · Global chrome	Preheader · Message and browser link	ink	Preheader bar	1349
+mb-01-preheader-message-and-browser-link-white	01 · Global chrome	Preheader · Message and browser link	white	Preheader bar	1349
 mb-02-hero-image-with-text-below-bone	02 · Heroes	Hero · Image with text below	bone	Hero	2578
 mb-02-hero-image-with-text-below-ink	02 · Heroes	Hero · Image with text below	ink	Hero	2578
 mb-02-hero-image-with-text-below-white	02 · Heroes	Hero · Image with text below	white	Hero	2578

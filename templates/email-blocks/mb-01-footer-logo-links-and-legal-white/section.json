@@ -1,0 +1,31 @@
+{
+  "name": "Footer · Logo, links and legal · White",
+  "type": "Footer",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "01 · Global chrome",
+    "module": "Footer · Logo, links and legal",
+    "theme": "white",
+    "figma_source": "Footer",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=479-17120",
+    "sample_copy": [
+      "Shop Systems",
+      "Our Story",
+      "Guides",
+      "Contact",
+      "In · YouTube · Instagram · X",
+      "© 2026 Hair Solutions Co. · Unsubscribe · Manage preferences"
+    ],
+    "adaptations": [
+      "Links are slots in the v6 body-small face; the legal line is the v6 meta role with the registered address from the v6 emails",
+      "Shopify Messaging adds its own unsubscribe footer after sections; keep this card for brand, links and address only"
+    ]
+  }
+}

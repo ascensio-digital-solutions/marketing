@@ -1,0 +1,27 @@
+{
+  "name": "Preheader · Message and browser link · Bone",
+  "type": "Preheader bar",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "01 · Global chrome",
+    "module": "Preheader · Message and browser link",
+    "theme": "bone",
+    "figma_source": "Pre-Header",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=479-16494",
+    "sample_copy": [
+      "New textures and lengths now available",
+      "View in browser"
+    ],
+    "adaptations": [
+      "Meta role (JetBrains Mono 11, tracked) on the v6 preheader surface; v6 default is the White version",
+      "'View in browser' is a slot: Shopify Messaging has no view-in-browser variable (see PROJECT.md), leave it out or link your own page"
+    ]
+  }
+}

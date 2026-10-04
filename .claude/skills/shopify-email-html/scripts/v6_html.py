@@ -268,3 +268,19 @@ def pair_row(cells, th=None, gap_px=24, valign="top"):
         tds.append(f'<td width="{w}%" valign="{valign}" style="width:{w}%;padding:0 {pr}px 0 {pl}px;vertical-align:{valign};">{c}</td>')
     return ('<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">'
             f'<tr>{"".join(tds)}</tr></table>')
+
+
+def short_rule(mb=24):
+    """The v6 edge rule for centred blocks: 32px wide, 2px, coral, centred."""
+    return ('<table role="presentation" align="center" cellpadding="0" cellspacing="0" border="0" '
+            f'style="margin:0 auto {mb}px auto;"><tr><td width="32" style="width:32px;">'
+            f'<div style="height:2px;line-height:2px;font-size:0;background-color:{CORAL};">&nbsp;</div></td></tr></table>')
+
+
+def nav_links(th, n=4, align="center", gap_px=24, size=12):
+    """A row of nav link slots in the v6 eyebrow face. Links wrap on narrow screens."""
+    pad = f"padding:0 {gap_px // 2}px;" if align == "center" else (f"padding-left:{gap_px}px;" if align == "right" else f"padding-right:{gap_px}px;")
+    links = "".join(f'<a href="{SITE}" target="_blank" style="font-family:{DISPLAY};font-size:{size}px;line-height:24px;'
+                    f'font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:{th["text"]};'
+                    f'text-decoration:none;{pad}white-space:nowrap;display:inline-block;">[Link {i}]</a>' for i in range(1, n + 1))
+    return f'<p style="margin:0;text-align:{align};font-size:0;line-height:0;">{links}</p>'

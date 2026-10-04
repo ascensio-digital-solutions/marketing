@@ -1,0 +1,30 @@
+{
+  "name": "Navigation · Centred logo, links and social · White",
+  "type": "Navigation",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "01 · Global chrome",
+    "module": "Navigation · Centred logo, links and social",
+    "theme": "white",
+    "figma_source": "Navigation · Centered Brand Splash with Social",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=479-16670",
+    "sample_copy": [
+      "Shop systems",
+      "System guide",
+      "Care",
+      "Support",
+      "Instagram   Facebook   LinkedIn"
+    ],
+    "adaptations": [
+      "Social names are slots in the v6 meta role (add real channels once confirmed)",
+      "Approved v5 wordmark; links in the v6 eyebrow face"
+    ]
+  }
+}

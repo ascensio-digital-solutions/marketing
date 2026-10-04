@@ -1,0 +1,25 @@
+{
+  "name": "Brand · Logo panel · Bone",
+  "type": "Logo",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "01 · Global chrome",
+    "module": "Brand · Logo panel",
+    "theme": "bone",
+    "figma_source": "Brand logo",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-19531",
+    "sample_copy": [
+      "hair solutions co."
+    ],
+    "adaptations": [
+      "Figma set the name as live text in a display italic; the bank uses the approved v5 wordmark image (never retyped), larger, as a standalone brand panel"
+    ]
+  }
+}

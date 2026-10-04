@@ -12,7 +12,7 @@
 | Preview text | Free shipping if it helps. Either way, this is the last one. |
 | Timing | Abandon + 96 h (wait 172 800 s after CR-3, no order since abandonment) |
 | Shopify status | draft |
-| Shopify matches this repo | **no — re-sync Shopify from the file below** |
+| Shopify matches this repo | yes |
 
 ## Sections (assembly order)
 
@@ -31,8 +31,8 @@
 
 ## Open blockers
 
-- Uses discount code FREESHIP (exists, active).
-- Shopify draft still has the old 2px gaps; re-sync it from template.html.
+- Workflow inactive; email is a draft.
+- Uses discount code FREESHIP (exists, active). Subject was empty in Shopify until 2026-10-03; now set.
 
 ## Preview
 

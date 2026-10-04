@@ -38,6 +38,39 @@ Design rules every email must follow (enforced by the build):
 3. Transparent background behind the modules (body, wrapper, and Shopify Messaging's Content
    background).
 
+## Key locations
+
+| What | Where |
+|---|---|
+| Shopify store | `admin.shopify.com/store/oneheadhair`. Files CDN: `https://cdn.shopify.com/s/files/1/0276/9115/5508/files/` |
+| Design (Figma) | "Email Design System", page "v6 · Reference": https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=557-7295 |
+| Tokens and components | `vincent-laroche/brand-design-system` → `email/` (local: `~/01_hair_solutions_co/design/brand/brand-design-system`) |
+| Skill and scripts | `.claude/skills/shopify-email-html/` (installed globally through a symlink at `~/.claude/skills/shopify-email-html`) |
+| Handoff prompt for new agents | [`HANDOFF.md`](HANDOFF.md) |
+| Notion (read-only references) | "Shopify Email Marketing Masterplan"; "Shopify Email Sections" / "Shopify Email Templates" databases (an older mirror) |
+| Old Resend/Customer.io worker | `~/01_hair_solutions_co/marketing/resend-customerio-archive` (archive, not a source; holds PII in `data/`) |
+
+## Current state (2026-10-03)
+
+| Email | Surface | Shopify state |
+|---|---|---|
+| PP-1 Order confirmation | Notification template | **Live** |
+| CR-1 Your cart's still here | Messaging · Custom Liquid sections | Draft, matches repo |
+| CR-2 / CR-3 / CR-4 | Messaging · Code your own | Draft, match repo (re-synced 2026-10-03) |
+| "Recover abandoned checkout" Flow | Flow workflow (CR-1 to CR-4) | **Inactive**; turning it on needs Vincent's approval |
+
+Each `templates/emails/*/template.json` holds the authoritative per-email state.
+
+## Working in parallel (several agents)
+
+- One agent per journey or assignment, on its own branch (`<journey>-emails`), with its own Flow
+  workflow. Do not edit another agent's workflow or templates.
+- New section folders are named `<code>-<slug>` (for example `w-1-hero`); never take the next
+  number. Shared sections (email head, logo header, cart contents, footers, trust strip) are
+  reused, never copied. Change a shared section only in its own pull request.
+- Copy comes word for word from the Figma frames; when it is missing, ask Vincent.
+- No placeholders ever reach Shopify: names, quotes and photos are real values or Liquid.
+
 ## Rules
 
 - Do not send, schedule, publish, or enable customer-facing email without explicit approval.
@@ -46,3 +79,4 @@ Design rules every email must follow (enforced by the build):
 - Validate events, sender identity, links, mobile rendering, attribution, and rollback before release.
 - Never render previews or commit fixtures with real customer data.
 - Work on a branch and open a pull request; merging is never activation.
+- Never pan the Flow canvas by dragging on a step (it moves the step). Never click "Turn on".

@@ -6,12 +6,7 @@
     "messaging-code-your-own",
     "messaging-section"
   ],
-  "liquid_variables": [
-    "proof_meta",
-    "proof_name",
-    "proof_portrait",
-    "proof_quote"
-  ],
-  "placeholders": true,
-  "notes": "Contains placeholder testimonial copy ([Proof Bank ...]). Replace with an approved quote before sending."
+  "liquid_variables": [],
+  "placeholders": false,
+  "notes": "Hard-coded published Judge.me review (Scott S., Dura Skin, 5 stars), quoted verbatim. Judge.me marks it as not a verified buyer. Photo: Dura Skin product hairline shot (no customer photo exists)."
 }

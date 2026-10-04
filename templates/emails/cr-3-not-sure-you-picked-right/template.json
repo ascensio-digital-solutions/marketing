@@ -8,9 +8,9 @@
   "preview_text": "Tell me your situation and I'll tell you what I'd choose.",
   "timing": "Abandon + 48 h (wait 86 400 s after CR-2, no order since abandonment)",
   "shopify_status": "draft",
-  "shopify_matches_repo": false,
+  "shopify_matches_repo": true,
   "blockers": [
-    "Shopify draft still has the old 2px gaps; re-sync it from template.html."
+    "Workflow inactive; email is a draft."
   ],
   "sections": [
     "00-email-head-fonts-styles",

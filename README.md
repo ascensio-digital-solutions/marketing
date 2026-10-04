@@ -3,6 +3,14 @@
 Hair Solutions Co.'s email marketing: the single source of truth for strategy, the email
 library, campaigns, automations and reporting.
 
+## Start here
+
+- **New agent or contributor:** read [`HANDOFF.md`](HANDOFF.md). It has the full prompt for building
+  Shopify emails and Flows from the Figma design, then [`AGENTS.md`](AGENTS.md) for the rules and
+  current state.
+- **Shopify today:** PP-1 Order confirmation is live. CR-1 to CR-4 (abandoned checkout) are drafts
+  in an inactive Flow and match this repository.
+
 ## Email library
 
 | Database | What it holds |

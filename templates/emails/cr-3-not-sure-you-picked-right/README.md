@@ -12,7 +12,7 @@
 | Preview text | Tell me your situation and I'll tell you what I'd choose. |
 | Timing | Abandon + 48 h (wait 86 400 s after CR-2, no order since abandonment) |
 | Shopify status | draft |
-| Shopify matches this repo | **no — re-sync Shopify from the file below** |
+| Shopify matches this repo | yes |
 
 ## Sections (assembly order)
 
@@ -33,7 +33,7 @@
 
 ## Open blockers
 
-- Shopify draft still has the old 2px gaps; re-sync it from template.html.
+- Workflow inactive; email is a draft.
 
 ## Preview
 

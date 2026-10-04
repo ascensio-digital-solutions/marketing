@@ -8,10 +8,10 @@
   "preview_text": "Free shipping if it helps. Either way, this is the last one.",
   "timing": "Abandon + 96 h (wait 172 800 s after CR-3, no order since abandonment)",
   "shopify_status": "draft",
-  "shopify_matches_repo": false,
+  "shopify_matches_repo": true,
   "blockers": [
-    "Uses discount code FREESHIP (exists, active).",
-    "Shopify draft still has the old 2px gaps; re-sync it from template.html."
+    "Workflow inactive; email is a draft.",
+    "Uses discount code FREESHIP (exists, active). Subject was empty in Shopify until 2026-10-03; now set."
   ],
   "sections": [
     "00-email-head-fonts-styles",

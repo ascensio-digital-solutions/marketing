@@ -86,7 +86,7 @@ All previews are 1200px wide (600px email at 2×). Every card stacks flush with 
 
 | Preview | Section | Context | Used by | Status |
 |---|---|---|---|---|
-| <img src="12-cr-2-testimonial/preview.png" width="260" alt=""> | [CR-2 · Testimonial](12-cr-2-testimonial/)<br>`12-cr-2-testimonial` ⚠️ placeholder | any | [CR-2](../emails/cr-2-three-questions-answered/) | draft |
+| <img src="12-cr-2-testimonial/preview.png" width="260" alt=""> | [CR-2 · Testimonial](12-cr-2-testimonial/)<br>`12-cr-2-testimonial` | any | [CR-2](../emails/cr-2-three-questions-answered/) | draft |
 
 ## Checklist
 

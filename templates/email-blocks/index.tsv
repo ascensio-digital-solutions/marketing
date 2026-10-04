@@ -11,7 +11,7 @@ id	name	type	context	surfaces	status	placeholders	used_by	characters
 09-cr-2-three-questions-faq	CR-2 · Three questions (FAQ)	FAQ	any	messaging-code-your-own,messaging-section	draft	no	CR-2	3878
 10-cr-2-photo-caption	CR-2 · Photo + caption	Photo + caption	any	messaging-code-your-own,messaging-section	draft	no	CR-2	1272
 11-trust-strip	Trust strip	Trust strip	any	messaging-code-your-own,messaging-section	draft	no	CR-2,CR-3	1041
-12-cr-2-testimonial	CR-2 · Testimonial	Testimonial	any	messaging-code-your-own,messaging-section	draft	yes	CR-2	3105
+12-cr-2-testimonial	CR-2 · Testimonial	Testimonial	any	messaging-code-your-own,messaging-section	draft	no	CR-2	2468
 13-cr-2-sign-off-cta	CR-2 · Sign-off + CTA	Sign-off + CTA	abandoned-checkout	messaging-code-your-own,messaging-section	draft	no	CR-2	1462
 14-cr-3-preheader-bar	CR-3 · Preheader bar	Preheader bar	any	messaging-code-your-own,messaging-section	draft	no	CR-3	1404
 15-cr-3-intro	CR-3 · Intro	Text	any	messaging-code-your-own,messaging-section	draft	no	CR-3	1428

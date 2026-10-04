@@ -59,3 +59,22 @@ Read the rendered preview text for checking:
 
 Some Flow/Messaging clicks fire page copy handlers that overwrite the user's OS clipboard. Tell the
 user to check their clipboard before pasting.
+
+## Lessons from the 2026-10-03 re-sync (CR-2 to CR-4)
+
+- **Typing a whole Code your own email** works reliably in two `type` calls of ≈10–12 KB each,
+  split at a card boundary (`</td></tr></table>` line). Strip leading indentation first (the editor
+  adds none, and whitespace is irrelevant in this HTML). Verify each call's reported character count
+  against the expected length computed locally — an exact match on both halves is the check.
+- **Edit email** in the Flow side panel: the first click sometimes only scrolls the panel. Scroll the
+  panel to the top and click the button again; wait about 8 seconds for the editor to load.
+- **Exit**: find the "Exit" element with `find` and click its ref (coordinate clicks miss). The
+  "Leave email in draft state?" dialog's **Leave** button sits at about (519, 326) in an 800×599
+  frame; a `find` ref for it is reported off-screen, so click by coordinate.
+- **Subject / Preview text**: scroll the preview pane to the very top first. If it is scrolled,
+  a click at the Subject position lands on the preview instead and typing goes nowhere.
+- **Check the Subject on every email**: CR-4's was empty (the email showed as "Untitled Activity").
+- **Flow canvas**: never start a pan-drag on or near a step. A drag that starts on a step moves it
+  (the wiring stays, the position is saved, and undo does not revert it). Pan from empty canvas
+  far from any node, or use the zoom/fit buttons at bottom-left. If a step was moved, drag it back;
+  each drag moves it only about half the pointer distance at reduced zoom.

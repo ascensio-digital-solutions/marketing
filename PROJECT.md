@@ -1,5 +1,24 @@
 # Project status
 
+## 2026-10-03 (later) — Claude Code
+
+- Re-synced CR-2, CR-3 and CR-4 in Shopify Messaging from `template.html`: no gaps, 12px corners,
+  Outlook wrapper. The typed character counts matched the repository exactly.
+- CR-4's Subject was empty in Shopify; set it to "Last note about your cart".
+- CR-2 testimonial: the placeholder was replaced with a published Judge.me review (Scott S., Dura
+  Skin, word for word, chosen by Vincent) and the Dura Skin hairline photo
+  (`hsc-email-review-dura-skin-hairline.jpg` on Shopify Files). Judge.me marks all store reviews
+  as not from a verified buyer.
+- Accidentally dragged one Condition step on the Flow canvas; its position was restored and the
+  wiring never changed.
+- Local setup: `~/01_hair_solutions_co/marketing/email-marketing` is now a clean clone of this
+  repo. The old Resend/Customer.io worker moved to
+  `~/01_hair_solutions_co/marketing/resend-customerio-archive` (no remote).
+- Added `HANDOFF.md` (prompt for parallel agents) and updated AGENTS, README, CLAUDE and the skill's
+  editor notes.
+- Next: agents build the remaining journeys from Figma (see `HANDOFF.md`). The Flow stays inactive
+  until Vincent approves.
+
 ## 2026-10-03 — Claude Code
 
 Made this repository the only source of truth for email marketing and added the email library.

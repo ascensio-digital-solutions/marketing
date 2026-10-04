@@ -12,7 +12,7 @@
 | Preview text | Will it look real, will it hold, and what if it's wrong. |
 | Timing | Abandon + 24 h (wait 72 000 s after CR-1, no order since abandonment) |
 | Shopify status | draft |
-| Shopify matches this repo | **no — re-sync Shopify from the file below** |
+| Shopify matches this repo | yes |
 
 ## Sections (assembly order)
 
@@ -34,8 +34,8 @@
 
 ## Open blockers
 
-- Testimonial block still holds placeholder copy.
-- Shopify draft still has the old 2px gaps; re-sync it from template.html.
+- Workflow inactive; email is a draft.
+- Testimonial is a published Judge.me review (Scott S., Dura Skin) that Judge.me marks as not from a verified buyer; photo is a product hairline shot.
 
 ## Preview
 

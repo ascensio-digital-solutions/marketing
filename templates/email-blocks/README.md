@@ -4,7 +4,7 @@
 
 The sections database: every reusable block of a Shopify email, with its exact HTML and a preview. Each folder holds `section.html` (the code), `section.json` (its properties) and `preview.png`.
 
-Sortable table: [`index.tsv`](index.tsv). Templates that use these sections: [`../emails/`](../emails/).
+Sortable table: [`index.tsv`](index.tsv). Templates that use these sections: [`../emails/`](../emails/). The module bank (every favourite module in Bone, Ink and White) has its own gallery: [`BANK.md`](BANK.md).
 
 All previews are 1200px wide (600px email at 2×). Every card stacks flush with the next one (no gap), has 12px corners and no background behind it.
 

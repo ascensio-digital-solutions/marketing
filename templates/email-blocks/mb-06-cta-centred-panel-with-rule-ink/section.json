@@ -1,0 +1,28 @@
+{
+  "name": "CTA · Centred panel with rule · Ink",
+  "type": "CTA",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use. The real v6 coral panel is a fourth, coral-only surface; it is not part of the Bone / Ink / White bank.",
+  "bank": {
+    "category": "06 · CTAs & promotions",
+    "module": "CTA · Centred panel with rule",
+    "theme": "ink",
+    "figma_source": "CTA · CORAL ACCENT PANEL",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-15996",
+    "sample_copy": [
+      "Exclusive Member Offer",
+      "Sign up today and receive a complimentary botanical adhesive release elixir with your first order.",
+      "Claim Offer"
+    ],
+    "adaptations": [
+      "Figma drew a full coral surface; in v6 coral is a surface only for the ask panel (Action · Main ask on Coral), so the three themes use a short coral edge rule and the coral button",
+      "Sentence case title in the v6 title role, v6 primary pill button"
+    ]
+  }
+}

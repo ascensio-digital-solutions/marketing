@@ -1,0 +1,28 @@
+{
+  "name": "Utility · Sign-off · White",
+  "type": "Sign-off",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "08 · Utility",
+    "module": "Utility · Sign-off",
+    "theme": "white",
+    "figma_source": "Regard / sign-off",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=479-17081",
+    "sample_copy": [
+      "Warmly,",
+      "Hair Solutions Co.",
+      "A new look should still feel unmistakably like you."
+    ],
+    "adaptations": [
+      "Closing in the v6 body role, name in the v6 subtitle role, tagline in the v6 note role (serif italic)",
+      "Never a handwritten-signature image"
+    ]
+  }
+}

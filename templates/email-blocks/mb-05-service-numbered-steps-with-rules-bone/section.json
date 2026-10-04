@@ -1,0 +1,27 @@
+{
+  "name": "Service · Numbered steps with rules · Bone",
+  "type": "Service",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "05 · Services & proof",
+    "module": "Service · Numbered steps with rules",
+    "theme": "bone",
+    "figma_source": "SERVICE · BESPOKE PROCESS",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-15248",
+    "sample_copy": [
+      "01 Bespoke Fitting Consultation",
+      "02 Hand-Woven Fabrication"
+    ],
+    "adaptations": [
+      "Two numbered steps separated by a hairline; numbers in Inter Tight 800 on the v6 type scale",
+      "Step title in the v6 subtitle role, description in the v6 body role"
+    ]
+  }
+}

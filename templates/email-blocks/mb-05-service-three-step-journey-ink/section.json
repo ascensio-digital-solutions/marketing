@@ -1,0 +1,29 @@
+{
+  "name": "Service · Three-step journey · Ink",
+  "type": "Service",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "05 · Services & proof",
+    "module": "Service · Three-step journey",
+    "theme": "ink",
+    "figma_source": "SERVICE · THREE-STEP JOURNEY",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-15454",
+    "sample_copy": [
+      "01 · INTAKE Consultation",
+      "02 · ARTISAN Creation",
+      "03 · ATELIER Delivery"
+    ],
+    "adaptations": [
+      "Three steps with a mono step label, title and one line; stack on mobile",
+      "The connector lines between steps are dropped (they have no place when columns stack)",
+      "Step label in the v6 meta role, title in the v6 name role, description in the v6 small role"
+    ]
+  }
+}

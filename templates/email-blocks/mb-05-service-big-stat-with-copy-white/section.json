@@ -1,0 +1,28 @@
+{
+  "name": "Service · Big stat with copy · White",
+  "type": "Stats",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "05 · Services & proof",
+    "module": "Service · Big stat with copy",
+    "theme": "white",
+    "figma_source": "SERVICE · CUSTOMER SATISFACTION",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-15422",
+    "sample_copy": [
+      "98%",
+      "Verified Customer Satisfaction",
+      "Our clients report an immediate confidence uplift…"
+    ],
+    "adaptations": [
+      "One big numeral left, title and copy right; stacks on mobile",
+      "Numeral: Inter Tight 800 at 64px, suffix in the serif italic (coral on Ink only); title in the v6 subtitle role"
+    ]
+  }
+}

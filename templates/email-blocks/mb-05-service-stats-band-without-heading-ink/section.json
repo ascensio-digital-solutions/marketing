@@ -1,0 +1,29 @@
+{
+  "name": "Service · Stats band without heading · Ink",
+  "type": "Stats",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "05 · Services & proof",
+    "module": "Service · Stats band without heading",
+    "theme": "ink",
+    "figma_source": "SERVICE · STATS BAND LIGHT",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-15645",
+    "sample_copy": [
+      "10K+ Customers",
+      "97% Satisfaction",
+      "15+ Years",
+      "40+ Salons"
+    ],
+    "adaptations": [
+      "The same 2x2 stats grid as the heading version, with no eyebrow; two across on mobile",
+      "Numerals: Inter Tight 800 with a serif-italic suffix (coral on Ink only); labels in the v6 meta role"
+    ]
+  }
+}

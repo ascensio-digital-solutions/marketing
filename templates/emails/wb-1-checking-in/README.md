@@ -7,12 +7,12 @@
 | Code | WB-1 |
 | Journey | win-back |
 | Surface | Messaging · Code your own |
-| Where in Shopify | Flow › Win-back (WB series) › Send marketing email #1 (Messaging, Code your own) |
+| Where in Shopify | Flow › "WB win-back: 90 days without an order" (inactive draft) › Condition False branch › Send marketing email (Messaging, Code your own) |
 | Subject | `Checking in — Vincent here` |
 | Preview text | No offer attached. Just wondering how you got on. |
 | Timing | WB series starts after 90 days without any order (WB-1 is the first email). |
-| Shopify status | not-installed |
-| Shopify matches this repo | **no — re-sync Shopify from the file below** |
+| Shopify status | draft |
+| Shopify matches this repo | yes |
 
 ## Sections (assembly order)
 
@@ -32,6 +32,7 @@
 - Reply-only by design: no button. Replies go to the shop's sender address; confirm that inbox is monitored.
 - 'months ago' is computed from the customer's last order in 30-day months.
 - Design's 'View in browser' link is omitted: Shopify Messaging has no variable for it.
+- The workflow's 'no newer order' check (Get customer data, Advanced query on order_date, then a Condition) is untested: run it once on a test customer before anyone turns the workflow on. Also check that customer.last_order is available in a Flow email.
 
 ## Preview
 

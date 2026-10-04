@@ -4,17 +4,18 @@
   "journey": "win-back",
   "surface": "messaging-code-your-own",
   "context": "customer",
-  "shopify_location": "Flow › Win-back (WB series) › Send marketing email #1 (Messaging, Code your own)",
+  "shopify_location": "Flow › \"WB win-back: 90 days without an order\" (inactive draft) › Condition False branch › Send marketing email (Messaging, Code your own)",
   "subject": "Checking in — Vincent here",
   "preview_text": "No offer attached. Just wondering how you got on.",
   "timing": "WB series starts after 90 days without any order (WB-1 is the first email).",
-  "shopify_status": "not-installed",
-  "shopify_matches_repo": false,
+  "shopify_status": "draft",
+  "shopify_matches_repo": true,
   "blockers": [
     "Subject, preview text and sign-off come from the Notion emails master ('WB-1 · Checking In — Day 0'); the older Figma frame has the body copy only. Design is the older generation of the Figma file, restyled to v6.",
     "Reply-only by design: no button. Replies go to the shop's sender address; confirm that inbox is monitored.",
     "'months ago' is computed from the customer's last order in 30-day months.",
-    "Design's 'View in browser' link is omitted: Shopify Messaging has no variable for it."
+    "Design's 'View in browser' link is omitted: Shopify Messaging has no variable for it.",
+    "The workflow's 'no newer order' check (Get customer data, Advanced query on order_date, then a Condition) is untested: run it once on a test customer before anyone turns the workflow on. Also check that customer.last_order is available in a Flow email."
   ],
   "sections": [
     "00-email-head-fonts-styles",

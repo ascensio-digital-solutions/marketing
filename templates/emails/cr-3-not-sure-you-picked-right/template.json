@@ -1,0 +1,27 @@
+{
+  "code": "CR-3",
+  "name": "Not sure you picked the right one?",
+  "journey": "cart-recovery",
+  "surface": "messaging-code-your-own",
+  "shopify_location": "Flow › Recover abandoned checkout › Send marketing email #3 (Messaging, Code your own)",
+  "subject": "Not sure you picked the right one?",
+  "preview_text": "Tell me your situation and I'll tell you what I'd choose.",
+  "timing": "Abandon + 48 h (wait 86 400 s after CR-2, no order since abandonment)",
+  "shopify_status": "draft",
+  "shopify_matches_repo": false,
+  "blockers": [
+    "Shopify draft still has the old 2px gaps; re-sync it from template.html."
+  ],
+  "sections": [
+    "00-email-head-fonts-styles",
+    "14-cr-3-preheader-bar",
+    "02-logo-header",
+    "15-cr-3-intro",
+    "16-cr-3-reply-checklist",
+    "17-cr-3-sign-off-cta",
+    "18-cr-3-ink-note",
+    "19-cr-3-product-reminder",
+    "11-trust-strip",
+    "06-preferences-footer"
+  ]
+}

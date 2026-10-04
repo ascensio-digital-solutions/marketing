@@ -1,0 +1,13 @@
+{
+  "customer": {"first_name": "John"},
+  "unsubscribe_link": "<a href=\"#\">Unsubscribe</a>",
+  "open_tracking_block": "",
+  "abandoned_checkout": {
+    "url": "https://hairsolutions.co/checkouts/example/recover",
+    "remaining_products_count": 0,
+    "line_items": [
+      {"product_title": "Lace Pro", "variant_title": "Medium Brown / 8x10", "quantity": 1},
+      {"product_title": "Hair Sample/Template Shipment", "variant_title": "Default Title", "quantity": 1}
+    ]
+  }
+}

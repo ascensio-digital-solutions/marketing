@@ -1,0 +1,25 @@
+{
+  "code": "CR-1",
+  "name": "Your cart's still here",
+  "journey": "cart-recovery",
+  "surface": "messaging-sections",
+  "shopify_location": "Flow › Recover abandoned checkout › Send marketing email #1 (Messaging, Custom Liquid sections)",
+  "subject": "Your cart's still here",
+  "preview_text": "No pressure — just making sure nothing broke on our end.",
+  "timing": "Abandon + 4 h",
+  "shopify_status": "draft",
+  "shopify_matches_repo": true,
+  "blockers": [
+    "Workflow inactive and email in draft.",
+    "Shopify adds its own legal footer under sectioned emails."
+  ],
+  "sections": [
+    "00-email-head-fonts-styles",
+    "01-cr-1-preheader-bar",
+    "02-logo-header",
+    "03-cr-1-greeting",
+    "04-cart-contents",
+    "05-cr-1-sign-off-cta",
+    "06-preferences-footer"
+  ]
+}

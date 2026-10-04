@@ -1,0 +1,200 @@
+{%- comment -%}
+  PP-1 · Order Confirmation — Shopify > Settings > Notifications > Customer notifications > Order confirmation > Edit code
+  Subject line field:  Your order is confirmed{% if customer.first_name != blank %}, {{ customer.first_name }}{% endif %}.
+  Lead times below drive "Estimated dispatch", the delivery line and the copy branch.
+  Custom orders (any line whose product handle contains "custom") use the custom lead times; everything else ships from stock.
+{%- endcomment -%}
+{%- assign is_custom = false -%}
+{%- for li in line_items -%}{%- if li.product.handle contains 'custom' -%}{%- assign is_custom = true -%}{%- endif -%}{%- endfor -%}
+{%- if is_custom -%}
+{%- assign dispatch_days = 56 -%}
+{%- assign delivery_days = 63 -%}
+{%- else -%}
+{%- assign dispatch_days = 2 -%}
+{%- assign delivery_days = 7 -%}
+{%- endif -%}
+{%- assign fname = customer.first_name | default: billing_address.first_name -%}
+{%- assign placed_s = created_at | date: '%s' | plus: 0 -%}
+{%- assign dispatch_s = dispatch_days | times: 86400 | plus: placed_s -%}
+{%- assign delivery_s = delivery_days | times: 86400 | plus: placed_s -%}
+{%- assign summary_line = subtotal_line_items | first -%}
+{%- if summary_line == nil -%}{%- assign summary_line = line_items | first -%}{%- endif -%}
+{%- assign item_count = subtotal_line_items.size | default: line_items.size -%}
+{%- capture product_summary -%}{{ summary_line.product.title | default: summary_line.title }}{% if summary_line.quantity > 1 %} &times; {{ summary_line.quantity }}{% endif %}{% if item_count > 1 %} + {{ item_count | minus: 1 }} more{% endif %}{%- endcapture -%}
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="x-apple-disable-message-reformatting">
+<meta name="color-scheme" content="light">
+<meta name="supported-color-schemes" content="light">
+<title>Your order is confirmed</title>
+<!--[if mso]><noscript><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml></noscript><![endif]-->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Inter+Tight:wght@600;700;800&amp;family=JetBrains+Mono:wght@500;700&amp;family=Playfair+Display:ital,wght@1,400;1,500&amp;display=swap" rel="stylesheet">
+<style>
+  body { margin:0 !important; padding:0 !important; background-color:transparent; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+  table, td { mso-table-lspace:0pt; mso-table-rspace:0pt; }
+  img { -ms-interpolation-mode:bicubic; }
+  a { text-decoration-skip-ink:auto; }
+  .unsub a { color:#b8b3a4 !important; text-decoration:underline !important; }
+  @media only screen and (max-width:480px) {
+    .shell { width:100% !important; }
+    .pad { padding:32px 22px !important; }
+    .pad-sm { padding-left:16px !important; padding-right:16px !important; }
+    .hero-h { font-size:36px !important; line-height:37px !important; letter-spacing:-1.2px !important; }
+    .btn { width:100% !important; } .btn a { display:block !important; text-align:center !important; }
+    .stack { display:block !important; width:100% !important; padding:0 !important; }
+    .stack-gap { padding-top:20px !important; }
+    .fluid { width:100% !important; height:auto !important; }
+    .pad-copy { padding:0 4px !important; }
+  }
+</style>
+</head>
+<body style="margin:0;padding:0;background-color:transparent;">
+<div style="display:none;max-height:0;max-width:0;overflow:hidden;opacity:0;mso-hide:all;font-size:1px;line-height:1px;color:#ffffff;">Here's exactly what happens between now and the day it arrives.&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;</div>
+<!--[if mso]><table role="presentation" width="600" align="center" cellpadding="0" cellspacing="0" border="0"><tr><td><![endif]-->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"><tr><td align="center" style="padding:0;">
+<table role="presentation" class="shell" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;">
+<tr><td style="padding:0;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate;background-color:#ffffff;border:1px solid #ececec;border-radius:12px;">
+<tr><td class="pad-sm" style="padding:10px 24px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+<td style="font-family:'JetBrains Mono','Courier New',monospace;font-size:11px;line-height:17px;letter-spacing:0.8px;text-transform:uppercase;color:#5a5448;vertical-align:middle;">Here&rsquo;s exactly what happens between now and the day it arrives.</td>
+<td align="right" style="padding-left:16px;vertical-align:middle;white-space:nowrap;"><a href="{{ order_status_url }}" target="_blank" style="font-family:'JetBrains Mono','Courier New',monospace;font-size:11px;line-height:17px;letter-spacing:0.8px;text-transform:uppercase;color:#5a5448;text-decoration:underline;">View in browser</a></td>
+</tr></table></td></tr>
+</table>
+</td></tr>
+</table>
+</td></tr></table>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"><tr><td align="center" style="padding:0;">
+<table role="presentation" class="shell" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;">
+<tr><td style="padding:0;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate;background-color:#f7f1de;border:1px solid #e5dfcd;border-radius:12px;">
+<tr><td class="pad" style="padding:30px 40px;"><img src="https://cdn.shopify.com/s/files/1/0276/9115/5508/files/hsc-email-logo-ink.png" width="128" height="38" alt="Hair Solutions Co." style="display:block;margin:0 auto;border:0;width:128px;height:38px;"></td></tr>
+</table>
+</td></tr>
+</table>
+</td></tr></table>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"><tr><td align="center" style="padding:0;">
+<table role="presentation" class="shell" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;">
+<tr><td style="padding:0;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate;background-color:#15140f;border:1px solid #35332c;border-radius:12px;">
+<tr><td class="pad" style="padding:74px 32px 74px 32px;"><table role="presentation" align="center" cellpadding="0" cellspacing="0" border="0" style="margin:0 auto 10px auto;">
+<tr><td width="20" style="width:20px;vertical-align:middle;"><div style="height:2px;line-height:2px;font-size:0;background-color:#ff5757;">&nbsp;</div></td>
+<td style="padding-left:12px;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:12px;line-height:16px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#ff5757;white-space:nowrap;">Order confirmed</td></tr>
+</table>
+<h1 class="hero-h" style="margin:0;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:48px;line-height:50px;font-weight:800;letter-spacing:-1.8px;color:#f7f1de;text-align:center;">Your order is confirmed{% if fname != blank %},<br>{{ fname }}{% endif %}.</h1></td></tr>
+</table>
+</td></tr>
+</table>
+</td></tr></table>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"><tr><td align="center" style="padding:0;">
+<table role="presentation" class="shell" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;">
+<tr><td style="padding:0;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate;background-color:#ffffff;border:1px solid #ececec;border-radius:12px;">
+<tr><td class="pad" style="padding:38px 40px 40px 40px;"><p style="margin:0 0 16px 0;font-family:'Inter',Arial,Helvetica,sans-serif;font-size:16px;line-height:26px;font-weight:400;color:#15140f;text-align:left;">Hi {% if fname != blank %}{{ fname }}{% else %}there{% endif %},</p><p style="margin:0 0 16px 0;font-family:'Inter',Arial,Helvetica,sans-serif;font-size:16px;line-height:26px;font-weight:400;color:#15140f;text-align:left;">Your order is in. Thank you &mdash; genuinely.</p><p style="margin:0 0 0px 0;font-family:'Inter',Arial,Helvetica,sans-serif;font-size:16px;line-height:26px;font-weight:400;color:#15140f;text-align:left;">{% if is_custom %}Here&rsquo;s what happens now. Your system isn&rsquo;t sitting on a shelf waiting to be boxed; it gets made for you. That takes time, and I&rsquo;d rather tell you that up front than have you wondering where it is.{% else %}Here&rsquo;s what happens now. Your system is in stock, so it gets checked by hand and packed straight away &mdash; no long wait.{% endif %}</p></td></tr>
+</table>
+</td></tr>
+</table>
+</td></tr></table>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"><tr><td align="center" style="padding:0;">
+<table role="presentation" class="shell" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;">
+<tr><td style="padding:0;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate;background-color:#f7f1de;border:1px solid #e5dfcd;border-radius:12px;">
+<tr><td class="pad" style="padding:40px;"><table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 16px 0;">
+<tr><td width="20" style="width:20px;vertical-align:middle;"><div style="height:2px;line-height:2px;font-size:0;background-color:#ff5757;">&nbsp;</div></td>
+<td style="padding-left:12px;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:12px;line-height:16px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#15140f;white-space:nowrap;">Your order</td></tr>
+</table><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;border-bottom:1px solid #e5dfcd;"><tr>
+<td style="border-top:1px solid #e5dfcd;padding:12px 0;font-family:'JetBrains Mono','Courier New',monospace;font-size:11px;line-height:16px;letter-spacing:0.8px;text-transform:uppercase;color:#5a5448;vertical-align:middle;">Order number</td>
+<td align="right" style="border-top:1px solid #e5dfcd;padding:12px 0 12px 16px;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:15px;line-height:20px;font-weight:700;color:#15140f;text-align:right;vertical-align:middle;">{{ order_name }}</td>
+</tr><tr>
+<td style="border-top:1px solid #e5dfcd;padding:12px 0;font-family:'JetBrains Mono','Courier New',monospace;font-size:11px;line-height:16px;letter-spacing:0.8px;text-transform:uppercase;color:#5a5448;vertical-align:middle;">What you ordered</td>
+<td align="right" style="border-top:1px solid #e5dfcd;padding:12px 0 12px 16px;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:15px;line-height:20px;font-weight:700;color:#15140f;text-align:right;vertical-align:middle;">{{ product_summary }}</td>
+</tr><tr>
+<td style="border-top:1px solid #e5dfcd;padding:12px 0;font-family:'JetBrains Mono','Courier New',monospace;font-size:11px;line-height:16px;letter-spacing:0.8px;text-transform:uppercase;color:#5a5448;vertical-align:middle;">Estimated dispatch</td>
+<td align="right" style="border-top:1px solid #e5dfcd;padding:12px 0 12px 16px;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:15px;line-height:20px;font-weight:700;color:#15140f;text-align:right;vertical-align:middle;">{{ dispatch_s | date: '%B %-d, %Y' }}</td>
+</tr></table><p style="margin:0 0 0px 0;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:15px;line-height:20px;font-weight:600;color:#15140f;text-align:left;padding-top:16px;"><a href="{{ order_status_url }}" target="_blank" style="color:#15140f;text-decoration:underline;text-underline-offset:3px;">View your order &rarr;</a></p></td></tr>
+</table>
+</td></tr>
+</table>
+</td></tr></table>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"><tr><td align="center" style="padding:0;">
+<table role="presentation" class="shell" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;">
+<tr><td style="padding:0;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate;background-color:#15140f;border:1px solid #35332c;border-radius:12px;overflow:hidden;">
+<tr><td style="padding:0;font-size:0;line-height:0;"><img src="https://cdn.shopify.com/s/files/1/0276/9115/5508/files/hsc-email-workshop-hands.jpg" width="598" height="396" alt="Hands fitting a hair system by hand in the workshop" class="fluid" style="display:block;width:100%;max-width:598px;height:auto;border:0;border-radius:12px 12px 0 0;"></td></tr>
+<tr><td class="pad-sm" style="background-color:#15140f;padding:11px 24px;"><p style="margin:0 0 0px 0;font-family:'JetBrains Mono','Courier New',monospace;font-size:11px;line-height:16px;font-weight:500;letter-spacing:0.8px;text-transform:uppercase;color:#b8b3a4;text-align:left;">Every system is fitted and finished by hand before it ships.</p></td></tr>
+</table>
+</td></tr>
+</table>
+</td></tr></table>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"><tr><td align="center" style="padding:0;">
+<table role="presentation" class="shell" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;">
+<tr><td style="padding:0;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate;background-color:#ffffff;border:1px solid #ececec;border-radius:12px;">
+<tr><td class="pad" style="padding:40px;"><table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 16px 0;">
+<tr><td width="20" style="width:20px;vertical-align:middle;"><div style="height:2px;line-height:2px;font-size:0;background-color:#ff5757;">&nbsp;</div></td>
+<td style="padding-left:12px;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:12px;line-height:16px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#15140f;white-space:nowrap;">What happens next</td></tr>
+</table><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;border-bottom:1px solid #ececec;">{% if is_custom %}<tr>
+<td width="48" valign="top" style="width:48px;border-top:1px solid #ececec;padding:12px 0;font-family:'JetBrains Mono','Courier New',monospace;font-size:11px;line-height:22px;color:#5a5448;vertical-align:top;">01</td>
+<td valign="top" style="border-top:1px solid #ececec;padding:11px 0 12px 0;vertical-align:top;"><p style="margin:0 0 0px 0;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:15px;line-height:22px;font-weight:700;color:#15140f;text-align:left;letter-spacing:-0.2px;">Production starts</p><p style="margin:0 0 0px 0;font-family:'Inter',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;font-weight:400;color:#5a5448;text-align:left;padding-top:4px;">The base is cut and the hair is hand-tied to your spec.</p></td></tr><tr>
+<td width="48" valign="top" style="width:48px;border-top:1px solid #ececec;padding:12px 0;font-family:'JetBrains Mono','Courier New',monospace;font-size:11px;line-height:22px;color:#5a5448;vertical-align:top;">02</td>
+<td valign="top" style="border-top:1px solid #ececec;padding:11px 0 12px 0;vertical-align:top;"><p style="margin:0 0 0px 0;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:15px;line-height:22px;font-weight:700;color:#15140f;text-align:left;letter-spacing:-0.2px;">I email you when it goes into production</p></td></tr><tr>
+<td width="48" valign="top" style="width:48px;border-top:1px solid #ececec;padding:12px 0;font-family:'JetBrains Mono','Courier New',monospace;font-size:11px;line-height:22px;color:#5a5448;vertical-align:top;">03</td>
+<td valign="top" style="border-top:1px solid #ececec;padding:11px 0 12px 0;vertical-align:top;"><p style="margin:0 0 0px 0;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:15px;line-height:22px;font-weight:700;color:#15140f;text-align:left;letter-spacing:-0.2px;">I email you when it ships, with tracking</p></td></tr><tr>
+<td width="48" valign="top" style="width:48px;border-top:1px solid #ececec;padding:12px 0;font-family:'JetBrains Mono','Courier New',monospace;font-size:11px;line-height:22px;color:#5a5448;vertical-align:top;">04</td>
+<td valign="top" style="border-top:1px solid #ececec;padding:11px 0 12px 0;vertical-align:top;"><p style="margin:0 0 0px 0;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:15px;line-height:22px;font-weight:700;color:#15140f;text-align:left;letter-spacing:-0.2px;">It should be at your door around {{ delivery_s | date: '%B %-d' }}</p></td></tr>{% else %}<tr>
+<td width="48" valign="top" style="width:48px;border-top:1px solid #ececec;padding:12px 0;font-family:'JetBrains Mono','Courier New',monospace;font-size:11px;line-height:22px;color:#5a5448;vertical-align:top;">01</td>
+<td valign="top" style="border-top:1px solid #ececec;padding:11px 0 12px 0;vertical-align:top;"><p style="margin:0 0 0px 0;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:15px;line-height:22px;font-weight:700;color:#15140f;text-align:left;letter-spacing:-0.2px;">We check and pack it</p><p style="margin:0 0 0px 0;font-family:'Inter',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;font-weight:400;color:#5a5448;text-align:left;padding-top:4px;">Your system is in stock, so it&rsquo;s inspected by hand and packed now.</p></td></tr><tr>
+<td width="48" valign="top" style="width:48px;border-top:1px solid #ececec;padding:12px 0;font-family:'JetBrains Mono','Courier New',monospace;font-size:11px;line-height:22px;color:#5a5448;vertical-align:top;">02</td>
+<td valign="top" style="border-top:1px solid #ececec;padding:11px 0 12px 0;vertical-align:top;"><p style="margin:0 0 0px 0;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:15px;line-height:22px;font-weight:700;color:#15140f;text-align:left;letter-spacing:-0.2px;">I email you when it ships, with tracking</p></td></tr><tr>
+<td width="48" valign="top" style="width:48px;border-top:1px solid #ececec;padding:12px 0;font-family:'JetBrains Mono','Courier New',monospace;font-size:11px;line-height:22px;color:#5a5448;vertical-align:top;">03</td>
+<td valign="top" style="border-top:1px solid #ececec;padding:11px 0 12px 0;vertical-align:top;"><p style="margin:0 0 0px 0;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:15px;line-height:22px;font-weight:700;color:#15140f;text-align:left;letter-spacing:-0.2px;">It should be at your door around {{ delivery_s | date: '%B %-d' }}</p></td></tr>{% endif %}</table><p style="margin:0 0 0px 0;font-family:'Inter',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;font-weight:400;color:#5a5448;text-align:left;padding-top:18px;">No filler emails in between &mdash; only the real steps.</p></td></tr>
+</table>
+</td></tr>
+</table>
+</td></tr></table>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"><tr><td align="center" style="padding:0;">
+<table role="presentation" class="shell" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;">
+<tr><td style="padding:0;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate;background-color:#f7f1de;border:1px solid #e5dfcd;border-radius:12px;">
+<tr><td class="pad" style="padding:38px 40px 40px 40px;"><p style="margin:0 0 24px 0;font-family:'Inter',Arial,Helvetica,sans-serif;font-size:16px;line-height:26px;font-weight:400;color:#15140f;text-align:left;">If anything about your order looks wrong, reply to this email today and I&rsquo;ll fix it before {% if is_custom %}production starts{% else %}it ships{% endif %}.</p><p style="margin:0 0 6px 0;font-family:'Playfair Display',Georgia,'Times New Roman',serif;font-size:24px;line-height:30px;font-weight:400;color:#15140f;text-align:left;font-style:italic;">Vincent</p><p style="margin:0 0 0px 0;font-family:'JetBrains Mono','Courier New',monospace;font-size:11px;line-height:16px;font-weight:500;letter-spacing:0.8px;text-transform:uppercase;color:#5a5448;text-align:left;">Founder, Hair Solutions Co.</p></td></tr>
+</table>
+</td></tr>
+</table>
+</td></tr></table>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"><tr><td align="center" style="padding:0;">
+<table role="presentation" class="shell" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;">
+<tr><td style="padding:0;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate;background-color:#ffffff;border:1px solid #ececec;border-radius:12px;">
+<tr><td class="pad" style="padding:54px 40px 40px 40px;"><table role="presentation" class="btn" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate;margin:0;">
+<tr><td style="border-radius:999px;background-color:#ff5757;">
+<a href="{{ order_status_url }}" target="_blank" style="display:inline-block;padding:0 34px;line-height:58px;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:15px;font-weight:600;letter-spacing:0.3px;color:#15140f;text-decoration:none;border-radius:999px;white-space:nowrap;">View your order<span style="padding-left:12px;font-family:'Inter',Arial,Helvetica,sans-serif;font-size:16px;">&rarr;</span></a>
+</td></tr></table><p style="margin:0 0 0px 0;font-family:'Inter',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;font-weight:400;color:#5a5448;text-align:left;padding-top:24px;">Questions about your order? Reply to this email &mdash; it comes straight to me.</p></td></tr>
+</table>
+</td></tr>
+</table>
+</td></tr></table>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"><tr><td align="center" style="padding:0;">
+<table role="presentation" class="shell" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;">
+<tr><td style="padding:0;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate;background-color:#15140f;border:1px solid #35332c;border-radius:12px;">
+<tr><td class="pad-sm" style="padding:36px 24px 36px 24px;"><img src="https://cdn.shopify.com/s/files/1/0276/9115/5508/files/hsc-email-logo-bone.png" width="114" height="34" alt="Hair Solutions Co." style="display:block;margin:0 auto 10px auto;border:0;width:114px;height:34px;">
+<p style="margin:0 0 10px 0;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:20px;line-height:28px;font-weight:700;color:#f7f1de;text-align:center;letter-spacing:-0.3px;">Your preferences</p>
+<p class="pad-copy" style="margin:0 0 20px 0;font-family:'Inter',Arial,Helvetica,sans-serif;font-size:13px;line-height:21px;font-weight:400;color:#b8b3a4;text-align:center;padding:0 70px;">You can hear from us less often, or not at all. Either is completely fine and it will not affect your order or your support.</p>
+<table role="presentation" align="center" class="btn" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate;margin:0 auto;">
+<tr><td style="border-radius:999px;background-color:#15140f;">
+<a href="https://hairsolutions.co/pages/edit-notifications" target="_blank" style="display:inline-block;border:1px solid #f7f1de;padding:0 34px;line-height:42px;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:14px;font-weight:600;letter-spacing:0.3px;color:#f7f1de;text-decoration:none;border-radius:999px;white-space:nowrap;">Send me less often<span style="padding-left:12px;font-family:'Inter',Arial,Helvetica,sans-serif;font-size:16px;">&rarr;</span></a>
+</td></tr></table>
+<p style="margin:0 0 16px 0;font-family:'Inter',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;font-weight:400;color:#b8b3a4;text-align:center;padding-top:12px;"><a href="https://hairsolutions.co/pages/edit-notifications" target="_blank" style="color:#b8b3a4;text-decoration:underline;">Update my preferences</a> &middot; <a href="https://hairsolutions.co/pages/edit-notifications" target="_blank" style="color:#b8b3a4;text-decoration:underline;">Unsubscribe entirely</a></p>
+<p style="margin:0 0 12px 0;font-family:'JetBrains Mono','Courier New',monospace;font-size:11px;line-height:17px;font-weight:500;letter-spacing:0.8px;text-transform:uppercase;color:#b8b3a4;text-align:center;padding:0 24px;">Hair Solutions Co. &middot; Ehitajate tee 110, Tallinn, Harjumaa 13517, Estonia</p>
+<p style="margin:0 0 0px 0;font-family:'Inter',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;font-weight:400;color:#b8b3a4;text-align:center;"><a href="https://hairsolutions.co/pages/edit-notifications" target="_blank" style="color:#b8b3a4;text-decoration:underline;">Manage preferences</a> &middot; <a href="https://hairsolutions.co/policies/privacy-policy" target="_blank" style="color:#b8b3a4;text-decoration:underline;">Privacy</a></p></td></tr>
+</table>
+</td></tr>
+</table>
+</td></tr></table>
+<!--[if mso]></td></tr></table><![endif]-->
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "PP-1 · Photo + caption",
+  "type": "Photo + caption",
+  "context": "any",
+  "surfaces": [
+    "notification"
+  ],
+  "liquid_variables": [],
+  "placeholders": false,
+  "notes": ""
+}

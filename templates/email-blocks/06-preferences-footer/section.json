@@ -1,0 +1,14 @@
+{
+  "name": "Preferences footer",
+  "type": "Preferences footer",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [
+    "unsubscribe_link"
+  ],
+  "placeholders": false,
+  "notes": ""
+}

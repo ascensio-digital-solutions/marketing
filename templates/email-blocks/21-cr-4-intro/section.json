@@ -1,0 +1,14 @@
+{
+  "name": "CR-4 · Intro",
+  "type": "Text",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [
+    "customer.first_name"
+  ],
+  "placeholders": false,
+  "notes": ""
+}

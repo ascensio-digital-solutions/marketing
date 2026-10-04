@@ -1,0 +1,13 @@
+{
+  "name": "PP-1 · Hero",
+  "type": "Hero",
+  "context": "order",
+  "surfaces": [
+    "notification"
+  ],
+  "liquid_variables": [
+    "fname"
+  ],
+  "placeholders": false,
+  "notes": ""
+}

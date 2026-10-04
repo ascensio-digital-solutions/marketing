@@ -1,0 +1,13 @@
+{
+  "name": "Email head (fonts + styles)",
+  "type": "Email head",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section",
+    "notification"
+  ],
+  "liquid_variables": [],
+  "placeholders": false,
+  "notes": "Put once at the very top of every email: first Custom Liquid section, or inside <head> for full documents."
+}

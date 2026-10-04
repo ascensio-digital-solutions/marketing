@@ -1,0 +1,13 @@
+{
+  "name": "Logo header",
+  "type": "Logo header",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section",
+    "notification"
+  ],
+  "liquid_variables": [],
+  "placeholders": false,
+  "notes": ""
+}

@@ -1,0 +1,23 @@
+{%- comment -%}
+  PP-1 · Order Confirmation — Shopify > Settings > Notifications > Customer notifications > Order confirmation > Edit code
+  Subject line field:  Your order is confirmed{% if customer.first_name != blank %}, {{ customer.first_name }}{% endif %}.
+  Lead times below drive "Estimated dispatch", the delivery line and the copy branch.
+  Custom orders (any line whose product handle contains "custom") use the custom lead times; everything else ships from stock.
+{%- endcomment -%}
+{%- assign is_custom = false -%}
+{%- for li in line_items -%}{%- if li.product.handle contains 'custom' -%}{%- assign is_custom = true -%}{%- endif -%}{%- endfor -%}
+{%- if is_custom -%}
+{%- assign dispatch_days = 56 -%}
+{%- assign delivery_days = 63 -%}
+{%- else -%}
+{%- assign dispatch_days = 2 -%}
+{%- assign delivery_days = 7 -%}
+{%- endif -%}
+{%- assign fname = customer.first_name | default: billing_address.first_name -%}
+{%- assign placed_s = created_at | date: '%s' | plus: 0 -%}
+{%- assign dispatch_s = dispatch_days | times: 86400 | plus: placed_s -%}
+{%- assign delivery_s = delivery_days | times: 86400 | plus: placed_s -%}
+{%- assign summary_line = subtotal_line_items | first -%}
+{%- if summary_line == nil -%}{%- assign summary_line = line_items | first -%}{%- endif -%}
+{%- assign item_count = subtotal_line_items.size | default: line_items.size -%}
+{%- capture product_summary -%}{{ summary_line.product.title | default: summary_line.title }}{% if summary_line.quantity > 1 %} &times; {{ summary_line.quantity }}{% endif %}{% if item_count > 1 %} + {{ item_count | minus: 1 }} more{% endif %}{%- endcapture -%}

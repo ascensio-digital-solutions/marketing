@@ -1,0 +1,35 @@
+id	name	type	context	surfaces	status	placeholders	used_by	characters
+00-email-head-fonts-styles	Email head (fonts + styles)	Email head	any	messaging-code-your-own,messaging-section,notification	live	no	CR-1,CR-2,CR-3,CR-4,PP-1	1276
+01-cr-1-preheader-bar	CR-1 · Preheader bar	Preheader bar	abandoned-checkout	messaging-code-your-own,messaging-section	draft	no	CR-1	1316
+02-logo-header	Logo header	Logo header	any	messaging-code-your-own,messaging-section,notification	live	no	CR-1,CR-2,CR-3,CR-4,PP-1	827
+03-cr-1-greeting	CR-1 · Greeting	Text	any	messaging-code-your-own,messaging-section	draft	no	CR-1	1182
+04-cart-contents	Cart contents	Cart contents	abandoned-checkout	messaging-code-your-own,messaging-section	draft	no	CR-1,CR-2,CR-4	3619
+05-cr-1-sign-off-cta	CR-1 · Sign-off + CTA	Sign-off + CTA	abandoned-checkout	messaging-code-your-own,messaging-section	draft	no	CR-1	1951
+06-preferences-footer	Preferences footer	Preferences footer	any	messaging-code-your-own,messaging-section	draft	no	CR-1,CR-2,CR-3,CR-4	3225
+07-cr-2-preheader-bar	CR-2 · Preheader bar	Preheader bar	abandoned-checkout	messaging-code-your-own,messaging-section	draft	no	CR-2	1316
+08-cr-2-intro	CR-2 · Intro	Text	any	messaging-code-your-own,messaging-section	draft	no	CR-2	1098
+09-cr-2-three-questions-faq	CR-2 · Three questions (FAQ)	FAQ	any	messaging-code-your-own,messaging-section	draft	no	CR-2	3878
+10-cr-2-photo-caption	CR-2 · Photo + caption	Photo + caption	any	messaging-code-your-own,messaging-section	draft	no	CR-2	1272
+11-trust-strip	Trust strip	Trust strip	any	messaging-code-your-own,messaging-section	draft	no	CR-2,CR-3	1041
+12-cr-2-testimonial	CR-2 · Testimonial	Testimonial	any	messaging-code-your-own,messaging-section	draft	yes	CR-2	3105
+13-cr-2-sign-off-cta	CR-2 · Sign-off + CTA	Sign-off + CTA	abandoned-checkout	messaging-code-your-own,messaging-section	draft	no	CR-2	1462
+14-cr-3-preheader-bar	CR-3 · Preheader bar	Preheader bar	any	messaging-code-your-own,messaging-section	draft	no	CR-3	1404
+15-cr-3-intro	CR-3 · Intro	Text	any	messaging-code-your-own,messaging-section	draft	no	CR-3	1428
+16-cr-3-reply-checklist	CR-3 · Reply checklist	Checklist	any	messaging-code-your-own,messaging-section	draft	no	CR-3	2241
+17-cr-3-sign-off-cta	CR-3 · Sign-off + CTA	Sign-off + CTA	any	messaging-code-your-own,messaging-section	draft	no	CR-3	2139
+18-cr-3-ink-note	CR-3 · Ink note	Ink note	any	messaging-code-your-own,messaging-section	draft	no	CR-3	1166
+19-cr-3-product-reminder	CR-3 · Product reminder	Product reminder	abandoned-checkout	messaging-code-your-own,messaging-section	draft	no	CR-3	1680
+20-cr-4-preheader-bar	CR-4 · Preheader bar	Preheader bar	abandoned-checkout	messaging-code-your-own,messaging-section	draft	no	CR-4	1470
+21-cr-4-intro	CR-4 · Intro	Text	any	messaging-code-your-own,messaging-section	draft	no	CR-4	1058
+22-cr-4-discount-code	CR-4 · Discount code	Discount code	any	messaging-code-your-own,messaging-section	draft	no	CR-4	1190
+23-cr-4-sign-off-cta	CR-4 · Sign-off + CTA	Sign-off + CTA	abandoned-checkout	messaging-code-your-own,messaging-section	draft	no	CR-4	2186
+24-pp-1-liquid-header-order-variables-lead-times	PP-1 Liquid header (order variables + lead times)	Liquid header	order	notification	live	no	PP-1	1623
+25-pp-1-preheader-bar	PP-1 · Preheader bar	Preheader bar	order	notification	live	no	PP-1	1318
+26-pp-1-hero	PP-1 · Hero	Hero	order	notification	live	no	PP-1	1420
+27-pp-1-intro	PP-1 · Intro	Text	order	notification	live	no	PP-1	1597
+28-pp-1-order-summary	PP-1 · Order summary	Order summary	order	notification	live	no	PP-1	3158
+29-pp-1-photo-caption	PP-1 · Photo + caption	Photo + caption	any	notification	live	no	PP-1	1288
+30-pp-1-timeline	PP-1 · Timeline	Timeline	order	notification	live	no	PP-1	5910
+31-pp-1-signature	PP-1 · Signature	Signature	order	notification	live	no	PP-1	1386
+32-pp-1-cta	PP-1 · CTA	CTA	order	notification	live	no	PP-1	1509
+33-pp-1-preferences-footer	PP-1 · Preferences footer	Preferences footer	any	notification	live	no	PP-1	3325

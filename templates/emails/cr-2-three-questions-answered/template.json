@@ -1,0 +1,29 @@
+{
+  "code": "CR-2",
+  "name": "The three things people ask before ordering",
+  "journey": "cart-recovery",
+  "surface": "messaging-code-your-own",
+  "shopify_location": "Flow › Recover abandoned checkout › Send marketing email #2 (Messaging, Code your own)",
+  "subject": "The three things people ask before ordering",
+  "preview_text": "Will it look real, will it hold, and what if it's wrong.",
+  "timing": "Abandon + 24 h (wait 72 000 s after CR-1, no order since abandonment)",
+  "shopify_status": "draft",
+  "shopify_matches_repo": false,
+  "blockers": [
+    "Testimonial block still holds placeholder copy.",
+    "Shopify draft still has the old 2px gaps; re-sync it from template.html."
+  ],
+  "sections": [
+    "00-email-head-fonts-styles",
+    "07-cr-2-preheader-bar",
+    "02-logo-header",
+    "08-cr-2-intro",
+    "09-cr-2-three-questions-faq",
+    "10-cr-2-photo-caption",
+    "04-cart-contents",
+    "11-trust-strip",
+    "12-cr-2-testimonial",
+    "13-cr-2-sign-off-cta",
+    "06-preferences-footer"
+  ]
+}

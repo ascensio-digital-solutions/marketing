@@ -1,0 +1,12 @@
+{
+  "name": "CR-4 · Discount code",
+  "type": "Discount code",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": false,
+  "notes": ""
+}

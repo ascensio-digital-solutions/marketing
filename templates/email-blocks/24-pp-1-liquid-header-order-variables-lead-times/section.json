@@ -1,0 +1,20 @@
+{
+  "name": "PP-1 Liquid header (order variables + lead times)",
+  "type": "Liquid header",
+  "context": "order",
+  "surfaces": [
+    "notification"
+  ],
+  "liquid_variables": [
+    "customer.first_name",
+    "is_custom",
+    "item_count",
+    "li.product.handle",
+    "line_items",
+    "summary_line",
+    "summary_line.product.title",
+    "summary_line.quantity"
+  ],
+  "placeholders": false,
+  "notes": "Must sit above <!DOCTYPE> in the PP-1 notification; the PP-1 blocks read its variables."
+}

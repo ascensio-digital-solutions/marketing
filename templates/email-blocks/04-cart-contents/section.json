@@ -1,0 +1,19 @@
+{
+  "name": "Cart contents",
+  "type": "Cart contents",
+  "context": "abandoned-checkout",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [
+    "abandoned_checkout.line_items",
+    "abandoned_checkout.remaining_products_count",
+    "forloop.first",
+    "line_item.product_title",
+    "line_item.quantity",
+    "line_item.variant_title"
+  ],
+  "placeholders": false,
+  "notes": ""
+}

@@ -1,0 +1,17 @@
+{
+  "name": "CR-2 · Testimonial",
+  "type": "Testimonial",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [
+    "proof_meta",
+    "proof_name",
+    "proof_portrait",
+    "proof_quote"
+  ],
+  "placeholders": true,
+  "notes": "Contains placeholder testimonial copy ([Proof Bank ...]). Replace with an approved quote before sending."
+}

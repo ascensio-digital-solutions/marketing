@@ -1,0 +1,14 @@
+{
+  "name": "CR-2 · Sign-off + CTA",
+  "type": "Sign-off + CTA",
+  "context": "abandoned-checkout",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [
+    "abandoned_checkout.url"
+  ],
+  "placeholders": false,
+  "notes": ""
+}

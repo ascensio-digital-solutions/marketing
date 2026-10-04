@@ -1,0 +1,16 @@
+{
+  "name": "PP-1 · Order summary",
+  "type": "Order summary",
+  "context": "order",
+  "surfaces": [
+    "notification"
+  ],
+  "liquid_variables": [
+    "dispatch_s",
+    "order_name",
+    "order_status_url",
+    "product_summary"
+  ],
+  "placeholders": false,
+  "notes": ""
+}

@@ -1,0 +1,13 @@
+{
+  "name": "PP-1 · Preheader bar",
+  "type": "Preheader bar",
+  "context": "order",
+  "surfaces": [
+    "notification"
+  ],
+  "liquid_variables": [
+    "order_status_url"
+  ],
+  "placeholders": false,
+  "notes": ""
+}

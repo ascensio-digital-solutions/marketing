@@ -1,0 +1,14 @@
+{
+  "name": "PP-1 · Intro",
+  "type": "Text",
+  "context": "order",
+  "surfaces": [
+    "notification"
+  ],
+  "liquid_variables": [
+    "fname",
+    "is_custom"
+  ],
+  "placeholders": false,
+  "notes": ""
+}

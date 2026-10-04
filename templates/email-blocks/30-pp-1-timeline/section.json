@@ -1,0 +1,14 @@
+{
+  "name": "PP-1 · Timeline",
+  "type": "Timeline",
+  "context": "order",
+  "surfaces": [
+    "notification"
+  ],
+  "liquid_variables": [
+    "delivery_s",
+    "is_custom"
+  ],
+  "placeholders": false,
+  "notes": ""
+}

@@ -31,6 +31,14 @@ components that are not there.
 - Skill: `.claude/skills/shopify-email-html/SKILL.md` — read it before building or installing any
   Shopify email.
 
+**Build rule (Vincent, 2026-10-04):** every email template, whether new or rebuilt from earlier
+sections, is built in the Shopify Messaging email editor by creating and assembling HTML sections one
+at a time (Add section → Custom → Custom Liquid; each one becomes a reusable section in Shopify).
+Use recipe surface `messaging-sections`. Do **not** build new emails as one "Code your own" document
+unless Vincent asks. Emails already installed as Code your own (CR-2 to CR-4, NL-01, WB-1) predate
+this rule; rebuild them as sections only when Vincent asks. A Flow step's email cannot change type,
+so a step that holds a Code your own draft needs a new Send step (ask before deleting the old one).
+
 Design rules every email must follow (enforced by the build):
 
 1. Rounded corners on every component: cards 12px, insets 8px, buttons and pills 999px.
@@ -61,7 +69,8 @@ Design rules every email must follow (enforced by the build):
 | NL-01 Education | Messaging campaign · Code your own | Draft (no segment, not scheduled) |
 | WB-1 | Flow workflow "WB win-back" · Code your own | Draft, matches repo; workflow **inactive**, check step untested |
 | "RO reorder" Flow | Flow workflow | **Inactive**, no email step (RO-1 has no design) |
-| W-1, WB-2, RO-3 | Messaging · Code your own | In the library, not installed in Shopify (see their `blockers`) |
+| W-1 | Flow workflows "Welcome email on email marketing subscribe" and "…on first order" · Custom Liquid sections | Draft in the subscribe workflow (sections); first-order workflow still holds a Code your own draft; both workflows **inactive** |
+| WB-2, RO-3 | Messaging | In the library, not installed in Shopify; recipes still say `messaging-code-your-own`: switch to `messaging-sections` before installing |
 | C-0 Consultation recap | Messaging · Code your own | In the library only; not to be created in Shopify |
 
 Each `templates/emails/*/template.json` holds the authoritative per-email state.

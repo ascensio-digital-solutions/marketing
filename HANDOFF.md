@@ -88,7 +88,8 @@ These are enforced by `lint_email.py` and by the GitHub check.
 
 - **Store:** `admin.shopify.com/store/oneheadhair`.
 - **Marketing emails:** each email is a "Send marketing email" step inside a Shopify **Flow**
-  workflow, built as **Code your own** unless Vincent asks for sections.
+  workflow, built from **Custom Liquid sections** assembled one at a time in the Messaging editor
+  (Vincent's rule, 2026-10-04; not Code your own unless he asks).
   - Create your own workflow; do not edit "Recover abandoned checkout" (CR-1 to CR-4), which is done.
   - Type the generated `template.html` with the `type` action in two halves of about 10–12 KB.
     Check that each reported character count matches what you computed locally.

@@ -48,9 +48,11 @@ Full details: `references/html-contract.md`.
      editor; Shopify keeps its own header (hideable) and legal footer (not removable).
    - **Messaging "Code your own"** — marketing email as one full HTML document; no sections,
      no Shopify footer, must contain `{{ unsubscribe_link }}` and `{{ open_tracking_block }}`.
-4. If the user wants modules they can rearrange in the editor, choose sections. If they want the
-   design exactly as built with no Shopify footer, choose Code your own. Ask when unclear — the
-   choice is fixed once the email exists (see Error Handling).
+4. **House rule (Vincent, 2026-10-04): build every marketing email from Messaging Custom Liquid
+   sections**, created and assembled one at a time in the Shopify email editor (each becomes a
+   reusable section), with recipe surface `messaging-sections`. Choose Code your own only when
+   Vincent asks for it. The choice is fixed once the email exists (see Error Handling): a Flow
+   step that already holds a Code your own draft needs a new Send step.
 5. Approval gates — stop and ask in chat before:
    - saving a notification template (live immediately);
    - turning on any Flow workflow or Messaging automation, or clicking "Turn on" on an email;

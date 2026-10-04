@@ -6,13 +6,13 @@
 |---|---|
 | Code | W-1 |
 | Journey | welcome |
-| Surface | Messaging · Code your own |
-| Where in Shopify | Not installed yet. Planned: Flow › Welcome series › Send marketing email #1 (Messaging, Code your own) |
+| Surface | Messaging · Custom Liquid sections |
+| Where in Shopify | Flow › "Welcome email on email marketing subscribe" (inactive draft) › Send marketing email (Messaging, Custom Liquid sections, 8 sections). "Welcome email on first order" still holds an earlier Code your own draft of W-1. |
 | Subject | `You’re in. Here’s what to expect.` |
 | Preview text | What you’ll get, what you’ll never get, and how often. |
-| Timing | Immediately after a customer subscribes to email marketing |
-| Shopify status | not-installed |
-| Shopify matches this repo | **no — re-sync Shopify from the file below** |
+| Timing | Immediately after a customer subscribes to email marketing or places their first order, whichever comes first (two workflows share a welcome-email-sent customer tag) |
+| Shopify status | draft |
+| Shopify matches this repo | yes |
 
 ## Sections (assembly order)
 
@@ -28,7 +28,16 @@
 
 ## Code to install
 
-- [`template.html`](template.html)
+One Shopify Messaging **Custom Liquid** section per file, in this order:
+
+- [`custom-liquid/01.html`](custom-liquid/01.html)
+- [`custom-liquid/02.html`](custom-liquid/02.html)
+- [`custom-liquid/03.html`](custom-liquid/03.html)
+- [`custom-liquid/04.html`](custom-liquid/04.html)
+- [`custom-liquid/05.html`](custom-liquid/05.html)
+- [`custom-liquid/06.html`](custom-liquid/06.html)
+- [`custom-liquid/07.html`](custom-liquid/07.html)
+- [`custom-liquid/08.html`](custom-liquid/08.html)
 
 ## Open blockers
 
@@ -36,6 +45,9 @@
 - Hero image is a crop of the Figma capture; the original file is not available.
 - Design's 'View in browser' link is omitted: Shopify Messaging has no variable for it.
 - Masthead [ISSUE DATE] is a Liquid date at send time; confirm that is wanted for a welcome email.
+- The 'Welcome email on first order' workflow's Send step holds a Code your own draft; it needs a new sections-based Send step (deleting the old step needs Vincent's approval).
+- Both welcome workflows were drafted by Shopify Sidekick: they add the customer tag welcome-email-sent, and the tag check uses 'Tags is equal to'. Review before activation; first-order buyers who never opted in to email marketing are skipped by Messaging.
+- Sections email shows Shopify's own legal footer under the library footer (as CR-1 does); the Header section is hidden and Content background is transparent.
 
 ## Preview
 

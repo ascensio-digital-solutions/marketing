@@ -122,7 +122,7 @@ All previews are 1200px wide (600px email at 2×). Every card stacks flush with 
 | Preview | Section | Context | Used by | Status |
 |---|---|---|---|---|
 | <img src="16-cr-3-reply-checklist/preview.png" width="260" alt=""> | [CR-3 · Reply checklist](16-cr-3-reply-checklist/)<br>`16-cr-3-reply-checklist` | any | [CR-3](../emails/cr-3-not-sure-you-picked-right/) | draft |
-| — (no visual output) | [W-1 · What you'll get / never get](w-1-get-never-get/)<br>`w-1-get-never-get` | any | [W-1](../emails/w-1-welcome/) | draft |
+| <img src="w-1-get-never-get/preview.png" width="260" alt=""> | [W-1 · What you'll get / never get](w-1-get-never-get/)<br>`w-1-get-never-get` | any | [W-1](../emails/w-1-welcome/) | draft |
 
 ## Ink note
 

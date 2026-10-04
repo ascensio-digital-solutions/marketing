@@ -1,0 +1,25 @@
+{
+  "name": "Content · Greeting line · Bone",
+  "type": "Content",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "03 · Titles & editorial",
+    "module": "Content · Greeting line",
+    "theme": "bone",
+    "figma_source": "Founder note",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-19582",
+    "sample_copy": [
+      "Hi {{ firstname }},"
+    ],
+    "adaptations": [
+      "A single greeting line in the v6 title role; the first name is a slot (wire it to the customer first-name variable in the template)"
+    ]
+  }
+}

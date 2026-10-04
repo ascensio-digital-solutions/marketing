@@ -1,0 +1,26 @@
+{
+  "name": "Title · Simple centred heading · White",
+  "type": "Title",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "03 · Titles & editorial",
+    "module": "Title · Simple centred heading",
+    "theme": "white",
+    "figma_source": "Title · Simple centered heading",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-12287",
+    "sample_copy": [
+      "Artisan ventilation technique",
+      "Every single strand of our virgin human hair is hand-tied."
+    ],
+    "adaptations": [
+      "Title in the v6 title role, body role below, centred; no eyebrow and no rule"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Title · Eyebrow, headline and lead, centred · Bone",
+  "type": "Title",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "03 · Titles & editorial",
+    "module": "Title · Eyebrow, headline and lead, centred",
+    "theme": "bone",
+    "figma_source": "Title",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=479-16888",
+    "sample_copy": [
+      "Change with intention",
+      "Small adjustments can create a completely different result",
+      "A subtle shift in density, wave pattern, hair length, or colour."
+    ],
+    "adaptations": [
+      "Headline in the v6 headline role (48/50, sentence case) with the lead role below; the eyebrow is centred over the centred headline (Figma left-aligned it)"
+    ]
+  }
+}

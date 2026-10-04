@@ -1,0 +1,28 @@
+{
+  "name": "Title · Eyebrow, title and body, centred · White",
+  "type": "Title",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "03 · Titles & editorial",
+    "module": "Title · Eyebrow, title and body, centred",
+    "theme": "white",
+    "figma_source": "Title · Dark ink background theme",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-12324",
+    "sample_copy": [
+      "Exclusive access",
+      "The absolute standard",
+      "Your custom blueprint remains completely private on our servers."
+    ],
+    "adaptations": [
+      "Figma named it 'dark ink background' (only the Ink cell was dark): now a real Bone / Ink / White module",
+      "Eyebrow with the coral dash (label ink on light, coral on Ink), title in the v6 title role"
+    ]
+  }
+}

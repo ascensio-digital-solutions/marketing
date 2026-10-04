@@ -1,0 +1,26 @@
+{
+  "name": "Content · Title and body · Ink",
+  "type": "Content",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "03 · Titles & editorial",
+    "module": "Content · Title and body",
+    "theme": "ink",
+    "figma_source": "Content",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=479-16920",
+    "sample_copy": [
+      "Lace: lightweight and breathable",
+      "Lace systems are selected for their light feel, airflow, and a barely-there hairline."
+    ],
+    "adaptations": [
+      "Title in the v6 title role (28/31), body in the v6 body role, left-aligned"
+    ]
+  }
+}

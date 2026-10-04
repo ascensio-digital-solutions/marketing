@@ -1,0 +1,26 @@
+{
+  "name": "Title · Left-aligned with top rule · Bone",
+  "type": "Title",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "03 · Titles & editorial",
+    "module": "Title · Left-aligned with top rule",
+    "theme": "bone",
+    "figma_source": "Title · Left-aligned heading with rule",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-12382",
+    "sample_copy": [
+      "The Swiss lace difference",
+      "Experience unparalleled breathability and an invisible hairline."
+    ],
+    "adaptations": [
+      "The rule is a v6 hairline (the surface's rule colour), full content width, above a left-aligned title"
+    ]
+  }
+}

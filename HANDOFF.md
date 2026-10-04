@@ -88,7 +88,7 @@ These are enforced by `lint_email.py` and by the GitHub check.
 ### 4. How to build (in the repo)
 
 1. Work on your own branch: `git checkout -b <journey>-emails` (for example `welcome-emails`).
-2. New sections go in `templates/email-blocks/<id>/` with `section.html` and `section.json`.
+2. New sections go in `templates/email-blocks/<id>/` with `section.html` and `section.json`. Reach for the module bank first (`templates/email-blocks/BANK.md`, 282 sections in Bone, Ink and White; see `.claude/skills/shopify-email-html/references/module-bank.md`). Bank folders (`mb-*`) are generated: change `templates/module-bank/cat_*.py`, never the files.
    Name new folders `<code>-<slug>` (for example `w-1-hero`), not with a number prefix, so that
    parallel agents do not collide.
    - Reuse the shared sections: `00-email-head-fonts-styles`, `02-logo-header`,

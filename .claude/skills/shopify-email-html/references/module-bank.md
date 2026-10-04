@@ -45,11 +45,12 @@ Each section's `section.json` has a `bank.adaptations` list. The common ones:
 
 ## Generating and changing
 
-Bank sections are **generated**. Edit the module function in `templates/module-bank/build_bank.py`, then:
+Bank sections are **generated**. Edit the module function in `templates/module-bank/cat_NN.py` (one file per category; `build_bank.py` is the generator, `modules.tsv` the Figma index), then:
 
 ```bash
 python3 templates/module-bank/build_bank.py                 # write section.html + section.json
 python3 .claude/skills/shopify-email-html/scripts/build_library.py --screenshots <ids>   # READMEs, BANK.md, previews
+python3 templates/module-bank/mobile_preview.py OUT.png <ids>   # 375px render (iframe, so the email head's media queries fire)
 python3 templates/module-bank/build_bank.py --check         # stale files or orphans fail
 python3 .claude/skills/shopify-email-html/scripts/build_library.py --check
 python3 templates/module-bank/build_bank.py --status        # coverage per category

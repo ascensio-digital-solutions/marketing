@@ -17,6 +17,8 @@ jobs:
           python-version: "3.12"
       - name: Sections, recipes and generated files are valid and current
         run: python3 .claude/skills/shopify-email-html/scripts/build_library.py --check
+      - name: Module bank sections are generated and current
+        run: python3 templates/module-bank/build_bank.py --check
       - name: Install files pass the email linter
         run: |
           python3 .claude/skills/shopify-email-html/scripts/lint_email.py templates/emails/*/template.liquid.html --mode notification

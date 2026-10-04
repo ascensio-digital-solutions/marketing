@@ -1,10 +1,10 @@
 id	category	module	theme	type	characters
-mb-01-brand-logo-panel-bone	01 · Global chrome	Brand · Logo panel	bone	Logo	827
-mb-01-brand-logo-panel-ink	01 · Global chrome	Brand · Logo panel	ink	Logo	828
-mb-01-brand-logo-panel-white	01 · Global chrome	Brand · Logo panel	white	Logo	827
-mb-01-footer-brand-line-bone	01 · Global chrome	Footer · Brand line	bone	Footer	805
-mb-01-footer-brand-line-ink	01 · Global chrome	Footer · Brand line	ink	Footer	805
-mb-01-footer-brand-line-white	01 · Global chrome	Footer · Brand line	white	Footer	805
+mb-01-brand-logo-panel-bone	01 · Global chrome	Brand · Logo panel	bone	Logo	822
+mb-01-brand-logo-panel-ink	01 · Global chrome	Brand · Logo panel	ink	Logo	823
+mb-01-brand-logo-panel-white	01 · Global chrome	Brand · Logo panel	white	Logo	822
+mb-01-footer-brand-line-with-legal-bone	01 · Global chrome	Footer · Brand line with legal	bone	Footer	1247
+mb-01-footer-brand-line-with-legal-ink	01 · Global chrome	Footer · Brand line with legal	ink	Footer	1247
+mb-01-footer-brand-line-with-legal-white	01 · Global chrome	Footer · Brand line with legal	white	Footer	1247
 mb-01-footer-logo-links-and-legal-bone	01 · Global chrome	Footer · Logo, links and legal	bone	Footer	2877
 mb-01-footer-logo-links-and-legal-ink	01 · Global chrome	Footer · Logo, links and legal	ink	Footer	2878
 mb-01-footer-logo-links-and-legal-white	01 · Global chrome	Footer · Logo, links and legal	white	Footer	2877
@@ -83,18 +83,18 @@ mb-03-content-feature-story-card-white	03 · Titles & editorial	Content · Featu
 mb-03-content-founder-note-with-portrait-bone	03 · Titles & editorial	Content · Founder note with portrait	bone	Content	2003
 mb-03-content-founder-note-with-portrait-ink	03 · Titles & editorial	Content · Founder note with portrait	ink	Content	2003
 mb-03-content-founder-note-with-portrait-white	03 · Titles & editorial	Content · Founder note with portrait	white	Content	2003
+mb-03-content-founder-note-with-signature-bone	03 · Titles & editorial	Content · Founder note with signature	bone	Content	1446
+mb-03-content-founder-note-with-signature-ink	03 · Titles & editorial	Content · Founder note with signature	ink	Content	1446
+mb-03-content-founder-note-with-signature-white	03 · Titles & editorial	Content · Founder note with signature	white	Content	1446
 mb-03-content-founder-quote-bone	03 · Titles & editorial	Content · Founder quote	bone	Content	1602
 mb-03-content-founder-quote-ink	03 · Titles & editorial	Content · Founder quote	ink	Content	1602
 mb-03-content-founder-quote-white	03 · Titles & editorial	Content · Founder quote	white	Content	1602
 mb-03-content-full-width-body-bone	03 · Titles & editorial	Content · Full-width body	bone	Content	996
 mb-03-content-full-width-body-ink	03 · Titles & editorial	Content · Full-width body	ink	Content	996
 mb-03-content-full-width-body-white	03 · Titles & editorial	Content · Full-width body	white	Content	996
-mb-03-content-greeting-line-bone	03 · Titles & editorial	Content · Greeting line	bone	Content	823
-mb-03-content-greeting-line-ink	03 · Titles & editorial	Content · Greeting line	ink	Content	823
-mb-03-content-greeting-line-white	03 · Titles & editorial	Content · Greeting line	white	Content	823
-mb-03-content-image-strip-bone	03 · Titles & editorial	Content · Image strip	bone	Content	1143
-mb-03-content-image-strip-ink	03 · Titles & editorial	Content · Image strip	ink	Content	1143
-mb-03-content-image-strip-white	03 · Titles & editorial	Content · Image strip	white	Content	1143
+mb-03-content-image-heading-and-copy-bone	03 · Titles & editorial	Content · Image, heading and copy	bone	Content	1583
+mb-03-content-image-heading-and-copy-ink	03 · Titles & editorial	Content · Image, heading and copy	ink	Content	1583
+mb-03-content-image-heading-and-copy-white	03 · Titles & editorial	Content · Image, heading and copy	white	Content	1583
 mb-03-content-three-column-feature-grid-bone	03 · Titles & editorial	Content · Three-column feature grid	bone	Content	3226
 mb-03-content-three-column-feature-grid-ink	03 · Titles & editorial	Content · Three-column feature grid	ink	Content	3226
 mb-03-content-three-column-feature-grid-white	03 · Titles & editorial	Content · Three-column feature grid	white	Content	3226

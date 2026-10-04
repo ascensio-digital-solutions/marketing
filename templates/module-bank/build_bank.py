@@ -17,6 +17,7 @@ Usage:
 """
 import json
 import re
+import shutil
 import sys
 from pathlib import Path
 
@@ -127,6 +128,11 @@ def main():
         p = ROOT / rel
         p.parent.mkdir(parents=True, exist_ok=True)
         p.write_text(text, encoding="utf-8")
+    keep = {Path(rel).parent.name for rel in files}
+    for d in BLOCKS.glob("mb-*"):  # bank folders are generated: drop the ones no module produces any more
+        if d.is_dir() and d.name not in keep:
+            shutil.rmtree(d)
+            print("removed orphan", d.name)
     print(f"wrote {len(files) // 2} sections")
     status()
 

@@ -14,12 +14,12 @@
     "module": "Brand · Logo panel",
     "theme": "ink",
     "figma_source": "Brand logo",
-    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-19534",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-19533",
     "sample_copy": [
       "hair solutions co."
     ],
     "adaptations": [
-      "Figma set the name as live text in a display italic; the bank uses the approved v5 wordmark image (never retyped), larger, as a standalone brand panel"
+      "Figma set the name as live text in a display italic, left-aligned; the bank uses the approved v5 wordmark image (never retyped), left-aligned, as a standalone brand panel"
     ]
   }
 }

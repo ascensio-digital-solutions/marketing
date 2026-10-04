@@ -120,13 +120,15 @@ def footer_links(th):
 
 @module("Brand logo", "Brand · Logo panel", "Logo",
         ["hair solutions co."],
-        ["Figma set the name as live text in a display italic; the bank uses the approved v5 wordmark image (never retyped), larger, as a standalone brand panel"])
+        ["Figma set the name as live text in a display italic, left-aligned; the bank uses the approved v5 wordmark image (never retyped), left-aligned, as a standalone brand panel"])
 def brand_logo(th):
-    return card(logo(th, 176), th, pad="48px 40px")
+    return card(logo(th, 176, center=False), th, pad="48px 40px")
 
 
-@module("Email footer", "Footer · Brand line", "Footer",
-        ["Hair Solutions Co."],
-        ["Brand name in the v6 subtitle role, centred; for emails that need only a name line"])
+@module("Email footer", "Footer · Brand line with legal", "Footer",
+        ["Hair Solutions Co.", "Custom hair replacement systems, made to order.", "Unsubscribe"],
+        ["Brand name in the v6 subtitle role, tagline in the v6 body role, legal links in the v6 meta role; left-aligned like the Figma card",
+         "Unsubscribe and preference links are slots: wire them to your own tags; Shopify Messaging also appends its own legal footer after sections"])
 def footer_brand_line(th):
-    return card(subtitle("Hair Solutions Co.", th, "center", mb=0), th, pad="28px 40px")
+    return card(subtitle("Hair Solutions Co.", th, mb=10) + body("[Tagline: one line]", th, mb=14) +
+                meta("[Unsubscribe link] &nbsp;&middot;&nbsp; [Manage preferences]", th), th, pad="40px")

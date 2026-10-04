@@ -10,7 +10,7 @@
 | Liquid variables | — |
 | Shopify status | unused |
 | Placeholders | yes — do not ship as is |
-| Characters | 827 |
+| Characters | 822 |
 | Used by | — |
 
 > Module bank. All copy is a labelled slot: replace it before use.
@@ -19,11 +19,11 @@
 
 - Category: 01 · Global chrome
 - Module: Brand · Logo panel · theme **bone**
-- Figma source: [Brand logo](https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-19531)
+- Figma source: [Brand logo](https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-19530)
 
 **Changed from the Figma module to meet the v6 rules**
 
-- Figma set the name as live text in a display italic; the bank uses the approved v5 wordmark image (never retyped), larger, as a standalone brand panel
+- Figma set the name as live text in a display italic, left-aligned; the bank uses the approved v5 wordmark image (never retyped), left-aligned, as a standalone brand panel
 
 **Figma sample copy (reference only, not in the section)**: hair solutions co.
 
@@ -40,7 +40,7 @@ Source: [`section.html`](section.html). Copy from here or from the raw file.
 <table role="presentation" class="shell" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;">
 <tr><td style="padding:0;">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate;background-color:#f7f1de;border:1px solid #e5dfcd;border-radius:12px;">
-<tr><td class="pad" style="padding:48px 40px;"><img src="https://cdn.shopify.com/s/files/1/0276/9115/5508/files/hsc-email-logo-ink.png" width="176" height="52" alt="Hair Solutions Co." style="display:block;margin:0 auto;border:0;width:176px;height:52px;"></td></tr>
+<tr><td class="pad" style="padding:48px 40px;"><img src="https://cdn.shopify.com/s/files/1/0276/9115/5508/files/hsc-email-logo-ink.png" width="176" height="52" alt="Hair Solutions Co." style="display:block;margin:0;border:0;width:176px;height:52px;"></td></tr>
 </table>
 </td></tr>
 </table>

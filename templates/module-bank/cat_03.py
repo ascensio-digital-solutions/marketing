@@ -139,15 +139,19 @@ def content_feature_story(th):
     return card_flush(photo_bleed("[Photo · feature story]", th, 280) + f'<tr><td class="pad" style="padding:28px 40px 32px 40px;">{cap}</td></tr>', th)
 
 
-@module("Founder note", "Content · Greeting line", "Content",
-        ["Hi {{ firstname }},"],
-        ["A single greeting line in the v6 title role; the first name is a slot (wire it to the customer first-name variable in the template)"])
-def content_greeting(th):
-    return card(title("Hi [First name],", th, mb=0), th, pad="32px 40px")
+@module("Founder note", "Content · Founder note with signature", "Content",
+        ["Hi {{ firstname }},", "Six weeks is the point where a system starts telling you how it likes to be treated.", "Vincent · Founder, Hair Solutions Co."],
+        ["Greeting in the v6 title role, body in the v6 body role, signature as a serif-italic name (v6 note role) over a meta role line; never a handwritten-signature image",
+         "The first name is a slot: wire it to the customer first-name variable in the template"])
+def content_founder_note(th):
+    sig = note("[Name]", th, mb=4).replace("font-size:22px;line-height:33px", "font-size:24px;line-height:30px") + meta("[Role]", th)
+    return card(title("Hi [First name],", th, mb=14) + body("[Body: a short personal paragraph, four or five lines]", th, mb=22) + sig,
+                th, pad="40px")
 
 
-@module("Image and copy", "Content · Image strip", "Content",
-        [],
-        ["The Figma frame held only an image area: kept as a full-width image strip (8px inset corners) inside the card"])
-def content_image_strip(th):
-    return card(photo_slot("[Photo · wide strip]", th, 150), th, pad="24px 40px")
+@module("Image and copy", "Content · Image, heading and copy", "Content",
+        ["Add a heading here", "Add supporting copy here."],
+        ["Inset image strip (8px corners) above a title and body in the v6 roles; slots instead of the Figma 'add a heading here' prompts"])
+def content_image_copy(th):
+    return card(photo_slot("[Photo · wide image]", th, 150) + gap(22) + title("[Title]", th, mb=12) + body("[Body: one or two lines]", th, mb=0),
+                th, pad="40px")

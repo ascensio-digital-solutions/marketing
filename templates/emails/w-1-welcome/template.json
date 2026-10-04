@@ -11,7 +11,6 @@
   "shopify_status": "not-installed",
   "shopify_matches_repo": false,
   "blockers": [
-    "FAQ answer 'What does a system cost?' is still the design's placeholder '[Price range: confirm wording]'; needs Vincent's wording.",
     "'Start with the basics' button points to the homepage for now (see the button-links issue).",
     "Hero image is a crop of the Figma capture; the original file is not available.",
     "Design's 'View in browser' link is omitted: Shopify Messaging has no variable for it.",

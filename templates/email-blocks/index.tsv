@@ -64,7 +64,7 @@ v6-footer-ink-social	v6 · Footer (ink, social links)	Preferences footer	any	mes
 v6-footer-paper	v6 · Footer (paper, no social)	Preferences footer	any	messaging-code-your-own,messaging-section	draft	no	C-0	1739
 v6-footer-paper-social	v6 · Footer (paper, social links)	Preferences footer	any	messaging-code-your-own,messaging-section	draft	no	NL-01,W-1	2592
 w-1-cta-band	W-1 · CTA band	CTA	any	messaging-code-your-own,messaging-section	draft	no	W-1	1900
-w-1-faq	W-1 · What new subscribers ask first	FAQ	any	messaging-code-your-own,messaging-section	draft	yes	W-1	2816
+w-1-faq	W-1 · What new subscribers ask first	FAQ	any	messaging-code-your-own,messaging-section	draft	no	W-1	2819
 w-1-get-never-get	W-1 · What you'll get / never get	Checklist	any	messaging-code-your-own,messaging-section	draft	no	W-1	4170
 w-1-hero	W-1 · Hero	Hero	any	messaging-code-your-own,messaging-section	draft	no	W-1	2087
 w-1-intro	W-1 · Intro	Text	any	messaging-code-your-own,messaging-section	draft	no	W-1	1137

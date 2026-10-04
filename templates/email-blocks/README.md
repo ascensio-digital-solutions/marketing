@@ -88,7 +88,7 @@ All previews are 1200px wide (600px email at 2×). Every card stacks flush with 
 | <img src="09-cr-2-three-questions-faq/preview.png" width="260" alt=""> | [CR-2 · Three questions (FAQ)](09-cr-2-three-questions-faq/)<br>`09-cr-2-three-questions-faq` | any | [CR-2](../emails/cr-2-three-questions-answered/) | draft |
 | — (no visual output) | [C-0 · Questions](c-0-questions/)<br>`c-0-questions` ⚠️ placeholder | any | [C-0](../emails/c-0-consultation-recap/) | draft |
 | — (no visual output) | [NL-01 · Questions](nl-1-faq/)<br>`nl-1-faq` | any | [NL-01](../emails/nl-01-no-best-base/) | draft |
-| — (no visual output) | [W-1 · What new subscribers ask first](w-1-faq/)<br>`w-1-faq` ⚠️ placeholder | any | [W-1](../emails/w-1-welcome/) | draft |
+| <img src="w-1-faq/preview.png" width="260" alt=""> | [W-1 · What new subscribers ask first](w-1-faq/)<br>`w-1-faq` | any | [W-1](../emails/w-1-welcome/) | draft |
 
 ## Photo + caption
 

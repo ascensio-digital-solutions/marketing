@@ -7,6 +7,6 @@
     "messaging-section"
   ],
   "liquid_variables": [],
-  "placeholders": true,
-  "notes": "BLOCKER: the 'What does a system cost?' answer is still the design's placeholder '[Price range: confirm wording]'. Needs Vincent's wording before this email can go to Shopify."
+  "placeholders": false,
+  "notes": "The 'What does a system cost?' answer was a Figma placeholder; Vincent supplied the wording on 2026-10-04 ('between $199 and $399 on average')."
 }

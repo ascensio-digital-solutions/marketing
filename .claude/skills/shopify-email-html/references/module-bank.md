@@ -61,3 +61,15 @@ button, eyebrow, columns, image slot, card). Mobile uses only the classes the sh
 (`.pad .pad-sm .pad-copy .stack .stack-gap .fluid .hero-h .btn`); `templates/module-bank/mobile_preview.py`
 renders sections at 375px. `build_library.py` rejects a bank section with more than one card, a colour outside the
 v6 palette, a font outside the four v6 families, coral text on Bone or White, or a module missing a theme.
+
+## Figma review page
+
+Figma file "Email Design System" (`9Il504CQE8jLaUTBVzphqc`), page **Module bank V6** (`779:1067`): all 282 sections as
+600px frames, grouped by the 8 categories, one row per module with Bone | Ink | White side by side. Every frame is named
+with its section id (`mb-04-product-two-by-two-grid-bone`). It is an imported picture of the generated HTML (plain layers),
+not a component library: the repo stays the source, Figma is where the bank is reviewed.
+
+To rebuild after the bank changes: `python3 templates/module-bank/figma_export.py OUT_DIR` writes 24 self-contained
+HTML documents (logos inlined, 12 modules each); each is sent through the Figma `html_to_figma` tool with
+`cssSelector=.mod` under the page, then the frames are matched to ids by theme, height and text fingerprint and laid out.
+Large documents time out at the gateway but still finish on the server; send them one or two at a time.

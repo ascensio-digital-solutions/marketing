@@ -23,7 +23,7 @@
     "adaptations": [
       "Narrow image left, details right; the columns stack on mobile with the image first",
       "Product name in the v6 title role, price in the v6 serif-italic role; button is the v6 coral pill at 46px",
-      "Image is a labelled slot: use the approved product render"
+      "Image is a 1:1 labelled slot (the Figma image was portrait): use a square product render"
     ]
   }
 }

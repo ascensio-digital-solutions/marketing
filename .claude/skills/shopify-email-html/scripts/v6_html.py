@@ -235,6 +235,15 @@ def photo_slot(label, th, h=240, radius=8):
             f'style="height:{h}px;padding:0 16px;">{meta(label, th, "center")}</td></tr></table>')
 
 
+def square_slot(label, th, radius=8):
+    """A labelled 1:1 image slot: the shape of a square product render at any column width (desktop and mobile).
+    The slot is a placeholder that is replaced by a square <img class="fluid"> (width:100%, height:auto); the
+    aspect-ratio keeps the preview square where the slot is still in place."""
+    return (f'<div style="width:100%;box-sizing:border-box;aspect-ratio:1/1;display:flex;align-items:center;'
+            f'justify-content:center;background-color:{th["inset"]};border:1px solid {th["inset_edge"]};'
+            f'border-radius:{radius}px;padding:0 8px;">{meta(label, th, "center")}</div>')
+
+
 def kv_rows(rows, th):
     """Label / value pairs separated by hairlines. rows: [(label, value_html)]."""
     out = []

@@ -10,7 +10,7 @@
 | Liquid variables | — |
 | Shopify status | unused |
 | Placeholders | yes — do not ship as is |
-| Characters | 2699 |
+| Characters | 2614 |
 | Used by | — |
 
 > Module bank. All copy is a labelled slot: replace it before use.
@@ -25,7 +25,7 @@
 
 - Narrow image left, details right; the columns stack on mobile with the image first
 - Product name in the v6 title role, price in the v6 serif-italic role; button is the v6 coral pill at 46px
-- Image is a labelled slot: use the approved product render
+- Image is a 1:1 labelled slot (the Figma image was portrait): use a square product render
 
 **Figma sample copy (reference only, not in the section)**: French Lace Active · $520 · A highly durable, breathable lace mesh base… · Shop French Lace →
 
@@ -42,7 +42,7 @@ Source: [`section.html`](section.html). Copy from here or from the raw file.
 <table role="presentation" class="shell" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;">
 <tr><td style="padding:0;">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate;background-color:#ffffff;border:1px solid #ececec;border-radius:12px;">
-<tr><td class="pad-sm" style="padding:32px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td class="stack" width="37%" valign="middle" style="width:37%;padding:0 0 0 0px;vertical-align:middle;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate;background-color:#f7f1de;border:1px solid #e5dfcd;border-radius:8px;"><tr><td align="center" valign="middle" height="250" style="height:250px;padding:0 16px;"><p style="margin:0 0 0px 0;font-family:'JetBrains Mono','Courier New',monospace;font-size:11px;line-height:17px;font-weight:500;letter-spacing:0.9px;color:#5a5448;text-align:center;text-transform:uppercase;">[Photo · product]</p></td></tr></table></td><td class="stack stack-gap" width="63%" valign="middle" style="width:63%;padding:0 0 0 24px;vertical-align:middle;"><h2 style="margin:0 0 6px 0;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:28px;line-height:31px;font-weight:700;letter-spacing:-0.6px;color:#15140f;text-align:left;">[Product name]</h2><p style="margin:0 0 14px 0;font-family:'Playfair Display',Georgia,'Times New Roman',serif;font-size:16px;line-height:20px;font-weight:500;color:#15140f;text-align:left;font-style:italic;white-space:nowrap;">[$00]</p><p style="margin:0 0 18px 0;font-family:'Inter',Arial,Helvetica,sans-serif;font-size:16px;line-height:26px;font-weight:400;color:#5a5448;text-align:left;">[Body: two or three lines]</p><table role="presentation" class="btn" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate;margin:0;">
+<tr><td class="pad-sm" style="padding:32px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td class="stack" width="37%" valign="middle" style="width:37%;padding:0 0 0 0px;vertical-align:middle;"><div style="width:100%;box-sizing:border-box;aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;background-color:#f7f1de;border:1px solid #e5dfcd;border-radius:8px;padding:0 8px;"><p style="margin:0 0 0px 0;font-family:'JetBrains Mono','Courier New',monospace;font-size:11px;line-height:17px;font-weight:500;letter-spacing:0.9px;color:#5a5448;text-align:center;text-transform:uppercase;">[Photo · product]</p></div></td><td class="stack stack-gap" width="63%" valign="middle" style="width:63%;padding:0 0 0 24px;vertical-align:middle;"><h2 style="margin:0 0 6px 0;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:28px;line-height:31px;font-weight:700;letter-spacing:-0.6px;color:#15140f;text-align:left;">[Product name]</h2><p style="margin:0 0 14px 0;font-family:'Playfair Display',Georgia,'Times New Roman',serif;font-size:16px;line-height:20px;font-weight:500;color:#15140f;text-align:left;font-style:italic;white-space:nowrap;">[$00]</p><p style="margin:0 0 18px 0;font-family:'Inter',Arial,Helvetica,sans-serif;font-size:16px;line-height:26px;font-weight:400;color:#5a5448;text-align:left;">[Body: two or three lines]</p><table role="presentation" class="btn" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate;margin:0;">
 <tr><td style="border-radius:999px;background-color:#ff5757;">
 <a href="https://hairsolutions.co" target="_blank" style="display:inline-block;padding:0 24px;line-height:46px;font-family:'Inter Tight',Arial,Helvetica,sans-serif;font-size:13px;font-weight:600;letter-spacing:0.3px;color:#15140f;text-decoration:none;border-radius:999px;white-space:nowrap;">[Button label]<span style="padding-left:12px;font-family:'Inter',Arial,Helvetica,sans-serif;font-size:16px;">&rarr;</span></a>
 </td></tr></table></td></tr></table></td></tr>

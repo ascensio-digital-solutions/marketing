@@ -25,7 +25,7 @@
     "adaptations": [
       "Four collection thumbnails with centred names; they stay four across on mobile",
       "Heading in the v6 title role (was a 17px label); names in the v6 name role",
-      "Thumbnails are labelled slots: use approved collection images"
+      "Thumbnails are 1:1 labelled slots: use square collection images"
     ]
   }
 }

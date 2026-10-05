@@ -24,7 +24,7 @@
       "Three product cards in a row; on mobile they stack one per line (a 169px card does not fit three across)",
       "Card fill and 20px radius dropped: tiles sit directly on the card, image on the v6 inset (8px)",
       "Title in the v6 subtitle role (sentence case), price in the v6 serif-italic price role",
-      "Image tiles are labelled slots: use approved product renders"
+      "Image tiles are 1:1 labelled slots (square at any width, desktop and mobile): use square product renders"
     ]
   }
 }

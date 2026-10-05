@@ -23,7 +23,7 @@
     "adaptations": [
       "Three compact tiles (care products); they stay three across on mobile, shrinking",
       "Tile fill dropped; image on the v6 inset, name in the v6 small role, price in the serif-italic price role",
-      "Image tiles are labelled slots: use approved product renders"
+      "Image tiles are 1:1 labelled slots (square at any width, desktop and mobile): use square product renders"
     ]
   }
 }

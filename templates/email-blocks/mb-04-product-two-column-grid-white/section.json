@@ -22,7 +22,7 @@
     "adaptations": [
       "Two product tiles side by side; they stay two across on mobile (shrinking, never stacking)",
       "Tile fill and 16px padding dropped; image on the v6 inset, text under it in the v6 name and price roles",
-      "Image tiles are labelled slots: use approved product renders"
+      "Image tiles are 1:1 labelled slots (square at any width, desktop and mobile): use square product renders"
     ]
   }
 }

@@ -11,11 +11,11 @@ from bank_registry import module
         ["Tiles stay two across on mobile (they shrink; they never stack to one column)",
          "Grid is centred in the card and each tile's name and price line are centred under its image (the Figma grid sat left, leaving the right third empty)",
          "Product name in the v6 name role, price/rating line in the v6 meta role",
-         "Image tiles are labelled slots: use the approved product renders (square, on the card inset)",
+         "Image tiles are 1:1 labelled slots (square at any width, desktop and mobile): use square product renders",
          "Removed the 'x20 · infinite scroll + load more' annotation (a design note, not email content)"])
 def product_grid_2x2(th):
     def tile(i):
-        return (photo_slot(f"[Photo · product {i}]", th, 200) + gap(10) + name(f"[Product {i}]", th, "center", mb=2) +
+        return (square_slot(f"[Photo · product {i}]", th) + gap(10) + name(f"[Product {i}]", th, "center", mb=2) +
                 meta("[Price] · [Rating]", th, "center"))
     rows = pair_row([tile(1), tile(2)], th, 24) + gap(28) + pair_row([tile(3), tile(4)], th, 24)
     return card(rows, th, pad="40px 30px", cls="pad-sm")
@@ -38,10 +38,10 @@ def _line(left, right):
         ["Three product cards in a row; on mobile they stack one per line (a 169px card does not fit three across)",
          "Card fill and 20px radius dropped: tiles sit directly on the card, image on the v6 inset (8px)",
          "Title in the v6 subtitle role (sentence case), price in the v6 serif-italic price role",
-         "Image tiles are labelled slots: use approved product renders"])
+         "Image tiles are 1:1 labelled slots (square at any width, desktop and mobile): use square product renders"])
 def product_three_cards(th):
     def tile(i):
-        return photo_slot("[Photo]", th, 120) + gap(12) + subtitle(f"[Product {i}]", th, mb=4) + price("[From $00]", th)
+        return square_slot("[Photo]", th) + gap(12) + subtitle(f"[Product {i}]", th, mb=4) + price("[From $00]", th)
     return card(cols([tile(1), tile(2), tile(3)], 16), th, pad="32px", cls="pad-sm")
 
 
@@ -62,10 +62,10 @@ def product_single_feature(th):
         ["Poly Skin Perimeter $490", "Atelier Silk Top $620"],
         ["Two product tiles side by side; they stay two across on mobile (shrinking, never stacking)",
          "Tile fill and 16px padding dropped; image on the v6 inset, text under it in the v6 name and price roles",
-         "Image tiles are labelled slots: use approved product renders"])
+         "Image tiles are 1:1 labelled slots (square at any width, desktop and mobile): use square product renders"])
 def product_two_column_grid(th):
     def tile(i):
-        return photo_slot(f"[Photo · product {i}]", th, 180) + gap(14) + name(f"[Product {i}]", th, mb=2) + price("[$00]", th, small_=True)
+        return square_slot(f"[Photo · product {i}]", th) + gap(14) + name(f"[Product {i}]", th, mb=2) + price("[$00]", th, small_=True)
     return card(pair_row([tile(1), tile(2)], th, 20), th, pad="32px 28px", cls="pad-sm")
 
 
@@ -73,11 +73,11 @@ def product_two_column_grid(th):
         ["French Lace Active · $520", "A highly durable, breathable lace mesh base…", "Shop French Lace →"],
         ["Narrow image left, details right; the columns stack on mobile with the image first",
          "Product name in the v6 title role, price in the v6 serif-italic role; button is the v6 coral pill at 46px",
-         "Image is a labelled slot: use the approved product render"])
+         "Image is a 1:1 labelled slot (the Figma image was portrait): use a square product render"])
 def product_image_details_split(th):
     details = (title("[Product name]", th, mb=6) + price("[$00]", th, small_=True, mb=14) +
                body("[Body: two or three lines]", th, mb=18) + button("[Button label]", th, size=13, height=46, padx=24))
-    return card(cols([photo_slot("[Photo · product]", th, 250), details], 24, valign="middle", weights=[37, 63]),
+    return card(cols([square_slot("[Photo · product]", th), details], 24, valign="middle", weights=[37, 63]),
                 th, pad="32px", cls="pad-sm")
 
 
@@ -85,10 +85,10 @@ def product_image_details_split(th):
         ["Citrus Cleanser $28", "pH Shampoo $24", "Lace Sealer $32"],
         ["Three compact tiles (care products); they stay three across on mobile, shrinking",
          "Tile fill dropped; image on the v6 inset, name in the v6 small role, price in the serif-italic price role",
-         "Image tiles are labelled slots: use approved product renders"])
+         "Image tiles are 1:1 labelled slots (square at any width, desktop and mobile): use square product renders"])
 def product_three_column_row(th):
     def tile(i):
-        return (_mini("[Photo]", th, 110) + gap(10) + name(f"[Product {i}]", th, "center", mb=2) +
+        return (square_slot("[Photo]", th) + gap(10) + name(f"[Product {i}]", th, "center", mb=2) +
                 price("[$00]", th, "center", small_=True))
     return card(pair_row([tile(1), tile(2), tile(3)], th, 16), th, pad="28px 24px", cls="pad-sm")
 
@@ -141,10 +141,10 @@ def product_recently_viewed(th):
         ["Shop by collection", "Lace", "Poly", "Skin", "Care"],
         ["Four collection thumbnails with centred names; they stay four across on mobile",
          "Heading in the v6 title role (was a 17px label); names in the v6 name role",
-         "Thumbnails are labelled slots: use approved collection images"])
+         "Thumbnails are 1:1 labelled slots: use square collection images"])
 def product_shop_by_collection(th):
     def tile(i):
-        return _mini("[Photo]", th, 90) + gap(8) + name(f"[Name {i}]", th, "center", mb=0)
+        return square_slot("[Photo]", th) + gap(8) + name(f"[Name {i}]", th, "center", mb=0)
     return card(subtitle("[Heading]", th, mb=16) + pair_row([tile(1), tile(2), tile(3), tile(4)], th, 12),
                 th, pad="32px 28px", cls="pad-sm")
 

@@ -25,7 +25,7 @@
       "Tiles stay two across on mobile (they shrink; they never stack to one column)",
       "Grid is centred in the card and each tile's name and price line are centred under its image (the Figma grid sat left, leaving the right third empty)",
       "Product name in the v6 name role, price/rating line in the v6 meta role",
-      "Image tiles are labelled slots: use the approved product renders (square, on the card inset)",
+      "Image tiles are 1:1 labelled slots (square at any width, desktop and mobile): use square product renders",
       "Removed the 'x20 · infinite scroll + load more' annotation (a design note, not email content)"
     ]
   }

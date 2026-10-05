@@ -2,9 +2,10 @@
 
 The bank is Vincent's favourite email modules, rebuilt to the v6 email design system in three real themes
 (**Bone, Ink, White**), each one a paste-ready Shopify Messaging **Custom Liquid section**. Gallery:
-`templates/email-blocks/BANK.md` (sortable table: `bank.tsv`). Source of the module list: Figma file
-`9Il504CQE8jLaUTBVzphqc`, page "Modules Library + Hubspot Source", frame "Email module library — organized
-by function" (`489:7305`); `templates/module-bank/modules.tsv` keeps the Figma node of every module and theme.
+`templates/email-blocks/BANK.md` (sortable table: `bank.tsv`). Source of the module list: Figma page "Modules Library + Hubspot Source", frame "Email module library — organized
+by function" (`489:7305`). That page was removed from the working file on 2026-10-05 and now exists only in the
+snapshot file `a01FHSyLdgi6ppzaThHl2B` (09 Archive); the Figma links in `section.json` and `modules.tsv` still carry
+the working file key `9Il504CQE8jLaUTBVzphqc`, so swap the key to `a01FHSyLdgi6ppzaThHl2B` to open a source cell; `templates/module-bank/modules.tsv` keeps the Figma node of every module and theme.
 
 ## Using a module
 
@@ -64,7 +65,7 @@ v6 palette, a font outside the four v6 families, coral text on Bone or White, or
 
 ## Figma review page
 
-Figma file "Email Design System" (`9Il504CQE8jLaUTBVzphqc`), page **Module bank V6** (`779:1067`): all 282 sections as
+Figma file "HSC Email - Modules & Emails" (`9Il504CQE8jLaUTBVzphqc`, formerly "Email Design System"), page **Module bank V6** (`779:1067`): all 282 sections as
 600px frames, grouped by the 8 categories, one row per module with Bone | Ink | White side by side. Every frame is named
 with its section id (`mb-04-product-two-by-two-grid-bone`). It is an imported picture of the generated HTML (plain layers),
 not a component library: the repo stays the source, Figma is where the bank is reviewed.

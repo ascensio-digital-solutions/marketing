@@ -38,11 +38,15 @@ assignment: **<ASSIGNMENT>**.
 
 ### 2. Design and content sources
 
-- **Design: Figma "Email Design System"**:
-  https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=557-7295
-  This is the current design (page "v6 · Reference": PP-1, CR-2, WB-2, RO-3, C-0, W-1 and NL-01 to
-  NL-05). The same file has an older page, "Email Templates" (node 62:830), with PP-1 to PP-7, WB-1 to
-  WB-4, lifecycle examples and layout explorations: use it only for copy and structure, restyled to v6.
+- **Design: Figma "HSC Email - Modules & Emails"** (`9Il504CQE8jLaUTBVzphqc`, cleaned 2026-10-05):
+  https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/HSC-Email---Modules---Emails
+  Pages: Cover, v6 · Blocks (the local components the emails use), v6 · Composition, v6 · Journeys,
+  v6 · Newsletter, v6 · Specimen (the email frames: PP-1, CR-2, WB-2, RO-3, C-0, W-1, NL-01 to NL-05)
+  and Module bank V6 (all 282 bank sections). The design system itself (tokens, components) is the
+  separate file "HSC Email Design System" (`hpen3ExIfmyI7xBEqC6i2h`); icons are in "HSC Icons"
+  (`b551FV41WhrZDqjkgHD0J6`). The old pages "Email Templates" (PP-1 to PP-7, WB-1 to WB-4, lifecycle
+  examples), "v6 · Reference" and the original "Modules Library + Hubspot Source" were removed; they
+  survive only in the snapshot `a01FHSyLdgi6ppzaThHl2B` (09 Archive): use it for copy and structure only.
   Find the frames for your assignment and match them. Use the Figma MCP tools (`get_metadata`, `get_screenshot`,
   `get_design_context`) to read frames.
 - **Tokens and components:** `vincent-laroche/brand-design-system`, folder `email/`

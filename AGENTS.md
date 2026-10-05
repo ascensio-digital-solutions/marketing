@@ -53,7 +53,7 @@ Design rules every email must follow (enforced by the build):
 | What | Where |
 |---|---|
 | Shopify store | `admin.shopify.com/store/oneheadhair`. Files CDN: `https://cdn.shopify.com/s/files/1/0276/9115/5508/files/` |
-| Design (Figma) | "Email Design System", page "v6 · Reference": https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=557-7295 |
+| Design (Figma) | Three files, folder-organised (cleaned up 2026-10-05). **Design system:** "HSC Email Design System" `hpen3ExIfmyI7xBEqC6i2h` (tokens, components; do not build emails there). **Modules and emails:** "HSC Email - Modules & Emails" `9Il504CQE8jLaUTBVzphqc` (pages Cover, v6 · Blocks, v6 · Composition, v6 · Journeys, v6 · Newsletter, v6 · Specimen, Module bank V6): https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/HSC-Email---Modules---Emails. **Icons:** "HSC Icons" `b551FV41WhrZDqjkgHD0J6` (Design Assets folder). Pre-cleanup snapshot of the old file (Modules Library, Email Templates, v6 · Reference, v6 · Foundations, old colour/type pages): `a01FHSyLdgi6ppzaThHl2B`, 09 Archive, do not use |
 | Tokens and components | `vincent-laroche/brand-design-system` → `email/` (local: `~/01_hair_solutions_co/design/brand/brand-design-system`) |
 | Skill and scripts | `.claude/skills/shopify-email-html/` (installed globally through a symlink at `~/.claude/skills/shopify-email-html`) |
 | Handoff prompt for new agents | [`HANDOFF.md`](HANDOFF.md) |

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the HSC email module bank: every module in three real themes (Bone, Ink, White).
 
-Source of the module list: Figma file 9Il504CQE8jLaUTBVzphqc, page "Modules Library + Hubspot Source",
+Source of the module list: Figma page "Modules Library + Hubspot Source" (now only in the snapshot file a01FHSyLdgi6ppzaThHl2B),
 frame "Email module library — organized by function" (489:7305). `modules.tsv` holds the 94 definitions
 with the Figma module node of each theme cell. Each implemented module is one function below,
 `fn(theme) -> card rows`, rebuilt to the v6 email design system (see v6_html.py).

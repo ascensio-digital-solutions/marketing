@@ -1,7 +1,7 @@
 # v6 build (history)
 
 This folder is how the first five Shopify emails (CR-1 to CR-4, PP-1) were produced on
-2026-10-03, built from the Figma file `9Il504CQE8jLaUTBVzphqc` and the brand tokens in
+2026-10-03, built from the Figma file `9Il504CQE8jLaUTBVzphqc` (now "HSC Email - Modules & Emails") and the brand tokens in
 `vincent-laroche/brand-design-system` → `email/`. It was the seed of the email library.
 
 **Do not edit emails here.** The canonical sections and templates are now:

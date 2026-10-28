@@ -1,7 +1,8 @@
-# Email Marketing
+# Hair Solutions Co. marketing
 
-Hair Solutions Co. email marketing. The sole marketing campaign and lifecycle platform is
-**Shopify Messaging + Shopify Flow**. The 53-email programme builds and ships there.
+Hair Solutions Co.'s versioned marketing source and operating workflows. Active production work covers
+email and social content; GitHub Issues and pull requests are canonical for production changes,
+approvals, and release evidence.
 
 MailerLite is retained only for legacy/reference assets. It is
 **not** a campaign or lifecycle platform for this project; the live account had zero campaigns
@@ -10,7 +11,7 @@ when re-verified on 2026-08-24. MailerSend remains a separate, transactional-onl
 ## Email Marketing — Campaign OS
 
 The connector-readable operating system is live in the public
-[`vincent-laroche/marketing-os` repository](https://github.com/vincent-laroche/marketing-os)
+[`ascensio-digital-solutions/marketing` repository](https://github.com/ascensio-digital-solutions/marketing)
 and [GitHub Project #4](https://github.com/users/vincent-laroche/projects/4).
 
 - 69 canonical Issues: 7 Campaigns, 53 Emails, 8 Tasks, and 1 Bug;
@@ -29,11 +30,11 @@ and [GitHub Project #4](https://github.com/users/vincent-laroche/projects/4).
 
 Merge or approval never configures Shopify, schedules, activates, or sends email.
 
-## Marketing OS
+## Shared marketing repository
 
-This public repository is the shared Hair Solutions Co. Marketing OS. The Email OS remains the protected production-grade domain, and Social Media OS is a governed domain beside it. The shared operating contract is documented in [`docs/marketing-os/OPERATING-CONTRACT.md`](docs/marketing-os/OPERATING-CONTRACT.md), and the concrete platform design is in [`docs/marketing-os/ARCHITECTURE.md`](docs/marketing-os/ARCHITECTURE.md).
+This repository is the shared Hair Solutions Co. marketing repository. Email and social media are governed domains within it; neither is a separate repository authority. The shared operating contract is documented in [`docs/marketing-os/OPERATING-CONTRACT.md`](docs/marketing-os/OPERATING-CONTRACT.md), and the concrete platform design is in [`docs/marketing-os/ARCHITECTURE.md`](docs/marketing-os/ARCHITECTURE.md).
 
-Email source, Campaign OS records, and fail-closed fictional previews remain under the existing Email OS paths. Social source records live under `social-media/` and use the hierarchy `Social Campaign → Content Concept → platform Publication`. The migrated read-only operator dashboard lives under `apps/social-studio/`; it is not the canonical database and must remain authenticated if hosted. Large media stays in the approved asset system; Git stores asset identity, approved URLs, fingerprints, rights, consent, and permitted-use metadata.
+Email source, Campaign OS records, and fail-closed fictional previews remain under the existing email paths. Social source records live under `social-media/` and use the hierarchy `Social Campaign → Content Concept → platform Publication`. The migrated read-only operator dashboard lives under `apps/social-studio/`; it is not the canonical database and must remain authenticated if hosted. Large media stays in the approved asset system; Git stores asset identity, approved URLs, fingerprints, rights, consent, and permitted-use metadata.
 
 The Social Media OS includes a fail-closed source validator, deterministic source manifest builder, dry-run GitHub Issue plan compiler, publication preview generator, Instagram feed-grid generator, reusable Markdown source templates, the imported committed social template library, and the migrated Social Studio application. The initial campaign records are clearly marked non-production fixtures and must be replaced with approved source material before production. No repository operation publishes or schedules social content.
 

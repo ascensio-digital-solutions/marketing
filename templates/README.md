@@ -6,4 +6,4 @@
 - `html-modules/`, `liquid-components/` — reserved; Shopify email sections live in `email-blocks/`.
 
 Design source: [`vincent-laroche/brand-design-system` → `email/`](https://github.com/vincent-laroche/brand-design-system/tree/main/email).
-How to build and install: [`../.claude/skills/shopify-email-html/SKILL.md`](../.claude/skills/shopify-email-html/SKILL.md).
+How to build and install: the `shopify-email-html` skill (hsc-email package from `~/03_agents`).

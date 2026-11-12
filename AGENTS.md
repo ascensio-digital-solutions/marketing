@@ -30,7 +30,7 @@ components that are not there.
   `templates/module-bank/build_bank.py`; copy is labelled slots, `placeholders: true`). Edit the generator, never the files.
 - Build, check and preview with `.claude/skills/shopify-email-html/scripts/build_library.py`.
   Never edit generated files by hand.
-- Skill: `.claude/skills/shopify-email-html/SKILL.md` — read it before building or installing any
+- Skill: the `shopify-email-html` skill (Notion Agent Skills Library → `~/03_agents` hsc-email package; enabled for this project in `.claude/settings.json`) — read it before building or installing any
   Shopify email.
 
 **Build rule (Vincent, 2026-10-04):** every email template, whether new or rebuilt from earlier
@@ -55,7 +55,8 @@ Design rules every email must follow (enforced by the build):
 | Shopify store | `admin.shopify.com/store/oneheadhair`. Files CDN: `https://cdn.shopify.com/s/files/1/0276/9115/5508/files/` |
 | Design (Figma) | Three files, folder-organised (cleaned up 2026-10-05). **Design system:** "HSC Email Design System" `hpen3ExIfmyI7xBEqC6i2h` (tokens, components; do not build emails there). **Modules and emails:** "HSC Email - Modules & Emails" `9Il504CQE8jLaUTBVzphqc` (pages Cover, v6 · Blocks, v6 · Composition, v6 · Journeys, v6 · Newsletter, v6 · Specimen, Module bank V6): https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/HSC-Email---Modules---Emails. **Icons:** "HSC Icons" `b551FV41WhrZDqjkgHD0J6` (Design Assets folder). Pre-cleanup snapshot of the old file (Modules Library, Email Templates, v6 · Reference, v6 · Foundations, old colour/type pages): `a01FHSyLdgi6ppzaThHl2B`, 09 Archive, do not use |
 | Tokens and components | `vincent-laroche/brand-design-system` → `email/` (local: `~/01_hair_solutions_co/design/brand/brand-design-system`) |
-| Skill and scripts | `.claude/skills/shopify-email-html/` (installed globally through a symlink at `~/.claude/skills/shopify-email-html`) |
+| Skill | `shopify-email-html` from the `~/03_agents` hsc-email package (authored in the Notion Agent Skills Library; not stored in this repo) |
+| Scripts and fixtures | `.claude/skills/shopify-email-html/scripts/` and `assets/` (the library's build tooling; CI runs it) |
 | Handoff prompt for new agents | [`HANDOFF.md`](HANDOFF.md) |
 | Notion | "Shopify Email Marketing Masterplan" (read-only); "Shopify Email Sections" and "Shopify Email Templates" databases (records of this library) and "Messaging Journeys" (https://app.notion.com/p/d3802cf29293450cad97d24a04e64b49, one row per Shopify workflow). The repo wins when they disagree; keep them current as you build |
 | What is missing | GitHub issue #7 (every Figma email not yet in Shopify); #3 button destinations, #4 RO-3 metafields, #5 copy and facts to confirm |

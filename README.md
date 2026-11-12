@@ -40,7 +40,7 @@ Tools (in [`.claude/skills/shopify-email-html/scripts/`](.claude/skills/shopify-
 - `screenshot_block.py`, `mini_liquid.py` — preview renders with fictional data.
 - `split_cards.py`, `pack_for_injection.py` — splitting and installing helpers.
 
-The how-to for agents and people is the skill: [`.claude/skills/shopify-email-html/SKILL.md`](.claude/skills/shopify-email-html/SKILL.md).
+The how-to for agents and people is the `shopify-email-html` skill, authored in the Notion Agent Skills Library and shipped from `~/03_agents` (hsc-email package). It is no longer stored in this repo.
 
 ## Design system
 

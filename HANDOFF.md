@@ -18,7 +18,7 @@ assignment: **<ASSIGNMENT>**.
 1. `AGENTS.md` (repo root): the rules. This repository, `vincent-laroche/email-marketing`, is the
    **only source of truth for email marketing**. Ignore marketing-os, MailerLite, HubSpot, Resend
    and the folder `~/01_hair_solutions_co/marketing/resend-customerio-archive`.
-2. `.claude/skills/shopify-email-html/SKILL.md`: the skill. It covers the whole procedure
+2. the `shopify-email-html` skill (Notion Agent Skills Library → `~/03_agents` hsc-email package; enabled for this project in `.claude/settings.json`). It covers the whole procedure
    (surfaces, approval gates, HTML contract, install, verify, record). It is also installed
    globally as `shopify-email-html`. Then read the references it points to:
    - `references/email-library.md`: the sections and templates databases (how to reuse and add);
@@ -92,7 +92,7 @@ These are enforced by `lint_email.py` and by the GitHub check.
 ### 4. How to build (in the repo)
 
 1. Work on your own branch: `git checkout -b <journey>-emails` (for example `welcome-emails`).
-2. New sections go in `templates/email-blocks/<id>/` with `section.html` and `section.json`. Reach for the module bank first (`templates/email-blocks/BANK.md`, 282 sections in Bone, Ink and White; see `.claude/skills/shopify-email-html/references/module-bank.md`). Bank folders (`mb-*`) are generated: change `templates/module-bank/cat_*.py`, never the files.
+2. New sections go in `templates/email-blocks/<id>/` with `section.html` and `section.json`. Reach for the module bank first (`templates/email-blocks/BANK.md`, 282 sections in Bone, Ink and White; see the skill's `references/module-bank.md`). Bank folders (`mb-*`) are generated: change `templates/module-bank/cat_*.py`, never the files.
    Name new folders `<code>-<slug>` (for example `w-1-hero`), not with a number prefix, so that
    parallel agents do not collide.
    - Reuse the shared sections: `00-email-head-fonts-styles`, `02-logo-header`,

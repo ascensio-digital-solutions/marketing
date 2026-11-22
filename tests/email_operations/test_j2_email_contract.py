@@ -5,8 +5,8 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[2]
 EMAILS = tuple(sorted((ROOT / "shopify-messaging" / "emails").glob("0[1-4]-cr-*.html")))
-APPROVED = {"#f6efd9", "#ede3cc", "#151411", "#25221d", "#c7bfac", "#ea6452"}
-SUPERSEDED = {"#f7f1de", "#efe7d2", "#15140f", "#2a2620", "#ddd2b6", "#ed6f5c"}
+APPROVED = {"#f7f1de", "#efe7d2", "#15140f", "#5a5448", "#d3cebd", "#ccc5b3", "#ff5757", "#e94145"}
+SUPERSEDED = {"#f6efd9", "#ede3cc", "#151411", "#25221d", "#c7bfac", "#ea6452", "#ed6f5c"}
 
 
 class J2EmailContractTest(unittest.TestCase):

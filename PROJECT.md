@@ -7,7 +7,16 @@
 > canonical. Every open item below must name its Issue; a finding recorded only here, in a plan
 > document, or in a chat message is untracked. Open an Issue, then cite the number.
 
-**Last updated:** 2026-08-28 by Claude (repository consolidated to one checkout and one repo; recovered uncommitted consent, rights and proof work; no Shopify, audience, campaign, Flow, send, schedule, activation, or social platform publication change)
+**Last updated:** 2026-11-22 (Atelier Zero Phase 5C email colour authority amendment & palette rollout, #157; no Shopify, audience, campaign, Flow, send, schedule, activation, or social platform publication change)
+
+## 2026-11-22 — Atelier Zero email colour authority & brand palette (#157)
+
+Implemented Decision 8A and Approval 15 from `ascensio-digital-solutions/brand-design-system`:
+
+- Amended `AGENTS.md` §1 (2026-08-19 email colour rule): brand tokens (`generated/email/palette.json` and `platforms/email.md` in `ascensio-digital-solutions/brand-design-system`) now own email colour. Preserved `AGENTS.md` §5 transparent `<body>` / no-wallpaper rule untouched.
+- Mapped legacy email colours (`#EA6452`, `#ED6F5C`, `#F6EFD9`, `#EDE3CC`, `#151411`, `#25221D`, `#807B6B`, `#C7BFAC`) to canonical Atelier Zero tokens (`#FF5757` Coral, `#F7F1DE` Bone, `#EFE7D2` Paper, `#15140F` Ink, `#5A5448` Ink Mute, `#D3CEBD` Bone hairline) across `mailersend/build_service_emails.py` (+ rebuilt `SVC-*.html`), `mailerlite/ml_components.py` (+ rebuilt `mailerlite/emails/`), `tools/build53/` (+ 37 rebuilt and 16 Proof-Bank-preserved `shopify-messaging/emails/`), `shopify-messaging/fill_proof_bank_nl.py`, and `tests/email_operations/test_j2_email_contract.py`.
+- Regenerated `github-campaign-os/*.json` manifest via `python3 -m tools.github_campaign_os.build_manifest --write`.
+- Verification: `mailersend/build_service_emails.py --check` PASS; full test suite `python3 -m unittest discover -s tests -p "test_*.py"` PASS (59/59).
 
 ## 2026-08-28 (later) — Repository consolidation
 

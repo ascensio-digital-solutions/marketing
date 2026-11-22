@@ -6,14 +6,14 @@ import html as _html
 
 INK      = "#15140F"
 BODY_CLR = "#5A5448"
-MUTED    = "#8B8676"
+MUTED    = "#5A5448"
 BONE_BG  = "#F7F1DE"
 # No wallpaper behind an email. Body and outer wrapper are transparent so the
 # client's own background shows through — hard rule, 2026-08-19 (AGENTS.md #5).
 PAGE_BG  = "transparent"
 CARD_BG  = "#EFE7D2"
 FILL     = "#DDD2B6"
-CORAL    = "#ED6F5C"
+CORAL    = "#FF5757"
 LOGO_DARK = "https://hairsolutions.co/cdn/shop/files/logo-dark-transparent.png?height=64&v=1785988775"
 ADDR      = "Hair Solutions Co. · Ehitajate tee 110, Tallinn, Estonia"
 F_DISPLAY = "'Inter Tight','Helvetica Neue',Helvetica,Arial,sans-serif"

@@ -45,24 +45,24 @@ DRY = "--dry-run" in sys.argv
 
 QUOTE_DIV_RE = re.compile(
     r'(<div style="font-family:\'Helvetica Neue\',Helvetica,Arial,sans-serif;'
-    r'font-style:italic;font-size:16px;line-height:1\.6;color:#25221D;'
+    r'font-style:italic;font-size:16px;line-height:1\.6;color:#15140F;'
     r'padding-bottom:8px;">)&#8220;&#8221;(</div>)'
     r'(<div style="font-family:\'Helvetica Neue\',Helvetica,Arial,sans-serif;'
     r'font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;'
-    r'color:#151411;">)&#8212; (</div>)'
+    r'color:#15140F;">)&#8212; (</div>)'
 )
 # The literal characters in the files are the actual glyphs, not entities -- match those too.
 QUOTE_DIV_RE_LITERAL = re.compile(
     r'(<div style="font-family:\'Helvetica Neue\',Helvetica,Arial,sans-serif;'
-    r'font-style:italic;font-size:16px;line-height:1\.6;color:#25221D;'
+    r'font-style:italic;font-size:16px;line-height:1\.6;color:#15140F;'
     r'padding-bottom:8px;">)“”(</div>)'
     r'(<div style="font-family:\'Helvetica Neue\',Helvetica,Arial,sans-serif;'
     r'font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;'
-    r'color:#151411;">)— (</div>)'
+    r'color:#15140F;">)— (</div>)'
 )
 
 PLACEHOLDER_RE = re.compile(
-    r'<div style="border:2px dashed #EA6452;[^"]*">\[PULL from Proof Bank:\s*([^\]]*)\]</div>'
+    r'<div style="border:2px dashed #FF5757;[^"]*">\[PULL from Proof Bank:\s*([^\]]*)\]</div>'
 )
 
 AGGREGATE_RATING_TEXT = "4.5 average across 87 published reviews (Judge.me)"

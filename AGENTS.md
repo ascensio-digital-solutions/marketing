@@ -4,7 +4,7 @@
 > current status. If something will still be true next month it belongs here; "what happened
 > this session / what's next" belongs in `PROJECT.md`.
 
-Repository: `https://github.com/vincent-laroche/marketing-os` (public). The local worktree path may vary; resolve it with `git rev-parse --show-toplevel`. Follows the standard project convention — `AGENTS.md` (rules) + `CLAUDE.md` (`@AGENTS.md` pointer) + `PROJECT.md` (living status log).
+Repository: `https://github.com/ascensio-digital-solutions/marketing` (migrated from `vincent-laroche/marketing-os`). The local worktree path may vary; resolve it with `git rev-parse --show-toplevel`. Follows the standard project convention — `AGENTS.md` (rules) + `CLAUDE.md` (`@AGENTS.md` pointer) + `PROJECT.md` (living status log).
 Update `PROJECT.md` at the end of every session; only touch this file when a durable rule changes.
 
 ## 1. `Email Reference File/` is the source of truth
@@ -29,25 +29,23 @@ the decks, and composition still draws only on the approved Atelier Zero module 
 editor may reorder and swap approved modules, never invent copy or a module. A missing copy
 block remains a re-export question, never something to write locally (#139).
 
-**Brand colours for email come from the modules in `Email Reference File/`, not from
-`brand-design-system/`.** Set 2026-08-19 by Vincent. The rendered module previews in
-`Atelier Zero — Resolved HTML Module Previews (102)/` ARE the correct brand colours:
-`#F6EFD9` page · `#EDE3CC` card · `#151411` ink · `#25221D` body · `#C7BFAC` rule ·
-`#EA6452` coral. Do **not** consult, cite, or reconcile against
-`brand-design-system/specs/ATELIER_ZERO_RULEBOOK_V1.md` or `specs/PLATFORM_EMAIL.md` —
-Vincent has explicitly ruled both out of scope. §4 below does not apply to email colour.
+**Amendment — brand tokens own email colour, approved 2026-11-22 by Vincent (Decision 8A, #157).**
+This amends the 2026-08-19 rule that took email colour from `Email Reference File/`. The brand
+design system (`ascensio-digital-solutions/brand-design-system`) now owns email colour through
+`generated/email/palette.json` and `platforms/email.md` (replacing the retired `specs/PLATFORM_EMAIL.md`
+and `specs/ATELIER_ZERO_RULEBOOK_V1.md`). Legacy corals `#EA6452` and `#ED6F5C` become Brand Coral
+`#FF5757` (with Coral Deep `#E94145` for 24px+ editorial pivot text on light cards); legacy warm
+neutrals map to canonical Atelier Zero tokens: Bone `#F7F1DE` (card), Paper `#EFE7D2` (inset),
+Ink `#15140F` (headings & body), Ink Mute `#5A5448` (captions & metadata), and `#D3CEBD` / `#CCC5B3`
+(flattened Ink 16% hairline on Bone / Paper). `Email Reference File/` remains the verbatim authority
+for campaign structure, copy, and module composition.
 
-**Exception — the page background is transparent, decided 2026-08-19 by Vincent.** The
-module palette above is correct for *cards and insets only*. `<body>` and the outer wrapper
-table are `background-color:transparent` on every email; `#F6EFD9` is **not** painted as a
-page background, and neither is any other value. The client's own background shows through
-the gutter, and it will go dark in dark-mode clients — that is intended, not a bug to patch.
-Reintroducing a page background in a new or rebuilt template is a regression.
-
-Consequence, recorded so it is not rediscovered: `mailerlite/ml_components.py` renders a
-*different* palette (`#F7F1DE / #EFE7D2 / #ED6F5C / #15140F / #DDD2B6`), so the 27 emails
-built from it do not match the modules. Retokenising it to the module palette above is
-open work, not a decision to revisit.
+**Exception — the page background is transparent, decided 2026-08-19 by Vincent (unchanged).** The
+brand email palette above applies to *cards and insets only*. `<body>` and the outer wrapper
+table are `background-color:transparent` on every email; neither Bone `#F7F1DE` nor Paper `#EFE7D2`
+is painted as a page background. The client's own background shows through the gutter, and it will
+go dark in dark-mode clients — that is intended, not a bug to patch. Reintroducing a page background
+in a new or rebuilt template is a regression.
 
 Contents:
 
@@ -143,8 +141,9 @@ stats. `Email Reference File/` is an export *of* Notion, which is why Notion win
 ## 4. Brand
 
 **Always resolve the brand authority at use time — never trust a palette hardcoded in a doc.**
-`brand-design-system/` exists in two identical copies (`~/07_design` and `~/08_brand`); check
-the real directory rather than any cached value. This has gone stale repeatedly.
+The canonical brand design system lives in `ascensio-digital-solutions/brand-design-system`
+(`/Users/vincent/06_code/brand-design-system`): DTCG tokens (`tokens/*.tokens.json`), generated
+email palette (`generated/email/palette.json`), and channel contract (`platforms/email.md`).
 
 ## 5. No wallpaper behind an email
 

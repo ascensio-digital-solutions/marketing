@@ -17,12 +17,12 @@ the files are build output and are overwritten. `--check` fails if they have dri
 Every one of these is a rule collision, not a preference. Listed so nobody
 "fixes" them back.
 
-**1. No pure-white surfaces.** The comps draw the pre-header, navigation and divider
-cards in `#FFFFFF` and the content cards in `#F7F1DE`, giving a white-band / cream-card
-rhythm. Pure white is not a permitted email section surface, and the palette that governs
-email colour is the rendered Atelier Zero modules (AGENTS.md #1), not the Figma fills.
-Every card therefore takes the one light card tone `#F6EFD9`, and the
-separation is carried by the 1px `#C7BFAC` hairline plus the role radius — 8px nav, 16px
+**1. No pure-white surfaces; canonical Atelier Zero palette (Decision 8A, #157).** The comps
+draw the pre-header, navigation and divider cards in `#FFFFFF` and the content cards in
+`#F7F1DE`, giving a white-band / cream-card rhythm. Every card takes the canonical Bone tone
+`#F7F1DE` (with Paper `#EFE7D2` recessed insets, Ink `#15140F` text, Ink Mute `#5A5448`
+captions, and Brand Coral `#FF5757` accents per `generated/email/palette.json`), and
+separation is carried by the 1px `#D3CEBD` hairline plus the role radius — 8px nav, 16px
 divider and footer, 20px title/content/product. Cards stack flush with `padding:0 12px`
 and no vertical gap, so the meeting corners notch and the stack still reads as stacked
 boxes. V4 keeps its coral pre-header banner; that is the one accent block.

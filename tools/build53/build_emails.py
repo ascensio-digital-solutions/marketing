@@ -211,8 +211,8 @@ def esc(t):
 
 def loud(text):
     """A build placeholder that fails review visibly. Text stays verbatim."""
-    return (f'<div style="border:2px dashed #EA6452;border-radius:8px;padding:10px 14px;margin:4px 0;'
-            f'font-family:\'Courier New\',Courier,monospace;font-size:13px;line-height:1.5;color:#151411;'
+    return (f'<div style="border:2px dashed #FF5757;border-radius:8px;padding:10px 14px;margin:4px 0;'
+            f'font-family:\'Courier New\',Courier,monospace;font-size:13px;line-height:1.5;color:#15140F;'
             f'background-color:transparent;">{esc(text)}</div>')
 
 def paras_html(paras):
@@ -668,7 +668,7 @@ def r_cart_line_items(slug, copy, ctx=None, **kw):
         # unresolved. Real Liquid now resolves it, so the placeholder must go.
         # At renderer time the token is still bare inside loud()'s div; the inline <span>
         # is only added later by loud_inline_tokens() at document assembly. Tolerate both.
-        frag = re.sub(r'<div style="border:2px dashed #EA6452[^"]*">'
+        frag = re.sub(r'<div style="border:2px dashed #FF5757[^"]*">'
                       r'(?:<span[^>]*>)?\s*\{\{\s*cart_contents\s*\}\}\s*'
                       r'(?:</span>)?</div>',
                       "", frag)
@@ -813,11 +813,11 @@ def r_dynamic(slug, copy, ctx=None, **kw):
     Replace the sample narrative, keep the card + CTA slots."""
     paras = paragraphs(copy)
     tpl = load_template(slug)
-    tpl = re.sub(r'<p style="margin:0 0 12px;font-size:16px;line-height:1\.6;color:#25221D;">.*?</p>',
+    tpl = re.sub(r'<p style="margin:0 0 12px;font-size:16px;line-height:1\.6;color:#15140F;">.*?</p>',
                  "", tpl, flags=re.S)
     body = paras_html(paras) if paras else ""
     if body:
-        tpl = inject_before_cell_end(tpl, '<div style="font-size:16px;line-height:1.6;color:#25221D;">'
+        tpl = inject_before_cell_end(tpl, '<div style="font-size:16px;line-height:1.6;color:#15140F;">'
                                      + body + "</div>")
     fields = load_fields(slug)
     values = {}
@@ -956,15 +956,15 @@ def compliance_strip(html_doc, campaign):
         parts.append(f"Hair Solutions Co.<br>{ADDRESS}")
     links = []
     if need_unsub:
-        links.append(f'<a href="{UNSUB}" style="color:#25221D;text-decoration:underline;">Unsubscribe</a>')
-    links.append(f'<a href="{PREFERENCES_URL}" style="color:#25221D;text-decoration:underline;">Manage preferences</a>')
-    links.append('<a href="https://hairsolutions.co/policies/privacy-policy" style="color:#25221D;text-decoration:underline;">Privacy</a>')
+        links.append(f'<a href="{UNSUB}" style="color:#15140F;text-decoration:underline;">Unsubscribe</a>')
+    links.append(f'<a href="{PREFERENCES_URL}" style="color:#15140F;text-decoration:underline;">Manage preferences</a>')
+    links.append('<a href="https://hairsolutions.co/policies/privacy-policy" style="color:#15140F;text-decoration:underline;">Privacy</a>')
     parts.append(" &middot; ".join(links))
     return ('<table border="0" cellpadding="0" cellspacing="0" role="presentation" '
             'style="background-color:transparent;border-collapse:collapse;margin:0;" width="100%">'
             '<tr><td align="center" style="padding:7px 16px 24px;">'
             '<div style="font-family:\'Helvetica Neue\',Helvetica,Arial,sans-serif;font-size:11px;'
-            'line-height:1.7;color:#25221D;text-align:center;">'
+            'line-height:1.7;color:#15140F;text-align:center;">'
             + "<br>".join(parts) + "</div></td></tr></table>")
 
 def loud_inline_tokens(doc):
@@ -982,7 +982,7 @@ def loud_inline_tokens(doc):
         # the token text is already escaped at this point (esc/paras_html/loud all ran) —
         # escaping again produced "&amp;amp;", which renders literally in the client.
         # unescape first so the round trip is idempotent.
-        return (f'<span style="background-color:#F6EFD9;border-bottom:2px dashed #EA6452;'
+        return (f'<span style="background-color:#F7F1DE;border-bottom:2px dashed #FF5757;'
                 f'font-family:\'Courier New\',Courier,monospace;font-size:90%;">'
                 f'{esc(html.unescape(tok))}</span>')
     return re.sub(r"\{\{[^{}]*\}\}", repl, doc)
@@ -1077,8 +1077,8 @@ def assemble(row):
     if founder_mode and " / " in cta:
         first, second = [c.strip() for c in cta.split(" / ", 1)]
         d1 = ctx["dest"] or TODO_REVIEW_PAGE
-        dual = (f'<div style="padding-top:16px;"><a href="{esc(d1)}" style="color:#151411;font-weight:700;">{esc(first)}</a>'
-                f' &nbsp;&middot;&nbsp; <a href="mailto:info@hairsolutions.co" style="color:#151411;font-weight:700;">{esc(second)}</a></div>')
+        dual = (f'<div style="padding-top:16px;"><a href="{esc(d1)}" style="color:#15140F;font-weight:700;">{esc(first)}</a>'
+                f' &nbsp;&middot;&nbsp; <a href="mailto:info@hairsolutions.co" style="color:#15140F;font-weight:700;">{esc(second)}</a></div>')
         modules = [(f, inject_before_cell_end(fr, dual) if f == "Layout - Plain-text founder wrapper" else fr)
                    for f, fr in modules]
         deviations.append(f"dual CTA rendered in-wrapper: '{first}' -> {d1}; '{second}' -> mailto:info@hairsolutions.co")
@@ -1279,7 +1279,7 @@ def main():
             "preamble_notes": preamble,
             "blockers": [n for n in notes if n.startswith("BLOCKER")],
             "issues": issues, "deviations": deviations,
-            "loud_placeholders": doc.count("border:2px dashed #EA6452"),
+            "loud_placeholders": doc.count("border:2px dashed #FF5757"),
         })
         print("%-58s %-7s %5.1fKB  modules:%2d  loud:%d  issues:%d" %
               (name[:58], status, size_kb, len(modules), ledger[-1]["loud_placeholders"], len(issues)))

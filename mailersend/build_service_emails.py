@@ -9,9 +9,9 @@ Source design: Figma "Email Design System" file 9Il504CQE8jLaUTBVzphqc, canvas
 Warm) and 284:21691 (V4 reorder). Geometry, section order, radii, paddings and
 copy come from those frames verbatim.
 
-Colour does NOT come from Figma. Per AGENTS.md #1 the authority for email colour
-is the rendered Atelier Zero module previews in `Email Reference File/`, and the
-three deviations that forces are recorded in DESIGN-NOTES.md.
+Colour comes from `ascensio-digital-solutions/brand-design-system`
+(`generated/email/palette.json` and `platforms/email.md`), per AGENTS.md #1
+(Decision 8A, 2026-11-22, #157). The transparent page rule (AGENTS.md #5) is unchanged.
 
 Output is a Twig template, not finished HTML: it is uploaded raw in the `html`
 field of POST /v1/email and rendered by MailerSend against `personalization`.
@@ -31,20 +31,19 @@ HERE = Path(__file__).resolve().parent
 OUT_DIR = HERE / "emails"
 
 # --------------------------------------------------------------------------
-# Palette — Atelier Zero, as rendered in the module previews (AGENTS.md #1).
-# Do not substitute values from brand-design-system/specs/*.
+# Palette — Atelier Zero brand tokens (generated/email/palette.json, Decision 8A).
 # --------------------------------------------------------------------------
 # The email paints no wallpaper. The body and the outer wrapper are transparent
 # so the client's own background shows through the 12px gutter — hard rule, set
 # 2026-08-19 by Vincent, see AGENTS.md #5. Only cards and insets carry colour.
 PAGE  = "transparent"
-CARD  = "#F6EFD9"   # every card surface
-INSET = "#EDE3CC"   # recessed panel inside a card
-INK   = "#151411"   # headings
-BODY  = "#25221D"   # body copy
-MUTED = "#807B6B"   # metadata, captions, mono labels
-RULE  = "#C7BFAC"   # hairlines, dividers, card borders
-CORAL = "#EA6452"   # accent, CTA fill, price
+CARD  = "#F7F1DE"   # Bone — every card surface
+INSET = "#EFE7D2"   # Paper — recessed panel inside a card
+INK   = "#15140F"   # Ink — headings
+BODY  = "#15140F"   # Ink — body copy
+MUTED = "#5A5448"   # Ink Mute — metadata, captions, mono labels
+RULE  = "#D3CEBD"   # Flattened Ink 16% on Bone — hairlines, dividers, card borders
+CORAL = "#FF5757"   # Brand Coral — accent, CTA fill, price
 
 # Type. Matches the shipped MailerSend templates and the Figma type stacks.
 SANS  = "'Inter','Helvetica Neue',Helvetica,Arial,sans-serif"

@@ -42,6 +42,31 @@ def sub_once(frag, pattern, marker):
     new, n = re.subn(pattern, marker, frag, count=1)
     return new, n > 0
 
+# Decision 8A (2026-11-22, #157): Brand tokens own email colour
+# (ascensio-digital-solutions/brand-design-system generated/email/palette.json).
+BRAND_EMAIL_PALETTE_MAP = (
+    ("#EA6452", "#FF5757"),
+    ("#ea6452", "#FF5757"),
+    ("#ED6F5C", "#FF5757"),
+    ("#ed6f5c", "#FF5757"),
+    ("#F6EFD9", "#F7F1DE"),
+    ("#f6efd9", "#F7F1DE"),
+    ("#EDE3CC", "#EFE7D2"),
+    ("#ede3cc", "#EFE7D2"),
+    ("#151411", "#15140F"),
+    ("#25221D", "#15140F"),
+    ("#25221d", "#15140F"),
+    ("#807B6B", "#5A5448"),
+    ("#807b6b", "#5A5448"),
+    ("#C7BFAC", "#D3CEBD"),
+    ("#c7bfac", "#D3CEBD"),
+)
+
+def normalize_brand_palette(text):
+    for old, new in BRAND_EMAIL_PALETTE_MAP:
+        text = text.replace(old, new)
+    return text
+
 def extract(slug):
     """Return (style_blocks, shell_fragment) for the light preview of slug."""
     hits = [f for f in os.listdir(PREVIEWS) if f.endswith(f"--{slug}_light.module.html")]
@@ -50,14 +75,14 @@ def extract(slug):
     doc = open(os.path.join(PREVIEWS, hits[0]), encoding="utf-8").read()
     body = doc[doc.find("<body"):]
     body = body[body.find(">") + 1:body.rfind("</body>")]
-    styles = re.findall(r"<style>.*?</style>", body, re.S)
+    styles = [normalize_brand_palette(s) for s in re.findall(r"<style>.*?</style>", body, re.S)]
     frag = re.sub(r"<style>.*?</style>", "", body, flags=re.S)
     # three resolved previews still carry the source module's HubL comment blocks
     # ({# ... #}) — they render as visible text in an email client. Strip them here so
     # a regeneration cannot reintroduce them.
     frag = re.sub(r"\{#.*?#\}", "", frag, flags=re.S)
     frag = re.sub(r"\n{3,}", "\n", frag)
-    return styles, frag.strip()
+    return styles, normalize_brand_palette(frag.strip())
 
 
 
@@ -133,6 +158,8 @@ def empty_default_slots(slug, frag, fields):
 def main():
     os.makedirs(OUT, exist_ok=True)
     for old in os.listdir(OUT):
+        if old.endswith(".liquid.html"):
+            continue
         os.unlink(os.path.join(OUT, old))
     trios = sorted(d[:-len("_light.module")] for d in os.listdir(TRIOS) if d.endswith("_light.module"))
     report = []

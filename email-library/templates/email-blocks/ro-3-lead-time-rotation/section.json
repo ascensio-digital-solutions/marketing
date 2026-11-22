@@ -1,0 +1,12 @@
+{
+  "name": "RO-3 · Lead time and rotation",
+  "type": "Text",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": false,
+  "notes": "Lead time confirmed by Vincent on 2026-10-04: custom hair systems take 8-10 weeks, stock systems 5-7 days. A replacement is a custom system, so the email says 8-10 weeks (the Figma placeholder was '[Production lead time]')."
+}

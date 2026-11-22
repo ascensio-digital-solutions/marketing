@@ -1,0 +1,29 @@
+{
+  "name": "Navigation · Compact centred logo and links · White",
+  "type": "Navigation",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "01 · Global chrome",
+    "module": "Navigation · Compact centred logo and links",
+    "theme": "white",
+    "figma_source": "Navigation · Inverted Ink Theme",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=479-16834",
+    "sample_copy": [
+      "Shop systems",
+      "System guide",
+      "Care",
+      "Support"
+    ],
+    "adaptations": [
+      "Figma drew an 'inverted ink' nav identical to the centred one; it is now a compact variant (96px logo, tighter padding) so the three themes are real",
+      "Named for the layout, not the colour: Bone, Ink and White all exist"
+    ]
+  }
+}

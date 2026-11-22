@@ -1,0 +1,33 @@
+{
+  "name": "Order · Confirmation details · Ink",
+  "type": "Transactional",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "07 · Transactional lifecycle",
+    "module": "Order · Confirmation details",
+    "theme": "ink",
+    "figma_source": "Order confirmation",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-19686",
+    "sample_copy": [
+      "ORDER CONFIRMED",
+      "Your order is in production",
+      "Order number #HS-40218",
+      "Specification System 01 · Lace, Base 06",
+      "Status In production",
+      "Estimated dispatch Aug 24",
+      "I'll email you at each real step…",
+      "View order status →"
+    ],
+    "adaptations": [
+      "Eyebrow, title, four detail rows, a note and the button: the post-purchase pattern of the v6 emails",
+      "Detail rows on the v6 label/value hairline rows; title in the v6 title role (sentence case); button is the v6 coral pill"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Divider · Thin rule · Ink",
+  "type": "Divider",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "08 · Utility",
+    "module": "Divider · Thin rule",
+    "theme": "ink",
+    "figma_source": "Divider · Thin solid rule",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-13357",
+    "sample_copy": [
+      "Thin solid line"
+    ],
+    "adaptations": [
+      "Full-width hairline in the theme's rule colour inside a v6 card (the Figma divider was a free-floating 600px frame)",
+      "Use sparingly: a hairline between two text blocks of the same surface"
+    ]
+  }
+}

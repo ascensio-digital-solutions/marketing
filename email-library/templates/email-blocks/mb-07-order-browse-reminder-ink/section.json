@@ -1,0 +1,29 @@
+{
+  "name": "Order · Browse reminder · Ink",
+  "type": "Transactional",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "07 · Transactional lifecycle",
+    "module": "Order · Browse reminder",
+    "theme": "ink",
+    "figma_source": "Browse reminder",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-19893",
+    "sample_copy": [
+      "YOU WERE LOOKING AT",
+      "Custom hair system",
+      "LACE FRONT / MEDIUM DENSITY",
+      "View it again →"
+    ],
+    "adaptations": [
+      "Eyebrow, a wide image slot, product title, two body lines and the button",
+      "Image is a labelled slot (use the viewed product's approved render); product name, spec and link come from the browse event"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Promo · Code block · Ink",
+  "type": "Promo",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "06 · CTAs & promotions",
+    "module": "Promo · Code block",
+    "theme": "ink",
+    "figma_source": "Promotional code",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-19610",
+    "sample_copy": [
+      "YOUR CODE",
+      "WELCOMEBACK20",
+      "Valid 14 days · applied at checkout"
+    ],
+    "adaptations": [
+      "Eyebrow in the v6 eyebrow role, the code as the title role (slot, never a real code), terms in the v6 body role",
+      "The Figma 'paper' name dropped: the module now exists in three themes"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Product · Single feature with button · Ink",
+  "type": "Product",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "04 · Products & commerce",
+    "module": "Product · Single feature with button",
+    "theme": "ink",
+    "figma_source": "Product · Single product feature",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-12669",
+    "sample_copy": [
+      "Swiss Lace Atelier System",
+      "$580",
+      "Featuring single-knot hair ventilation…",
+      "Configure Your Fit →"
+    ],
+    "adaptations": [
+      "One large product image with the name, price, one line of copy and a button below it",
+      "Name in the v6 title role, price in the v6 serif-italic price role (was two 22px sans lines)",
+      "Button is the v6 coral pill (58px high, ink label, arrow)",
+      "Image is a labelled slot: use the approved product render"
+    ]
+  }
+}

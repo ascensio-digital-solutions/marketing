@@ -1,0 +1,32 @@
+{
+  "name": "Product · Recommended thumbnails · Bone",
+  "type": "Product",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "04 · Products & commerce",
+    "module": "Product · Recommended thumbnails",
+    "theme": "bone",
+    "figma_source": "Product · Recommended products thumbnail",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-13088",
+    "sample_copy": [
+      "You may also like",
+      "Citrus Release Elixir",
+      "Scalp Protector Spray",
+      "Waterproof Bond Adhesive",
+      "COMPANION CARE"
+    ],
+    "adaptations": [
+      "Three small cards (thumbnail left, text right); on mobile they stack one per line",
+      "Heading in the v6 eyebrow role (sentence case sample copy, label uppercase by role)",
+      "Card fill dropped: each tile is the v6 inset (8px) with the thumbnail on the card colour",
+      "Thumbnails are labelled slots: use approved product renders"
+    ]
+  }
+}

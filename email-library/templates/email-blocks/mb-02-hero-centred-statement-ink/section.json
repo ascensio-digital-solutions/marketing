@@ -1,0 +1,29 @@
+{
+  "name": "Hero · Centred statement · Ink",
+  "type": "Hero",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "02 · Heroes",
+    "module": "Hero · Centred statement",
+    "theme": "ink",
+    "figma_source": "Hero · Solid dark ink theme",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-11716",
+    "sample_copy": [
+      "Strictly confidential",
+      "The absolute standard in premium care",
+      "Every system is customized entirely to your hair colour, density requirements, and scalp contour.",
+      "Request private booking"
+    ],
+    "adaptations": [
+      "Figma named it 'solid dark ink' and drew all three cells dark (the Ink cell's headline was invisible): rebuilt as a real Bone / Ink / White module",
+      "Differs from the text-essay hero by body role (16/26, not lead) and 72px padding"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Service · Personal letter · White",
+  "type": "Content",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "05 · Services & proof",
+    "module": "Service · Personal letter",
+    "theme": "white",
+    "figma_source": "PERSONAL CONSULTATION LETTER",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-18320",
+    "sample_copy": [
+      "Hey Marcus,",
+      "I noticed you started your consultation a few days ago…",
+      "– David, Founder, Hair Solutions Co."
+    ],
+    "adaptations": [
+      "Plain personal letter: greeting, two paragraphs, signature; no logo, no hero image, no button",
+      "Body in the v6 body role; signature in the serif-italic note role with the role line in the v6 meta role",
+      "The Figma intent note ('no logo · no hero image · no button styling') is dropped: it is a design note, not email content"
+    ]
+  }
+}

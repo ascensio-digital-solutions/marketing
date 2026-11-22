@@ -1,0 +1,29 @@
+{
+  "name": "Navigation · Logo left, links right · Ink",
+  "type": "Navigation",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "01 · Global chrome",
+    "module": "Navigation · Logo left, links right",
+    "theme": "ink",
+    "figma_source": "Navigation · Logo Left / Links Right",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=479-16571",
+    "sample_copy": [
+      "Shop systems",
+      "System guide",
+      "Care",
+      "Support"
+    ],
+    "adaptations": [
+      "Logo (112px, as the v6 header) and links stay side by side on mobile; the links wrap to two lines",
+      "Approved v5 wordmark, v6 eyebrow face for the links"
+    ]
+  }
+}

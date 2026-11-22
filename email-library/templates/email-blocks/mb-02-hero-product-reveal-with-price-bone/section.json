@@ -1,0 +1,29 @@
+{
+  "name": "Hero · Product reveal with price · Bone",
+  "type": "Hero",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "02 · Heroes",
+    "module": "Hero · Product reveal with price",
+    "theme": "bone",
+    "figma_source": "Hero · New product reveal block",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-11759",
+    "sample_copy": [
+      "New arrival",
+      "The Swiss Lace Atelier System",
+      "Introductory rate $580",
+      "Configure your system"
+    ],
+    "adaptations": [
+      "Badge in the v6 badge role; image is a labelled slot; price in the v6 price role (serif italic)",
+      "Price and its label are slots: no price is stated until confirmed"
+    ]
+  }
+}

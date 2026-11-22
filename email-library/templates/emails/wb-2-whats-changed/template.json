@@ -1,0 +1,35 @@
+{
+  "code": "WB-2",
+  "name": "Win-back: what's changed",
+  "journey": "win-back",
+  "surface": "messaging-code-your-own",
+  "context": "customer",
+  "shopify_location": "Not installed yet. Planned: Flow › Win-back › Send marketing email (Messaging, Code your own)",
+  "subject": "Three things that are genuinely different now.",
+  "preview_text": "Briefly: better hybrids, real tracking, and maintenance plans.",
+  "timing": "WB series starts after 90 days without any order (WB-1). WB-2's delay after WB-1 is not defined.",
+  "shopify_status": "not-installed",
+  "shopify_matches_repo": false,
+  "blockers": [
+    "'See what's changed' button points to the homepage for now (see the button-links issue).",
+    "Testimonial is a real review (Robert M., Mono Fusion LF) but not from a returning customer, as the design asks; photo is a product hairline shot.",
+    "Hybrid prices are live Liquid (all_products[handle].price); product handles are hard-coded for Lace Edge 360, Mono Fusion LF and Thin Skin LF.",
+    "Build diagram and product images are crops of the Figma capture; originals are not available.",
+    "'Maintenance plans' claims supplies arrive automatically on schedule: confirm that offer exists before sending.",
+    "Design's 'View in browser' link is omitted: Shopify Messaging has no variable for it.",
+    "Series trigger confirmed (90 days without any order). WB-1 (checking in) is built as its own template."
+  ],
+  "sections": [
+    "00-email-head-fonts-styles",
+    "wb-2-preheader-bar",
+    "02-logo-header",
+    "wb-2-hero",
+    "wb-2-intro",
+    "wb-2-three-changes",
+    "wb-2-build",
+    "wb-2-hybrids",
+    "wb-2-testimonial",
+    "wb-2-cta",
+    "v6-footer-ink-social"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "CR-2 · Three questions (FAQ)",
+  "type": "FAQ",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": false,
+  "notes": ""
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Product · Three card row · Bone",
+  "type": "Product",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "04 · Products & commerce",
+    "module": "Product · Three card row",
+    "theme": "bone",
+    "figma_source": "Product",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=479-16935",
+    "sample_copy": [
+      "Refined Density · From $420",
+      "Natural Movement · From $420",
+      "Longer Lengths · From $420"
+    ],
+    "adaptations": [
+      "Three product cards in a row; on mobile they stack one per line (a 169px card does not fit three across)",
+      "Card fill and 20px radius dropped: tiles sit directly on the card, image on the v6 inset (8px)",
+      "Title in the v6 subtitle role (sentence case), price in the v6 serif-italic price role",
+      "Image tiles are 1:1 labelled slots (square at any width, desktop and mobile): use square product renders"
+    ]
+  }
+}

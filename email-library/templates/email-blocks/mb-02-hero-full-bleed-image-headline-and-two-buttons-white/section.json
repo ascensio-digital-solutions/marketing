@@ -1,0 +1,30 @@
+{
+  "name": "Hero · Full-bleed image, headline and two buttons · White",
+  "type": "Hero",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "02 · Heroes",
+    "module": "Hero · Full-bleed image, headline and two buttons",
+    "theme": "white",
+    "figma_source": "Hero · Full image dark background",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-12031",
+    "sample_copy": [
+      "Non-surgical hair replacement",
+      "Confidence starts at the top.",
+      "Premium men's hair systems, handmade from 100% human hair.",
+      "Shop hair systems",
+      "Book a free consultation"
+    ],
+    "adaptations": [
+      "Text no longer sits on the image: full-bleed image on top, copy below, left-aligned (unlike 'Image with text below', which is centred)",
+      "Serif emphasis phrase in the headline (coral on Ink, ink on light); two stacked buttons: primary and outline"
+    ]
+  }
+}

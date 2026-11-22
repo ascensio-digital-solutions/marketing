@@ -1,0 +1,26 @@
+{
+  "code": "CR-4",
+  "name": "Last note about your cart",
+  "journey": "cart-recovery",
+  "surface": "messaging-code-your-own",
+  "shopify_location": "Flow › Recover abandoned checkout › Send marketing email #4 (Messaging, Code your own)",
+  "subject": "Last note about your cart",
+  "preview_text": "Free shipping if it helps. Either way, this is the last one.",
+  "timing": "Abandon + 96 h (wait 172 800 s after CR-3, no order since abandonment)",
+  "shopify_status": "draft",
+  "shopify_matches_repo": true,
+  "blockers": [
+    "Workflow inactive; email is a draft.",
+    "Uses discount code FREESHIP (exists, active). Subject was empty in Shopify until 2026-10-03; now set."
+  ],
+  "sections": [
+    "00-email-head-fonts-styles",
+    "20-cr-4-preheader-bar",
+    "02-logo-header",
+    "21-cr-4-intro",
+    "22-cr-4-discount-code",
+    "04-cart-contents",
+    "23-cr-4-sign-off-cta",
+    "06-preferences-footer"
+  ]
+}

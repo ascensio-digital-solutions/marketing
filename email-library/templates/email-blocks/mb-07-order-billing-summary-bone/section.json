@@ -1,0 +1,31 @@
+{
+  "name": "Order · Billing summary · Bone",
+  "type": "Transactional",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "07 · Transactional lifecycle",
+    "module": "Order · Billing summary",
+    "theme": "bone",
+    "figma_source": "BILLING SUMMARY",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-18771",
+    "sample_copy": [
+      "Billing summary",
+      "Plan: Continuity Plan - Quarterly",
+      "Payment method: Visa •••• 4417",
+      "Renewal date: Aug 19, 2026",
+      "Amount due: $249.00",
+      "Update payment method →"
+    ],
+    "adaptations": [
+      "Four label/value rows on the v6 hairline rows and one button",
+      "Card details are slots: never put a real card or number in a bank section (the template supplies the last four digits)"
+    ]
+  }
+}

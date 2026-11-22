@@ -1,0 +1,12 @@
+{
+  "name": "C-0 · Your quote",
+  "type": "Order summary",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Design copy still contains bracketed fields; this email is not to be created in Shopify."
+}

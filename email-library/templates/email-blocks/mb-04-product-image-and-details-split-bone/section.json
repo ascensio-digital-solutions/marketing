@@ -1,0 +1,29 @@
+{
+  "name": "Product · Image and details split · Bone",
+  "type": "Product",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "04 · Products & commerce",
+    "module": "Product · Image and details split",
+    "theme": "bone",
+    "figma_source": "Product · Asymmetric image-details split",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-12789",
+    "sample_copy": [
+      "French Lace Active · $520",
+      "A highly durable, breathable lace mesh base…",
+      "Shop French Lace →"
+    ],
+    "adaptations": [
+      "Narrow image left, details right; the columns stack on mobile with the image first",
+      "Product name in the v6 title role, price in the v6 serif-italic role; button is the v6 coral pill at 46px",
+      "Image is a 1:1 labelled slot (the Figma image was portrait): use a square product render"
+    ]
+  }
+}

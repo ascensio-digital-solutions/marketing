@@ -1,0 +1,31 @@
+{
+  "code": "PP-1",
+  "name": "Order confirmation",
+  "journey": "post-purchase",
+  "surface": "notification",
+  "shopify_location": "Settings › Notifications › Customer notifications › Order confirmation",
+  "subject": "Your order is confirmed{% if customer.first_name != blank %}, {{ customer.first_name }}{% endif %}.",
+  "preview_text": "Here's exactly what happens between now and the day it arrives.",
+  "timing": "Sent when an order is placed",
+  "shopify_status": "live",
+  "shopify_matches_repo": true,
+  "blockers": [
+    "Lead times: in-stock 2/7 days, custom 56/63 days.",
+    "Previous live template backed up in templates/hsc-v6-emails/backups/."
+  ],
+  "html_title": "Your order is confirmed",
+  "sections": [
+    "24-pp-1-liquid-header-order-variables-lead-times",
+    "00-email-head-fonts-styles",
+    "25-pp-1-preheader-bar",
+    "02-logo-header",
+    "26-pp-1-hero",
+    "27-pp-1-intro",
+    "28-pp-1-order-summary",
+    "29-pp-1-photo-caption",
+    "30-pp-1-timeline",
+    "31-pp-1-signature",
+    "32-pp-1-cta",
+    "33-pp-1-preferences-footer"
+  ]
+}

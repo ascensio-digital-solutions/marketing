@@ -1,0 +1,30 @@
+{
+  "name": "Order · Cart summary · Bone",
+  "type": "Transactional",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "07 · Transactional lifecycle",
+    "module": "Order · Cart summary",
+    "theme": "bone",
+    "figma_source": "ABANDONED CART SUMMARY",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-18456",
+    "sample_copy": [
+      "Still in your cart",
+      "System 01 - Lace, Base 06 · $329.00",
+      "Care Kit - Starter · $59.00",
+      "Subtotal $388.00",
+      "Return to cart →"
+    ],
+    "adaptations": [
+      "Two line items, a subtotal row and the button; line items repeat per cart line in the template",
+      "Title in the v6 subtitle role; subtotal on the v6 label/value hairline row; button is the v6 coral pill"
+    ]
+  }
+}

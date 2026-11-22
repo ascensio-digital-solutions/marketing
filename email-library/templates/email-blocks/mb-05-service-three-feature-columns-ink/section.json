@@ -1,0 +1,30 @@
+{
+  "name": "Service · Three feature columns · Ink",
+  "type": "Service",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "05 · Services & proof",
+    "module": "Service · Three feature columns",
+    "theme": "ink",
+    "figma_source": "Service",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=479-17153",
+    "sample_copy": [
+      "Considered construction",
+      "Specification guidance",
+      "Long-term care",
+      "Clear guidance for every decision."
+    ],
+    "adaptations": [
+      "Three centred feature columns; they stack on mobile",
+      "Icon glyphs (★ + →) replaced by one neutral icon chip: swap for an approved icon",
+      "Title in the v6 subtitle role, body in the v6 small role (sentence case)"
+    ]
+  }
+}

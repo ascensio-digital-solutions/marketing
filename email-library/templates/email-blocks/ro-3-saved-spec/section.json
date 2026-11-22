@@ -1,0 +1,20 @@
+{
+  "name": "RO-3 · Saved specification",
+  "type": "Order summary",
+  "context": "customer",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [
+    "customer.metafields.custom.spec_system",
+    "customer.metafields.custom.spec_base",
+    "customer.metafields.custom.spec_hair",
+    "customer.metafields.custom.spec_colour",
+    "customer.metafields.custom.spec_density",
+    "customer.metafields.custom.spec_size",
+    "customer.last_order.created_at"
+  ],
+  "placeholders": false,
+  "notes": "BLOCKER: the six customer metafields (custom.spec_system, spec_base, spec_hair, spec_colour, spec_density, spec_size) do not exist yet; see the issue. The whole card is hidden when custom.spec_system is blank. Metafield access in Messaging could not be verified in the preview (its sample customer has none). 'Last ordered' uses customer.last_order.created_at. Image is a crop of the Figma capture."
+}

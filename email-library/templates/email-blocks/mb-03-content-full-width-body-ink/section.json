@@ -1,0 +1,26 @@
+{
+  "name": "Content · Full-width body · Ink",
+  "type": "Content",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "03 · Titles & editorial",
+    "module": "Content · Full-width body",
+    "theme": "ink",
+    "figma_source": "Content · Full-width body paragraph",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-12467",
+    "sample_copy": [
+      "Uncompromising quality standards",
+      "Each strand of virgin remy human hair undergoes rigorous inspection."
+    ],
+    "adaptations": [
+      "Subtitle role (19/24) heading over a long body paragraph at full content width"
+    ]
+  }
+}

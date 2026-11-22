@@ -1,0 +1,29 @@
+{
+  "name": "Order · Change summary · White",
+  "type": "Transactional",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "07 · Transactional lifecycle",
+    "module": "Order · Change summary",
+    "theme": "white",
+    "figma_source": "Change summary",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-20070",
+    "sample_copy": [
+      "WHAT'S CHANGED",
+      "— Add change one.",
+      "— Add change two.",
+      "— Add change three."
+    ],
+    "adaptations": [
+      "Eyebrow and three change lines, each on a hairline row; the dash prefix is a text dash, not coral",
+      "Lines are slots; use for policy, terms or product-change notices"
+    ]
+  }
+}

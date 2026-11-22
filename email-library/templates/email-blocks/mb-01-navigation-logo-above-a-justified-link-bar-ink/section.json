@@ -1,0 +1,29 @@
+{
+  "name": "Navigation · Logo above a justified link bar · Ink",
+  "type": "Navigation",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "01 · Global chrome",
+    "module": "Navigation · Logo above a justified link bar",
+    "theme": "ink",
+    "figma_source": "Navigation · Logo Centered Above Horizontal",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=479-16613",
+    "sample_copy": [
+      "Shop systems",
+      "System guide",
+      "Care",
+      "Support"
+    ],
+    "adaptations": [
+      "Figma drew this identically to the centred nav; here the four links are equal-width cells in a full-width bar under a hairline",
+      "Link cells stay four across on mobile (they shrink and wrap)"
+    ]
+  }
+}

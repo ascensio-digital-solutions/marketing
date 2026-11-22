@@ -1,0 +1,14 @@
+{
+  "name": "v6 · Footer (ink, social links)",
+  "type": "Preferences footer",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [
+    "unsubscribe_link"
+  ],
+  "placeholders": false,
+  "notes": "Dark footer: bone logo, the four social channels as text links, address, Unsubscribe · Manage preferences · Privacy."
+}

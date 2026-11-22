@@ -1,0 +1,26 @@
+{
+  "name": "Divider · Short rule · Ink",
+  "type": "Divider",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "08 · Utility",
+    "module": "Divider · Short rule",
+    "theme": "ink",
+    "figma_source": "Divider",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=479-17047",
+    "sample_copy": [
+      "SECTION BREAK · 48PX RHYTHM"
+    ],
+    "adaptations": [
+      "Figma's divider was a rule plus a usage note ('48px rhythm'): the note is dropped; the divider is a v6 card holding the short coral rule, so it keeps the flush stack",
+      "Use it where two blocks share a surface and need a break; where the surface can change instead, change the surface (the composition guide's seam rule)"
+    ]
+  }
+}

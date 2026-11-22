@@ -1,0 +1,11 @@
+{
+  "name": "PP-1 · Preferences footer",
+  "type": "Preferences footer",
+  "context": "any",
+  "surfaces": [
+    "notification"
+  ],
+  "liquid_variables": [],
+  "placeholders": false,
+  "notes": ""
+}

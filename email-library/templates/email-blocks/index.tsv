@@ -1,0 +1,82 @@
+id	name	type	context	surfaces	status	placeholders	used_by	characters
+00-email-head-fonts-styles	Email head (fonts + styles)	Email head	any	messaging-code-your-own,messaging-section,notification	live	no	C-0,CR-1,CR-2,CR-3,CR-4,NL-01,PP-1,RO-3,W-1,WB-1,WB-2	1276
+01-cr-1-preheader-bar	CR-1 · Preheader bar	Preheader bar	abandoned-checkout	messaging-code-your-own,messaging-section	draft	no	CR-1	1316
+02-logo-header	Logo header	Logo header	any	messaging-code-your-own,messaging-section,notification	live	no	C-0,CR-1,CR-2,CR-3,CR-4,PP-1,RO-3,WB-1,WB-2	827
+03-cr-1-greeting	CR-1 · Greeting	Text	any	messaging-code-your-own,messaging-section	draft	no	CR-1	1182
+04-cart-contents	Cart contents	Cart contents	abandoned-checkout	messaging-code-your-own,messaging-section	draft	no	CR-1,CR-2,CR-4	3619
+05-cr-1-sign-off-cta	CR-1 · Sign-off + CTA	Sign-off + CTA	abandoned-checkout	messaging-code-your-own,messaging-section	draft	no	CR-1	1951
+06-preferences-footer	Preferences footer	Preferences footer	any	messaging-code-your-own,messaging-section	draft	no	CR-1,CR-2,CR-3,CR-4,RO-3,WB-1	3225
+07-cr-2-preheader-bar	CR-2 · Preheader bar	Preheader bar	abandoned-checkout	messaging-code-your-own,messaging-section	draft	no	CR-2	1316
+08-cr-2-intro	CR-2 · Intro	Text	any	messaging-code-your-own,messaging-section	draft	no	CR-2	1098
+09-cr-2-three-questions-faq	CR-2 · Three questions (FAQ)	FAQ	any	messaging-code-your-own,messaging-section	draft	no	CR-2	3878
+10-cr-2-photo-caption	CR-2 · Photo + caption	Photo + caption	any	messaging-code-your-own,messaging-section	draft	no	CR-2	1272
+11-trust-strip	Trust strip	Trust strip	any	messaging-code-your-own,messaging-section	draft	no	CR-2,CR-3	1041
+12-cr-2-testimonial	CR-2 · Testimonial	Testimonial	any	messaging-code-your-own,messaging-section	draft	no	CR-2	2468
+13-cr-2-sign-off-cta	CR-2 · Sign-off + CTA	Sign-off + CTA	abandoned-checkout	messaging-code-your-own,messaging-section	draft	no	CR-2	1462
+14-cr-3-preheader-bar	CR-3 · Preheader bar	Preheader bar	any	messaging-code-your-own,messaging-section	draft	no	CR-3	1404
+15-cr-3-intro	CR-3 · Intro	Text	any	messaging-code-your-own,messaging-section	draft	no	CR-3	1428
+16-cr-3-reply-checklist	CR-3 · Reply checklist	Checklist	any	messaging-code-your-own,messaging-section	draft	no	CR-3	2241
+17-cr-3-sign-off-cta	CR-3 · Sign-off + CTA	Sign-off + CTA	any	messaging-code-your-own,messaging-section	draft	no	CR-3	2139
+18-cr-3-ink-note	CR-3 · Ink note	Ink note	any	messaging-code-your-own,messaging-section	draft	no	CR-3	1166
+19-cr-3-product-reminder	CR-3 · Product reminder	Product reminder	abandoned-checkout	messaging-code-your-own,messaging-section	draft	no	CR-3	1680
+20-cr-4-preheader-bar	CR-4 · Preheader bar	Preheader bar	abandoned-checkout	messaging-code-your-own,messaging-section	draft	no	CR-4	1470
+21-cr-4-intro	CR-4 · Intro	Text	any	messaging-code-your-own,messaging-section	draft	no	CR-4	1058
+22-cr-4-discount-code	CR-4 · Discount code	Discount code	any	messaging-code-your-own,messaging-section	draft	no	CR-4	1190
+23-cr-4-sign-off-cta	CR-4 · Sign-off + CTA	Sign-off + CTA	abandoned-checkout	messaging-code-your-own,messaging-section	draft	no	CR-4	2186
+24-pp-1-liquid-header-order-variables-lead-times	PP-1 Liquid header (order variables + lead times)	Liquid header	order	notification	live	no	PP-1	1623
+25-pp-1-preheader-bar	PP-1 · Preheader bar	Preheader bar	order	notification	live	no	PP-1	1318
+26-pp-1-hero	PP-1 · Hero	Hero	order	notification	live	no	PP-1	1420
+27-pp-1-intro	PP-1 · Intro	Text	order	notification	live	no	PP-1	1597
+28-pp-1-order-summary	PP-1 · Order summary	Order summary	order	notification	live	no	PP-1	3158
+29-pp-1-photo-caption	PP-1 · Photo + caption	Photo + caption	any	notification	live	no	PP-1	1288
+30-pp-1-timeline	PP-1 · Timeline	Timeline	order	notification	live	no	PP-1	5910
+31-pp-1-signature	PP-1 · Signature	Signature	order	notification	live	no	PP-1	1386
+32-pp-1-cta	PP-1 · CTA	CTA	order	notification	live	no	PP-1	1509
+33-pp-1-preferences-footer	PP-1 · Preferences footer	Preferences footer	any	notification	live	no	PP-1	3325
+c-0-approve-cta	C-0 · Approve your spec	CTA	any	messaging-code-your-own,messaging-section	draft	no	C-0	1581
+c-0-hero	C-0 · Hero	Hero	any	messaging-code-your-own,messaging-section	draft	no	C-0	1567
+c-0-intro	C-0 · Intro	Text	any	messaging-code-your-own,messaging-section	draft	no	C-0	1444
+c-0-preheader-bar	C-0 · Preheader bar	Preheader bar	any	messaging-code-your-own,messaging-section	draft	no	C-0	975
+c-0-questions	C-0 · Questions	FAQ	any	messaging-code-your-own,messaging-section	draft	yes	C-0	3282
+c-0-quote	C-0 · Your quote	Order summary	any	messaging-code-your-own,messaging-section	draft	yes	C-0	2831
+c-0-recommendation	C-0 · What I'd recommend	Product reminder	any	messaging-code-your-own,messaging-section	draft	yes	C-0	3185
+c-0-situation	C-0 · Your situation	Order summary	any	messaging-code-your-own,messaging-section	draft	yes	C-0	3336
+c-0-steps	C-0 · From here to your door	Timeline	any	messaging-code-your-own,messaging-section	draft	no	C-0	4280
+c-0-testimonial	C-0 · Testimonial (proof bank)	Testimonial	any	messaging-code-your-own,messaging-section	draft	yes	C-0	2526
+c-0-two-things	C-0 · Two things worth knowing	Text	any	messaging-code-your-own,messaging-section	draft	no	C-0	2777
+nl-1-cta-band	NL-01 · CTA band	CTA	any	messaging-code-your-own,messaging-section	draft	no	NL-01	1884
+nl-1-faq	NL-01 · Questions	FAQ	any	messaging-code-your-own,messaging-section	draft	no	NL-01	2845
+nl-1-four-bases	NL-01 · The four bases	Comparison	any	messaging-code-your-own,messaging-section	draft	no	NL-01	6670
+nl-1-hero	NL-01 · Hero	Hero	any	messaging-code-your-own,messaging-section	draft	no	NL-01	1817
+nl-1-intro	NL-01 · Intro	Text	any	messaging-code-your-own,messaging-section	draft	no	NL-01	2129
+nl-1-masthead	NL-01 · Masthead	Logo header	any	messaging-code-your-own,messaging-section	draft	no	NL-01	1302
+nl-1-preheader-bar	NL-01 · Preheader bar	Preheader bar	any	messaging-code-your-own,messaging-section	draft	no	NL-01	993
+nl-1-testimonial	NL-01 · Testimonial (Thomas L.)	Testimonial	any	messaging-code-your-own,messaging-section	draft	no	NL-01	2642
+nl-1-two-bases	NL-01 · Same angle, two bases	Photo + caption	any	messaging-code-your-own,messaging-section	draft	no	NL-01	2314
+ro-3-cta	RO-3 · CTA	CTA	any	messaging-code-your-own,messaging-section	draft	no	RO-3	1584
+ro-3-hero	RO-3 · Hero	Hero	any	messaging-code-your-own,messaging-section	draft	no	RO-3	1564
+ro-3-intro	RO-3 · Intro	Text	any	messaging-code-your-own,messaging-section	draft	no	RO-3	1322
+ro-3-lead-time-rotation	RO-3 · Lead time and rotation	Text	any	messaging-code-your-own,messaging-section	draft	no	RO-3	2788
+ro-3-preheader-bar	RO-3 · Preheader bar	Preheader bar	any	messaging-code-your-own,messaging-section	draft	no	RO-3	961
+ro-3-saved-spec	RO-3 · Saved specification	Order summary	customer	messaging-code-your-own,messaging-section	draft	no	RO-3	5265
+ro-3-testimonial	RO-3 · Testimonial (Michael T.)	Testimonial	any	messaging-code-your-own,messaging-section	draft	no	RO-3	2595
+v6-footer-ink-social	v6 · Footer (ink, social links)	Preferences footer	any	messaging-code-your-own,messaging-section	draft	no	WB-2	2499
+v6-footer-paper	v6 · Footer (paper, no social)	Preferences footer	any	messaging-code-your-own,messaging-section	draft	no	C-0	1739
+v6-footer-paper-social	v6 · Footer (paper, social links)	Preferences footer	any	messaging-code-your-own,messaging-section	draft	no	NL-01,W-1	2592
+w-1-cta-band	W-1 · CTA band	CTA	any	messaging-code-your-own,messaging-section	draft	no	W-1	1900
+w-1-faq	W-1 · What new subscribers ask first	FAQ	any	messaging-code-your-own,messaging-section	draft	no	W-1	2819
+w-1-get-never-get	W-1 · What you'll get / never get	Checklist	any	messaging-code-your-own,messaging-section	draft	no	W-1	3982
+w-1-hero	W-1 · Hero	Hero	any	messaging-code-your-own,messaging-section	draft	no	W-1	2087
+w-1-intro	W-1 · Intro	Text	any	messaging-code-your-own,messaging-section	draft	no	W-1	1137
+w-1-masthead	W-1 · Masthead	Logo header	any	messaging-code-your-own,messaging-section	draft	no	W-1	1307
+w-1-preheader-bar	W-1 · Preheader bar	Preheader bar	any	messaging-code-your-own,messaging-section	draft	no	W-1	972
+wb-1-letter	WB-1 · Founder letter	Text	customer	messaging-code-your-own,messaging-section	draft	no	WB-1	2856
+wb-1-preheader-bar	WB-1 · Preheader bar	Preheader bar	any	messaging-code-your-own,messaging-section	draft	no	WB-1	955
+wb-2-build	WB-2 · The build	Photo + caption	any	messaging-code-your-own,messaging-section	draft	no	WB-2	2193
+wb-2-cta	WB-2 · CTA	CTA	any	messaging-code-your-own,messaging-section	draft	no	WB-2	1265
+wb-2-hero	WB-2 · Hero	Hero	any	messaging-code-your-own,messaging-section	draft	no	WB-2	1579
+wb-2-hybrids	WB-2 · Current hybrid systems	Product reminder	customer	messaging-code-your-own,messaging-section	draft	no	WB-2	4631
+wb-2-intro	WB-2 · Intro	Text	any	messaging-code-your-own,messaging-section	draft	no	WB-2	1063
+wb-2-preheader-bar	WB-2 · Preheader bar	Preheader bar	any	messaging-code-your-own,messaging-section	draft	no	WB-2	971
+wb-2-testimonial	WB-2 · Testimonial (Robert M.)	Testimonial	any	messaging-code-your-own,messaging-section	draft	no	WB-2	2635
+wb-2-three-changes	WB-2 · Three changes	Text	any	messaging-code-your-own,messaging-section	draft	no	WB-2	3910

@@ -1,0 +1,30 @@
+{
+  "name": "Order · Production status · White",
+  "type": "Transactional",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "07 · Transactional lifecycle",
+    "module": "Order · Production status",
+    "theme": "white",
+    "figma_source": "ORDER PRODUCTION STATUS",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-18221",
+    "sample_copy": [
+      "Order #HS-10482",
+      "IN PRODUCTION",
+      "System 01 - Lace, Base 06 · Density: Medium · Qty 1 · $329.00",
+      "Estimated ship date: 4-6 weeks from today"
+    ],
+    "adaptations": [
+      "Order number with a status pill, one line item, and the ship estimate",
+      "Status pill is the v6 badge (mono 11, 999px); product thumbnail is a labelled slot",
+      "Order number, status, item and estimate are slots wired to the order variables in the template"
+    ]
+  }
+}

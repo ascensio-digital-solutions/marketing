@@ -1,0 +1,12 @@
+{
+  "name": "W-1 · What new subscribers ask first",
+  "type": "FAQ",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": false,
+  "notes": "The 'What does a system cost?' answer was a Figma placeholder; Vincent supplied the wording on 2026-10-04 ('between $199 and $399 on average')."
+}

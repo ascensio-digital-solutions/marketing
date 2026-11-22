@@ -1,0 +1,33 @@
+{
+  "name": "Navigation · Utility bar with links · Bone",
+  "type": "Navigation",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "01 · Global chrome",
+    "module": "Navigation · Utility bar with links",
+    "theme": "bone",
+    "figma_source": "Navigation · Full Brand Utility Bar",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=479-16755",
+    "sample_copy": [
+      "Journal",
+      "Cart (0)",
+      "Shop systems",
+      "System guide",
+      "Care",
+      "Support"
+    ],
+    "adaptations": [
+      "Coral 'Cart' label → muted (coral text fails contrast on light surfaces)",
+      "Logo is the approved v5 wordmark on Shopify Files (ink on light, bone on ink), not the storefront logo image",
+      "Links in the v6 eyebrow face (Inter Tight 600, tracked) and the card on the v6 12px radius",
+      "Logo and links stay side by side on mobile; the links wrap to two lines"
+    ]
+  }
+}

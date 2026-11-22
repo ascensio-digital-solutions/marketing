@@ -1,0 +1,28 @@
+{
+  "name": "Footer · Brand line with legal · Bone",
+  "type": "Footer",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "01 · Global chrome",
+    "module": "Footer · Brand line with legal",
+    "theme": "bone",
+    "figma_source": "Email footer",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-19540",
+    "sample_copy": [
+      "Hair Solutions Co.",
+      "Custom hair replacement systems, made to order.",
+      "Unsubscribe"
+    ],
+    "adaptations": [
+      "Brand name in the v6 subtitle role, tagline in the v6 body role, legal links in the v6 meta role; left-aligned like the Figma card",
+      "Unsubscribe and preference links are slots: wire them to your own tags; Shopify Messaging also appends its own legal footer after sections"
+    ]
+  }
+}

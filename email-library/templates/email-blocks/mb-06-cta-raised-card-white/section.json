@@ -1,0 +1,28 @@
+{
+  "name": "CTA · Raised card · White",
+  "type": "CTA",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "06 · CTAs & promotions",
+    "module": "CTA · Raised card",
+    "theme": "white",
+    "figma_source": "CTA · BONE RAISED CARD",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-16267",
+    "sample_copy": [
+      "Need A Customized Quote?",
+      "Answer a few questions about your coverage goals…",
+      "Start Customizer Quiz →"
+    ],
+    "adaptations": [
+      "Figma's 'bone raised card' is a lighter card sitting on the page: rebuilt as a v6 inset (8px radius) inside the card, so it stays one card in three themes",
+      "Title in the v6 title role, body in the v6 body role, v6 coral pill"
+    ]
+  }
+}

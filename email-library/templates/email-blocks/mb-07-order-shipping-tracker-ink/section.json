@@ -1,0 +1,33 @@
+{
+  "name": "Order · Shipping tracker · Ink",
+  "type": "Transactional",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "07 · Transactional lifecycle",
+    "module": "Order · Shipping tracker",
+    "theme": "ink",
+    "figma_source": "SHIPPING TRACKER",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-18686",
+    "sample_copy": [
+      "On its way to you",
+      "Processed / Shipped / In transit / Delivered",
+      "Carrier: UPS Ground",
+      "Tracking number: 1Z999AA10123456784",
+      "Estimated arrival: Aug 9",
+      "Track package"
+    ],
+    "adaptations": [
+      "Progress uses the text colour for finished steps, not coral (coral budget: one button plus at most two marks)",
+      "Inactive steps use the v6 strong line; step labels in the v6 small role",
+      "Detail rows use the v6 label/value hairline rows",
+      "All values are slots (carrier, tracking number, arrival); wire them to the shipping variables in the template"
+    ]
+  }
+}

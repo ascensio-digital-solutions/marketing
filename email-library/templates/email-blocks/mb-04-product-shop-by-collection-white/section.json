@@ -1,0 +1,31 @@
+{
+  "name": "Product · Shop by collection · White",
+  "type": "Product",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "04 · Products & commerce",
+    "module": "Product · Shop by collection",
+    "theme": "white",
+    "figma_source": "SHOP BY COLLECTION",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-18369",
+    "sample_copy": [
+      "Shop by collection",
+      "Lace",
+      "Poly",
+      "Skin",
+      "Care"
+    ],
+    "adaptations": [
+      "Four collection thumbnails with centred names; they stay four across on mobile",
+      "Heading in the v6 title role (was a 17px label); names in the v6 name role",
+      "Thumbnails are 1:1 labelled slots: use square collection images"
+    ]
+  }
+}

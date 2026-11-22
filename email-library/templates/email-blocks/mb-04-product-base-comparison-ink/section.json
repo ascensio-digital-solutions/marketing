@@ -1,0 +1,29 @@
+{
+  "name": "Product · Base comparison · Ink",
+  "type": "Product",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "04 · Products & commerce",
+    "module": "Product · Base comparison",
+    "theme": "ink",
+    "figma_source": "Base comparison",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-20027",
+    "sample_copy": [
+      "COMPARE",
+      "Lace: Most natural, shortest life",
+      "Poly: Most durable, easy to clean",
+      "Hybrid: Balanced — most people end up here"
+    ],
+    "adaptations": [
+      "Three label/value rows between hairlines (same pattern as the recommended specification)",
+      "Eyebrow in the v6 eyebrow role; the Figma 'paper' name dropped (the module now exists in three themes)"
+    ]
+  }
+}

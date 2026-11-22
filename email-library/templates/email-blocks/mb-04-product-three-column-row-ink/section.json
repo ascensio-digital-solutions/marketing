@@ -1,0 +1,29 @@
+{
+  "name": "Product · Three column row · Ink",
+  "type": "Product",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "04 · Products & commerce",
+    "module": "Product · Three column row",
+    "theme": "ink",
+    "figma_source": "Product · Three-column product row",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-12912",
+    "sample_copy": [
+      "Citrus Cleanser $28",
+      "pH Shampoo $24",
+      "Lace Sealer $32"
+    ],
+    "adaptations": [
+      "Three compact tiles (care products); they stay three across on mobile, shrinking",
+      "Tile fill dropped; image on the v6 inset, name in the v6 small role, price in the serif-italic price role",
+      "Image tiles are 1:1 labelled slots (square at any width, desktop and mobile): use square product renders"
+    ]
+  }
+}

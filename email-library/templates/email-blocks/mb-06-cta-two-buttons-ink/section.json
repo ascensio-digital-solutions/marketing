@@ -1,0 +1,29 @@
+{
+  "name": "CTA · Two buttons · Ink",
+  "type": "CTA",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "06 · CTAs & promotions",
+    "module": "CTA · Two buttons",
+    "theme": "ink",
+    "figma_source": "CTA · TWO BUTTONS",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-15858",
+    "sample_copy": [
+      "Explore Our Base Systems",
+      "Compare transparent Swiss lace, durable poly skin…",
+      "Shop All Systems",
+      "Read base guide →"
+    ],
+    "adaptations": [
+      "One coral primary pill and one outline pill; they sit side by side on desktop and stack on mobile",
+      "Only the primary is coral (one coral button per email); the outline uses the theme's text colour"
+    ]
+  }
+}

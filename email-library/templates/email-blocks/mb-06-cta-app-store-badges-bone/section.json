@@ -1,0 +1,28 @@
+{
+  "name": "CTA · App store badges · Bone",
+  "type": "CTA",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "06 · CTAs & promotions",
+    "module": "CTA · App store badges",
+    "theme": "bone",
+    "figma_source": "CTA · APP REFERRALS BLOCK",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-16039",
+    "sample_copy": [
+      "Manage Orders On The Go",
+      "Track your custom ventilation steps, order supplies…",
+      "App Store · Google Play"
+    ],
+    "adaptations": [
+      "Two store badges side by side under the centred text; badges are labelled slots (use the official store badge images)",
+      "Title in the v6 title role, body in the v6 body role"
+    ]
+  }
+}

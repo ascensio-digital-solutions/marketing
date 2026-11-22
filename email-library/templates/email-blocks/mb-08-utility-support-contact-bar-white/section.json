@@ -1,0 +1,26 @@
+{
+  "name": "Utility · Support contact bar · White",
+  "type": "Footer",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "08 · Utility",
+    "module": "Utility · Support contact bar",
+    "theme": "white",
+    "figma_source": "SUPPORT CONTACT BAR",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-18870",
+    "sample_copy": [
+      "Questions? Reply to this email or reach us at support@hairsolutions.co"
+    ],
+    "adaptations": [
+      "One centred line in the v6 small role with the address as an underlined link",
+      "The address is a slot: use the approved support address of the store"
+    ]
+  }
+}

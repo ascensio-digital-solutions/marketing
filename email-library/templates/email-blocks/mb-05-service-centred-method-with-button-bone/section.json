@@ -1,0 +1,28 @@
+{
+  "name": "Service · Centred method with button · Bone",
+  "type": "Service",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "05 · Services & proof",
+    "module": "Service · Centred method with button",
+    "theme": "bone",
+    "figma_source": "SERVICE · ARTISANAL VENTILATING METHOD",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-15049",
+    "sample_copy": [
+      "Artisanal Ventilating Method",
+      "Every strand of premium natural hair is individually…",
+      "Learn our method →"
+    ],
+    "adaptations": [
+      "Heading in the v6 title role, body in the v6 body role, both centred",
+      "Icon glyph replaced by the neutral icon chip; button is the v6 coral pill (46px)"
+    ]
+  }
+}

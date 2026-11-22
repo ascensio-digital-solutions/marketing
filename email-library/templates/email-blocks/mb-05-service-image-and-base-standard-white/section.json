@@ -1,0 +1,29 @@
+{
+  "name": "Service · Image and base standard · White",
+  "type": "Service",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "05 · Services & proof",
+    "module": "Service · Image and base standard",
+    "theme": "white",
+    "figma_source": "SERVICE · ARTISAN BIO-BASE",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-15235",
+    "sample_copy": [
+      "THE BASE STANDARD",
+      "Artisan Bio-Base",
+      "Designed to completely mimic natural follicle…"
+    ],
+    "adaptations": [
+      "Square image left with eyebrow, heading and body right; stacks on mobile with the image first",
+      "Eyebrow in the v6 eyebrow role (the Figma pill label dropped); heading in the v6 title role",
+      "Image is a labelled slot: use an approved render"
+    ]
+  }
+}

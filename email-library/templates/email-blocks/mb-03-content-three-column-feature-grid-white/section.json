@@ -1,0 +1,28 @@
+{
+  "name": "Content · Three-column feature grid · White",
+  "type": "Content",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "03 · Titles & editorial",
+    "module": "Content · Three-column feature grid",
+    "theme": "white",
+    "figma_source": "Content · Three-column feature grid",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-12576",
+    "sample_copy": [
+      "Breathable: Allows full heat dissipation.",
+      "Hand-knotted: Artisan single ventilation.",
+      "Seamless: Disappears against the scalp."
+    ],
+    "adaptations": [
+      "Three inset cards (8px corners) with a glyph, a name-role heading and small body; they stack on mobile (three narrow columns do not fit a phone)",
+      "Glyphs are plain characters (no icon images)"
+    ]
+  }
+}

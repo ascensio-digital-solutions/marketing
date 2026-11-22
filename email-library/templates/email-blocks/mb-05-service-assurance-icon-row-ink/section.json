@@ -1,0 +1,29 @@
+{
+  "name": "Service · Assurance icon row · Ink",
+  "type": "Service",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "05 · Services & proof",
+    "module": "Service · Assurance icon row",
+    "theme": "ink",
+    "figma_source": "SERVICE · PURCHASE ASSURANCE",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-15333",
+    "sample_copy": [
+      "First Purchase Assurance",
+      "30-day Money-back",
+      "Free Shipping",
+      "Secure Payment"
+    ],
+    "adaptations": [
+      "Four assurance points in one row; stays four across on mobile, shrinking",
+      "Round icon chips (storefront feather icons replaced by the neutral chip), titles in the v6 meta role"
+    ]
+  }
+}

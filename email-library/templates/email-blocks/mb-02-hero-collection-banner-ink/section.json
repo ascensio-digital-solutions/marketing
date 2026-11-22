@@ -1,0 +1,28 @@
+{
+  "name": "Hero · Collection banner · Ink",
+  "type": "Hero",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "02 · Heroes",
+    "module": "Hero · Collection banner",
+    "theme": "ink",
+    "figma_source": "Hero · Collection banner dark",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-12092",
+    "sample_copy": [
+      "The collection",
+      "Men's hair systems.",
+      "Design your system"
+    ],
+    "adaptations": [
+      "Full-bleed image top, left-aligned eyebrow, short headline with serif emphasis and one button below",
+      "Named for the layout, not the colour: Bone, Ink and White all exist"
+    ]
+  }
+}

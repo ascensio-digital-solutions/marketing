@@ -1,0 +1,29 @@
+{
+  "name": "Service · How it works, four steps · Ink",
+  "type": "Service",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "05 · Services & proof",
+    "module": "Service · How it works, four steps",
+    "theme": "ink",
+    "figma_source": "SERVICE · HOW IT WORKS",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-15536",
+    "sample_copy": [
+      "How it works",
+      "From first call to first look.",
+      "01 · Consult … 04 · Care"
+    ],
+    "adaptations": [
+      "Eyebrow plus a four-step list of inset cards (step label, title, one line)",
+      "Section title in the v6 title role; Figma's 673px-wide frame trimmed to the 600px shell",
+      "Step cards are the v6 inset (8px)"
+    ]
+  }
+}

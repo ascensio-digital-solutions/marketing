@@ -1,0 +1,28 @@
+{
+  "name": "Product · Recently viewed · White",
+  "type": "Product",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "04 · Products & commerce",
+    "module": "Product · Recently viewed",
+    "theme": "white",
+    "figma_source": "RECENTLY VIEWED PRODUCT",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-18178",
+    "sample_copy": [
+      "YOU LOOKED AT THIS",
+      "System 01 - Lace, Base 06",
+      "$329.00"
+    ],
+    "adaptations": [
+      "Thumbnail left, text right; stays side by side on mobile",
+      "Eyebrow in the v6 eyebrow role (coral dash, ink on light); title in the v6 name role; price in the serif-italic price role"
+    ]
+  }
+}

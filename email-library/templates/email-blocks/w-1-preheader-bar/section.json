@@ -1,0 +1,12 @@
+{
+  "name": "W-1 · Preheader bar",
+  "type": "Preheader bar",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": false,
+  "notes": "The design also shows a 'View in browser' link; Shopify Messaging has no variable for it (about ten names probed), so it is left out."
+}

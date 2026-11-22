@@ -1,0 +1,32 @@
+{
+  "name": "Product · Two by two grid · White",
+  "type": "Product",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "04 · Products & commerce",
+    "module": "Product · Two by two grid",
+    "theme": "white",
+    "figma_source": "Product · Two by two product grid",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-13298",
+    "sample_copy": [
+      "Lace Edge 360+ $289 · ★ 4.8",
+      "SkinLife Ultra $319 · ★ 4.9",
+      "MonoCrown $259 · ★ 4.7",
+      "Hybrid Lace-Skin $339 · ★ 4.8"
+    ],
+    "adaptations": [
+      "Tiles stay two across on mobile (they shrink; they never stack to one column)",
+      "Grid is centred in the card and each tile's name and price line are centred under its image (the Figma grid sat left, leaving the right third empty)",
+      "Product name in the v6 name role, price/rating line in the v6 meta role",
+      "Image tiles are 1:1 labelled slots (square at any width, desktop and mobile): use square product renders",
+      "Removed the 'x20 · infinite scroll + load more' annotation (a design note, not email content)"
+    ]
+  }
+}

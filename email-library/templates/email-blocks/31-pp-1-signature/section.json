@@ -1,0 +1,13 @@
+{
+  "name": "PP-1 · Signature",
+  "type": "Signature",
+  "context": "order",
+  "surfaces": [
+    "notification"
+  ],
+  "liquid_variables": [
+    "is_custom"
+  ],
+  "placeholders": false,
+  "notes": ""
+}

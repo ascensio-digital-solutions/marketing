@@ -1,0 +1,31 @@
+{
+  "name": "Product · Comparison table · Ink",
+  "type": "Product",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "04 · Products & commerce",
+    "module": "Product · Comparison table",
+    "theme": "ink",
+    "figma_source": "LACE VS. POLY COMPARISON",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-18411",
+    "sample_copy": [
+      "Lace vs. Poly",
+      "Breathability: Excellent / Good",
+      "Durability: Moderate / Excellent",
+      "Best for: Active styling / Daily wear"
+    ],
+    "adaptations": [
+      "Three-column table (attribute plus two values) with hairline rows",
+      "Attribute labels in the v6 mono meta role, column headers and values in the v6 name role (was 12px sans)",
+      "Table title in the v6 title role",
+      "Column headers are slots ([Option A], [Option B]), not a fixed lace/poly pair"
+    ]
+  }
+}

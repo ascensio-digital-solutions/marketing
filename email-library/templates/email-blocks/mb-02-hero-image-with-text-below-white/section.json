@@ -1,0 +1,30 @@
+{
+  "name": "Hero · Image with text below · White",
+  "type": "Hero",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "02 · Heroes",
+    "module": "Hero · Image with text below",
+    "theme": "white",
+    "figma_source": "Hero · Image background with overlaid",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-11447",
+    "sample_copy": [
+      "Atelier invitation",
+      "Bespoke Hair Systems",
+      "Hand-crafted, custom matched, and completely natural. Book your signature consultation today.",
+      "Schedule Appointment"
+    ],
+    "adaptations": [
+      "Text no longer sits on the photo (v6: never put text on a photo): the image is a full-bleed top, the copy sits on the card surface below",
+      "Headline in sentence case, 48/50 Inter Tight 800",
+      "Button is the v6 primary pill (coral, ink label, arrow)"
+    ]
+  }
+}

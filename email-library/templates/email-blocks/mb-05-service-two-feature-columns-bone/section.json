@@ -1,0 +1,27 @@
+{
+  "name": "Service · Two feature columns · Bone",
+  "type": "Service",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "05 · Services & proof",
+    "module": "Service · Two feature columns",
+    "theme": "bone",
+    "figma_source": "SERVICE · CONSTRUCTION & SIZING",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-15098",
+    "sample_copy": [
+      "Lace Construction",
+      "Custom Sizing"
+    ],
+    "adaptations": [
+      "Two columns of icon, title and copy; they stack on mobile",
+      "Icon glyphs replaced by the neutral icon chip; title in the v6 subtitle role, body in the v6 body role"
+    ]
+  }
+}

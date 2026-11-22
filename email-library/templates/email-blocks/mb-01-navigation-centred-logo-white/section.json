@@ -1,0 +1,23 @@
+{
+  "name": "Navigation · Centred logo · White",
+  "type": "Navigation",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "01 · Global chrome",
+    "module": "Navigation · Centred logo",
+    "theme": "white",
+    "figma_source": "Navigation · Centered Logo Only",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=479-16702",
+    "sample_copy": [],
+    "adaptations": [
+      "Logo at 128px (v6 header size), centred, 30px padding: the v6 Frame · Header"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Product · Two column grid · Ink",
+  "type": "Product",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "04 · Products & commerce",
+    "module": "Product · Two column grid",
+    "theme": "ink",
+    "figma_source": "Product · Two-column product grid",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-12732",
+    "sample_copy": [
+      "Poly Skin Perimeter $490",
+      "Atelier Silk Top $620"
+    ],
+    "adaptations": [
+      "Two product tiles side by side; they stay two across on mobile (shrinking, never stacking)",
+      "Tile fill and 16px padding dropped; image on the v6 inset, text under it in the v6 name and price roles",
+      "Image tiles are 1:1 labelled slots (square at any width, desktop and mobile): use square product renders"
+    ]
+  }
+}

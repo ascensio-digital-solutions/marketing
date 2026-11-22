@@ -1,0 +1,31 @@
+{
+  "name": "Product · Recommended specification · Ink",
+  "type": "Product",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "04 · Products & commerce",
+    "module": "Product · Recommended specification",
+    "theme": "ink",
+    "figma_source": "Recommended specification",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-19954",
+    "sample_copy": [
+      "YOUR SPECIFICATION",
+      "What we recommended",
+      "Base: French lace · Density: Medium · Colour: #4 — Dark Brown · Base size: 8\" × 6\" · Quoted price: $580.00",
+      "Reply and tell me what you'd change…",
+      "Confirm this specification →"
+    ],
+    "adaptations": [
+      "Label/value rows between hairlines, the same pattern as the v6 order details (labels mono uppercase, values bold, right-aligned)",
+      "Title in the v6 title role (sentence case); eyebrow in the v6 eyebrow role; body in the v6 body role; button is the v6 coral pill",
+      "Row labels and values are slots; the row count (five) is kept"
+    ]
+  }
+}

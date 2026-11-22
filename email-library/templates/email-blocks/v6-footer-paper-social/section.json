@@ -1,0 +1,15 @@
+{
+  "name": "v6 · Footer (paper, social links)",
+  "type": "Preferences footer",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [
+    "unsubscribe_url",
+    "unsubscribe_link"
+  ],
+  "placeholders": false,
+  "notes": "Cream footer: logo, the four social channels as text links, address, Unsubscribe · Manage preferences · Privacy. The visible Unsubscribe uses {{ unsubscribe_url }} (the shared head forces pale grey on {{ unsubscribe_link }}); {{ unsubscribe_link }} is also present inside an HTML comment because Code your own requires the tag (verify Shopify accepts it before activation)."
+}

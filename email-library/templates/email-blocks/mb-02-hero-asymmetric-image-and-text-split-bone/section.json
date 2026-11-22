@@ -1,0 +1,29 @@
+{
+  "name": "Hero · Asymmetric image and text split · Bone",
+  "type": "Hero",
+  "context": "any",
+  "surfaces": [
+    "messaging-code-your-own",
+    "messaging-section"
+  ],
+  "liquid_variables": [],
+  "placeholders": true,
+  "notes": "Module bank. All copy is a labelled slot: replace it before use.",
+  "bank": {
+    "category": "02 · Heroes",
+    "module": "Hero · Asymmetric image and text split",
+    "theme": "bone",
+    "figma_source": "Hero · Asymmetric image-text split",
+    "figma_node": "https://www.figma.com/design/9Il504CQE8jLaUTBVzphqc/Email-Design-System?node-id=480-11461",
+    "sample_copy": [
+      "The Atelier metric",
+      "Uncompromising Hair Restoration",
+      "Experience the security of custom-tailored medical-grade bases.",
+      "Discover Atelier"
+    ],
+    "adaptations": [
+      "Tall image left (about 40%), copy right; stacks on mobile",
+      "Eyebrow in the v6 eyebrow role (label ink on light, coral on Ink); title in the v6 title role; small v6 pill button"
+    ]
+  }
+}

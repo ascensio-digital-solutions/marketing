@@ -1,5 +1,7 @@
 # Shopify Email Marketing
 
+> **Location (2026-11-22):** This folder was the `email-marketing` repository, folded into `marketing` with its history (`module-bank` branch); that repository is archived. The Email Reference File and the rules in the root `AGENTS.md` still govern. This folder is the Shopify-ready section and template library. Its former CI workflow (`email-library.yml`) did not come across and is not running here. The text below says "single source of truth" from before the move: for this repo, the root `AGENTS.md` wins.
+
 Hair Solutions Co.'s email marketing: the single source of truth for strategy, the email
 library, campaigns, automations and reporting.
 
